@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /danke
+
+Sitemap: https://entruempelung-deutschland.com/sitemap.xml
