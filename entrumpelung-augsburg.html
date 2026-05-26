@@ -227,7 +227,10 @@
           <option>Sonstiges</option>
         </select>
         <textarea name="nachricht" placeholder="Kurze Beschreibung (z.B. 3-Zimmer-Wohnung, Stadtteil...)"></textarea>
-        <button type="submit" class="btn-primary" style="justify-content:center">📦 Kostenlos anfragen</button>
+                <!-- Honeypot Spam-Schutz -->
+        <input type="text" name="website" style="display:none;position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1">
+        <button type="submit" class="btn-primary" style="justify-content:center;width:100%">📦 Kostenlos anfragen</button>
         <p class="form-note">Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu.</p>
       </form>
     </div>
