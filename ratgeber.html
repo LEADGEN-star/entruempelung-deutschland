@@ -147,6 +147,15 @@
     .faq-item:last-child{border-bottom:none}
     .faq-q{font-weight:700;color:var(--dark);font-size:1rem;margin-bottom:.4rem}
     .faq-a{font-size:.95rem;color:var(--muted);line-height:1.8}
+    .artikel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;margin-top:1.5rem}
+    .artikel-card{background:var(--white);border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s}
+    .artikel-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
+    .artikel-card-body{padding:1.25rem;flex:1;display:flex;flex-direction:column}
+    .artikel-card-kicker{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:.4rem}
+    .artikel-card h3{font-size:1rem;font-weight:700;color:var(--dark);margin:0 0 .5rem;line-height:1.35}
+    .artikel-card p{font-size:.88rem;color:var(--muted);line-height:1.6;margin:0 0 1rem;flex:1}
+    .artikel-card a.read-more{font-size:.88rem;font-weight:700;color:var(--orange);text-decoration:none}
+    .artikel-card a.read-more:hover{text-decoration:underline}
     .cta-section{background:var(--dark);color:var(--white);border-radius:10px;padding:2.5rem;margin-top:2rem;text-align:center}
     .cta-section h2{color:var(--white);font-size:1.7rem;margin-bottom:.8rem;font-family:'Oswald',sans-serif}
     .cta-section p{color:rgba(255,255,255,.65);margin-bottom:1.5rem}
@@ -380,6 +389,54 @@
       <div class="faq-item">
         <p class="faq-q">Was kostet eine Haushaltsauflösung nach einem Todesfall?</p>
         <p class="faq-a">Das hängt vom Umfang der Wohnung und dem vorhandenen Inventar ab. Eine 2-3-Zimmer-Wohnung kostet in der Regel 600–1.500 €. Wenn werthaltige Gegenstände vorhanden sind, kann sich der Preis erheblich reduzieren. Eine kostenlose Anfrage und Einschätzung schafft schnell Klarheit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-label">Vertiefende Artikel</div>
+    <h2>Ratgeber-Artikel: Alle Themen im Detail</h2>
+    <p>In unseren Fachartikeln beleuchten wir die häufigsten Situationen rund um Entrümpelung und Haushaltsauflösung – mit konkreten Kostenbeispielen, rechtlichen Hinweisen und praktischen Checklisten.</p>
+    <div class="artikel-grid">
+      <div class="artikel-card">
+        <div class="artikel-card-body">
+          <div class="artikel-card-kicker">Kosten & Preise</div>
+          <h3>Was kostet eine Entrümpelung? Preise 2025 im Überblick</h3>
+          <p>Kellerentrümpelung ab 150 €, Wohnungsauflösung 600–2.000 €: alle Faktoren, die den Preis bestimmen, plus Spartipps.</p>
+          <a href="/kosten" class="read-more">Artikel lesen →</a>
+        </div>
+      </div>
+      <div class="artikel-card">
+        <div class="artikel-card-body">
+          <div class="artikel-card-kicker">Todesfall & Nachlass</div>
+          <h3>Haushaltsauflösung nach Todesfall – so gehen Sie vor</h3>
+          <p>Was ist zuerst zu klären? Wer darf beauftragen? Schritt-für-Schritt-Anleitung für Erben und Nachlassverwalter.</p>
+          <a href="/haushaltsaufloesung-todesfall" class="read-more">Artikel lesen →</a>
+        </div>
+      </div>
+      <div class="artikel-card">
+        <div class="artikel-card-body">
+          <div class="artikel-card-kicker">Sonderfall</div>
+          <h3>Messie-Wohnung entrümpeln – Kosten, Aufwand & Vorgehen</h3>
+          <p>Starke Vermüllung erfordert spezielle Betriebe. Wir erklären, worauf Sie achten müssen und was es kostet.</p>
+          <a href="/messie-wohnung" class="read-more">Artikel lesen →</a>
+        </div>
+      </div>
+      <div class="artikel-card">
+        <div class="artikel-card-body">
+          <div class="artikel-card-kicker">Keller & Garage</div>
+          <h3>Kellerentrümpelung: Ablauf, Kosten & Checkliste</h3>
+          <p>So läuft eine professionelle Kellerentrümpelung ab, was sie kostet und wie Sie sich optimal vorbereiten.</p>
+          <a href="/kellerentruempelung" class="read-more">Artikel lesen →</a>
+        </div>
+      </div>
+      <div class="artikel-card">
+        <div class="artikel-card-body">
+          <div class="artikel-card-kicker">Erbschaft</div>
+          <h3>Nachlassräumung beauftragen – was Erben wissen müssen</h3>
+          <p>Nachlassräumung vs. Haushaltsauflösung: Unterschiede, rechtliche Grundlagen und wie man seriöse Betriebe findet.</p>
+          <a href="/nachlassraeumung" class="read-more">Artikel lesen →</a>
+        </div>
       </div>
     </div>
   </div>
