@@ -103,6 +103,11 @@
   src="https://www.facebook.com/tr?id=27297560109862860&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
-  <script>fbq('track', 'Lead');</script>
+  <script>
+    // Lead-Event nur feuern wenn Nutzer wirklich vom Formular kommt
+    if(window.location.search.indexOf('ref=form') !== -1) {
+      fbq('track', 'Lead');
+    }
+  </script>
 </body>
 </html>
