@@ -22,8 +22,31 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Entrümpelung Deutschland – Geprüfte Betriebe bundesweit">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18142775376"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-18142775376');</script>
+  <script>
+  // Deferred tracking – lädt nach Interaction oder nach 3s
+  function loadTracking(){
+    if(window._trackingLoaded) return;
+    window._trackingLoaded = true;
+    // Google Ads
+    var s=document.createElement('script');
+    s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id=AW-18142775376';
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag=gtag;
+    gtag('js',new Date());
+    gtag('config','AW-18142775376');
+    // Meta Pixel
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','27297560109862860');
+    fbq('track','PageView');
+  }
+  ['click','scroll','keydown','touchstart'].forEach(function(e){
+    document.addEventListener(e, loadTracking, {once:true, passive:true});
+  });
+  setTimeout(loadTracking, 3000);
+  </script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://entruempelung-deutschland.com/entrumpelung-augsburg#business","name":"Entrümpelung Augsburg","url":"https://entruempelung-deutschland.com/entrumpelung-augsburg","telephone":"+4915730064205","areaServed":"Augsburg","serviceType":"Entrümpelung"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite","item":"https://entruempelung-deutschland.com/"},{"@type":"ListItem","position":2,"name":"Entrümpelung Augsburg","item":"https://entruempelung-deutschland.com/entrumpelung-augsburg"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was kostet eine Entrümpelung in Augsburg?","acceptedAnswer":{"@type":"Answer","text":"Kellerentrümpelungen in Augsburg beginnen ab ca. 150 €. Wohnungsräumungen liegen je nach Größe zwischen 350 und 750 €. Verbindlicher Preis nach Besichtigung."}},{"@type":"Question","name":"Deckt ihr auch den Landkreis Augsburg ab?","acceptedAnswer":{"@type":"Answer","text":"Ja, unsere Partnerbetriebe sind auch in Königsbrunn, Neusäß, Gersthofen und im Landkreis Augsburg tätig."}},{"@type":"Question","name":"Gibt es auch Transporte nach München?","acceptedAnswer":{"@type":"Answer","text":"Ja, für verwertbare Möbel können unsere Partnerbetriebe auch Transporte organisieren. Das wird bei der Besichtigung besprochen."}},{"@type":"Question","name":"Wie schnell kann eine Räumung in Augsburg stattfinden?","acceptedAnswer":{"@type":"Answer","text":"Typischerweise 3–7 Werktage nach der kostenlosen Besichtigung."}}]}]}</script>
   <style>/* latin-ext – für deutsche Umlaute (ä, ö, ü, ß) */
 @font-face {
@@ -310,22 +333,6 @@
   <p style="margin-bottom:.5rem">© 2026 entruempelung-deutschland.com</p>
   <p><a href="/">Startseite</a> &nbsp;·&nbsp; <a href="/ueber-uns">Über uns</a> &nbsp;·&nbsp; <a href="/impressum">Impressum</a> &nbsp;·&nbsp; <a href="/datenschutz">Datenschutz</a></p>
 </footer>
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '27297560109862860');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=27297560109862860&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
+
 </body>
 </html>

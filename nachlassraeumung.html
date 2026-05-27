@@ -18,8 +18,31 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Entrümpelung Deutschland – Geprüfte Betriebe bundesweit">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18142775376"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-18142775376');</script>
+  <script>
+  // Deferred tracking – lädt nach Interaction oder nach 3s
+  function loadTracking(){
+    if(window._trackingLoaded) return;
+    window._trackingLoaded = true;
+    // Google Ads
+    var s=document.createElement('script');
+    s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id=AW-18142775376';
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag=gtag;
+    gtag('js',new Date());
+    gtag('config','AW-18142775376');
+    // Meta Pixel
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','27297560109862860');
+    fbq('track','PageView');
+  }
+  ['click','scroll','keydown','touchstart'].forEach(function(e){
+    document.addEventListener(e, loadTracking, {once:true, passive:true});
+  });
+  setTimeout(loadTracking, 3000);
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -215,22 +238,6 @@
   <p style="margin-bottom:.5rem">© 2026 entruempelung-deutschland.com</p>
   <p><a href="/">Startseite</a> &nbsp;·&nbsp; <a href="/ratgeber">Ratgeber</a> &nbsp;·&nbsp; <a href="/ueber-uns">Über uns</a> &nbsp;·&nbsp; <a href="/impressum">Impressum</a> &nbsp;·&nbsp; <a href="/datenschutz">Datenschutz</a></p>
 </footer>
-  <!-- Meta Pixel Code -->
-  <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '27297560109862860');
-  fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=27297560109862860&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
+
 </body>
 </html>
