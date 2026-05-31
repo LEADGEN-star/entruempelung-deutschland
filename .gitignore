@@ -1,2 +1,9 @@
 *.png
 PARASITE_SEO_ARTIKEL.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
