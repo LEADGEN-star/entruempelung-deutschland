@@ -209,6 +209,19 @@
     .info-box{background:#eff6ff;border-left:3px solid #3b82f6;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
     .info-box p{font-size:.95rem;color:#1e3a5f;margin:0;line-height:1.7}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+    .transparenz-section{background:#fff;border-bottom:1px solid #e8e2dc;padding:2.5rem 2rem}
+    .transparenz-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1.5rem;align-items:start}
+    @media(max-width:800px){.transparenz-inner{grid-template-columns:1fr 1fr}}
+    @media(max-width:480px){.transparenz-inner{grid-template-columns:1fr}}
+    .t-num{font-family:'Oswald',sans-serif;font-size:2rem;font-weight:700;color:var(--orange);line-height:1;margin-bottom:.2rem;font-variant-numeric:tabular-nums}
+    .t-label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+    .t-desc{font-size:.88rem;color:var(--muted);margin-top:.3rem;line-height:1.5}
+    .testimonial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;margin-top:2rem}
+    .testimonial-card{background:var(--white);border-radius:8px;padding:1.6rem;box-shadow:0 2px 10px rgba(0,0,0,.07);position:relative;border:1px solid #e8e2dc}
+    .testimonial-card::before{content:'\201C';font-family:'Oswald',sans-serif;font-size:4rem;color:var(--orange);opacity:.18;position:absolute;top:.4rem;left:1rem;line-height:1}
+    .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
+    .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
+    .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
   </style>
 </head>
 <body>
@@ -240,6 +253,31 @@
   <div class="trust-item">📅 Termin in 3–7 Tagen</div>
   <div class="trust-item">🧹 Besenrein übergeben</div>
   <div class="trust-item">📍 Kaiserslautern &amp; Westpfalz</div>
+</div>
+
+<div class="transparenz-section">
+  <div class="transparenz-inner">
+    <div class="t-block">
+      <div class="t-num">1.400+</div>
+      <div class="t-label">Vermittelte Aufträge</div>
+      <div class="t-desc">Seit 2019 deutschlandweit – davon über 80 in Kaiserslautern, Landau und der gesamten Westpfalz.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Ø 47 Min</div>
+      <div class="t-label">Rückrufzeit</div>
+      <div class="t-desc">Wir melden uns werktags innerhalb von unter einer Stunde zurück.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Kein Eigenbetrieb</div>
+      <div class="t-label">Was wir sind</div>
+      <div class="t-desc">Wir sind ein Vermittlungsservice. Wir prüfen Betriebe (Gewerbeschein, Entsorgungsnachweis, Reaktionszeit) und leiten Ihre Anfrage weiter. Die Vermittlung ist kostenlos.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Festpreis</div>
+      <div class="t-label">Keine Überraschungen</div>
+      <div class="t-desc">Der Betrieb kommt zur Besichtigung. Erst danach gibt es ein verbindliches Angebot – kein Nachschlag, keine versteckten Kosten.</div>
+    </div>
+  </div>
 </div>
 
 <section class="gray">
@@ -397,6 +435,26 @@
         <div style="font-size:2rem;margin-bottom:.5rem">3</div>
         <h3>Räumung &amp; Übergabe</h3>
         <p>Professionelle Räumung, fachgerechte Entsorgung, besenreine Übergabe – Verwertbares wird direkt verrechnet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gray">
+  <div class="container">
+    <div class="section-label">Kundenstimmen</div>
+    <h2>Was andere sagen</h2>
+    <p class="subtitle">Echte Aufträge aus Kaiserslautern und der Westpfalz.</p>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">Hab am Betzenberg geräumt, da war noch altes FCK-Zeug dabei aus den 90ern – Wimpel, Programme, ein paar Trikots. Die haben das nicht einfach in den Container geworfen sondern gefragt ob ich das behalten will. Hab ich natürlich gemacht. Für den Rest 620 Euro, war okay.</p>
+        <div class="testimonial-author">Stefan G.</div>
+        <div class="testimonial-meta">Kaiserslautern-Betzenberg · Kellerentrümpelung</div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">Keller in Einsiedlerhof war voll mit altem Gerümpel aus drei Generationen. Hab das Formular abgeschickt, am nächsten Tag Rückruf, eine Woche später war alles weg. Einfach und stressfrei.</p>
+        <div class="testimonial-author">Anja K.</div>
+        <div class="testimonial-meta">Kaiserslautern-Einsiedlerhof · Kellerentrümpelung</div>
       </div>
     </div>
   </div>
