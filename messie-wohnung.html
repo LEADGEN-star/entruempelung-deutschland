@@ -62,11 +62,11 @@
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{--dark:#111827;--orange:#ea580c;--orange-light:#f97316;--white:#ffffff;--gray:#f9fafb;--text:#1e293b;--muted:#6b7280}
     body{font-family:'Source Sans 3',sans-serif;color:var(--text);background:var(--white);line-height:1.65}
-    nav{background:var(--dark);padding:.9rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-    .logo{font-family:'Oswald',sans-serif;font-size:1.35rem;font-weight:700;color:var(--white);text-decoration:none;letter-spacing:.03em}
+    nav{background:#fff;padding:.9rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;border-bottom:1px solid #e8e2dc;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+    .logo{font-family:'Oswald',sans-serif;font-size:1.35rem;font-weight:700;color:var(--dark);text-decoration:none;letter-spacing:.03em}
     .logo span{color:var(--orange-light)}
     nav a.cta-nav{background:var(--orange);color:var(--white);font-weight:600;padding:.5rem 1.2rem;border-radius:4px;text-decoration:none;font-size:.9rem}
-    nav a.nav-tel{color:rgba(255,255,255,.9);font-size:.9rem;text-decoration:none;font-weight:600;letter-spacing:.01em}
+    nav a.nav-tel{color:var(--dark);font-size:.9rem;text-decoration:none;font-weight:600;letter-spacing:.01em}
     @media(max-width:640px){nav a.nav-tel{display:none}}
     .nav-links{display:flex;align-items:center;gap:1.5rem}
     .nav-links a{color:rgba(255,255,255,.7);font-size:.9rem;text-decoration:none}
