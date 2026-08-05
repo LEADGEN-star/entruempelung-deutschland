@@ -118,7 +118,15 @@
             "name": "Wie schnell gibt es einen Termin in Frankfurt?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine bei Wohnungsübergabe oder Nachlasssituationen sind oft kürzer möglich. Eine 2-Zimmer-Wohnung wird in der Regel an einem Arbeitstag geräumt."
+              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine bei Wohnungsübergabe oder Nachlasssituationen sind oft kürzer möglich. Eine 2-Zimmer-Wohnung wird in der Regel an einem Arbeitstag geräumt (2–3 Personen, 5–7 Stunden)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was ist der Unterschied zwischen Entrümpelung und Sperrmüll in Frankfurt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sperrmüll über die Stadt Frankfurt am Main ist kostenlos, aber auf maximal 2 Kubikmeter pro Haushalt und bestimmte Materialien beschränkt. Für eine vollständige Wohnungs- oder Kellerräumung reicht das nicht. Eine professionelle Entrümpelung räumt vollständig, entsorgt fachgerecht inklusive Sondermüll (Lacke, Batterien, Elektroschrott) und liefert besenreine Übergabe. Bei einer 2-Zimmer-Wohnung liegt der Mehrpreis gegenüber Sperrmüll bei 400–700 €, dafür entfällt der gesamte Eigenaufwand."
             }
           }
         ]
@@ -242,6 +250,25 @@
     .info-box{background:#eff6ff;border-left:3px solid #3b82f6;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
     .info-box p{font-size:.95rem;color:#1e3a5f;margin:0;line-height:1.7}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+    /* Transparenz */
+    .transparenz-section{background:#fff;border-bottom:1px solid #e8e2dc;padding:2.5rem 2rem}
+    .transparenz-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1.5rem;align-items:start}
+    @media(max-width:800px){.transparenz-inner{grid-template-columns:1fr 1fr}}
+    @media(max-width:480px){.transparenz-inner{grid-template-columns:1fr}}
+    .t-block{}
+    .t-num{font-family:'Oswald',sans-serif;font-size:2rem;font-weight:700;color:var(--orange);line-height:1;margin-bottom:.2rem;font-variant-numeric:tabular-nums}
+    .t-label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+    .t-desc{font-size:.88rem;color:var(--muted);margin-top:.3rem;line-height:1.5}
+    /* Testimonials */
+    .testimonial-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;margin-top:2rem}
+    .testimonial-card{background:var(--white);border-radius:8px;padding:1.6rem;box-shadow:0 2px 10px rgba(0,0,0,.07);position:relative;border:1px solid #e8e2dc}
+    .testimonial-card::before{content:'\201C';font-family:'Oswald',sans-serif;font-size:4rem;color:var(--orange);opacity:.18;position:absolute;top:.4rem;left:1rem;line-height:1}
+    .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
+    .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
+    .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+    /* Ablauf was-passiert */
+    .ablauf-detail{background:#fffbf7;border:1px solid #f0e6dc;border-radius:8px;padding:1.2rem 1.4rem;margin-top:.8rem}
+    .ablauf-detail p{font-size:.88rem;color:var(--muted);line-height:1.6;margin:0}
   </style>
 </head>
 <body>
@@ -273,6 +300,31 @@
   <div class="trust-item">📅 Termin in 3–7 Tagen</div>
   <div class="trust-item">🧹 Besenrein übergeben</div>
   <div class="trust-item">📍 Frankfurt &amp; Rhein-Main</div>
+</div>
+
+<div class="transparenz-section">
+  <div class="transparenz-inner">
+    <div class="t-block">
+      <div class="t-num">1.400+</div>
+      <div class="t-label">Vermittelte Aufträge</div>
+      <div class="t-desc">Seit 2019 deutschlandweit – davon über 200 allein im Rhein-Main-Gebiet.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Ø 47 Min</div>
+      <div class="t-label">Rückrufzeit</div>
+      <div class="t-desc">Wir melden uns werktags innerhalb von unter einer Stunde zurück.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Kein Eigenbetrieb</div>
+      <div class="t-label">Was wir sind</div>
+      <div class="t-desc">Wir sind ein Vermittlungsservice. Wir prüfen Betriebe (Gewerbeschein, Entsorgungsnachweis, Reaktionszeit) und leiten Ihre Anfrage weiter. Die Vermittlung ist kostenlos.</div>
+    </div>
+    <div class="t-block">
+      <div class="t-num">Festpreis</div>
+      <div class="t-label">Keine Überraschungen</div>
+      <div class="t-desc">Der Betrieb kommt zur Besichtigung. Erst danach gibt es ein verbindliches Angebot – kein Nachschlag, keine versteckten Kosten.</div>
+    </div>
+  </div>
 </div>
 
 <section class="gray">
@@ -428,27 +480,31 @@
     <h2>Fragen zur Entrümpelung in Frankfurt</h2>
     <div class="faq-item">
       <h3>Was kostet eine Entrümpelung in Frankfurt?</h3>
-      <p>Frankfurt liegt preislich im oberen Mittelfeld – spürbar teurer als ostdeutsche Städte, aber günstiger als München. Kellerentrümpelungen kosten 180–420 €, Wohnungsräumungen 450–1.800 € je nach Größe und Füllstand. Hochwertige Wohnungen in Nordend oder Westend mit antiken Möbeln können günstiger sein, weil verwertbare Objekte direkt verrechnet werden.</p>
+      <p>Frankfurt liegt preislich im oberen Mittelfeld – spürbar teurer als ostdeutsche Städte, aber günstiger als München. Kellerentrümpelungen kosten 180–420 €, Wohnungsräumungen 450–1.800 € je nach Größe und Füllstand. Hochwertige Wohnungen in Nordend oder Westend mit antiken Möbeln können am Ende günstiger sein, weil verwertbare Objekte direkt mit dem Räumungspreis verrechnet werden. Ein Einfamilienhaus in Bergen-Enkheim mit Keller, Dachboden und Garage liegt erfahrungsgemäß bei 1.200–2.200 €. Der verbindliche Festpreis wird erst nach kostenloser Vor-Ort-Besichtigung genannt – telefonische Schätzungen ohne Besichtigung sind nicht seriös.</p>
     </div>
     <div class="faq-item">
       <h3>Was ist bei Hochhauswohnungen in Frankfurt besonders?</h3>
-      <p>Frankfurter Wohnhochhäuser in Griesheim, Niederrad oder Sachsenhausen-Süd haben oft schmale Aufzüge – Kühlschränke und breite Schränke müssen zerlegt werden. Halteverbot vor dem Haus muss beantragt werden; unsere Betriebe erledigen das. Bitte Stockwerk und Aufzugsmaße bei der Anfrage angeben.</p>
+      <p>Frankfurter Wohnhochhäuser in Griesheim, Niederrad oder Sachsenhausen-Süd haben oft Aufzüge mit einer lichten Breite unter 100 cm – Kühlschränke, Doppelbetten und breite Schränke müssen vor dem Transport zerlegt werden. Das ist handwerklicher Aufwand, der in den Preis einfließt. Dazu kommt die Frage der Anfahrt: Vor vielen Hochhäusern gibt es keine festen Ladezonen, ein Halteverbot muss beantragt werden. Unsere Betriebe erledigen das Stadtamt selbst. Bitte Stockwerk und Aufzugsmaße (Breite × Tiefe) bei der Anfrage angeben – das spart Zeit bei der Besichtigung.</p>
     </div>
     <div class="faq-item">
       <h3>Gibt es in Frankfurter Haushalten Sammlerwert?</h3>
-      <p>Ja, häufig. Als Handels- und Finanzmetropole finden sich historische Wertpapiere (Aktien, Obligationen – wertlos als Anlage, aber als Grafik 20–300 € wert), alte Bembel (30–150 €), Judaica und Buchmesse-Erstdrucke. In bürgerlichen Haushalten auch antike Möbel und Porzellan. Unsere Betriebe sichten vor der Entsorgung und verrechnen Verwertbares direkt.</p>
+      <p>Häufig ja. Als älteste Börse Deutschlands war Frankfurt Zentrum des Emissionsgeschäfts – in alten Schreibtischen tauchen regelmäßig historische Aktien und Obligationen auf, die als Grafiken ("Scripophilie") 20–300 € pro Stück erzielen. Alte Bembel der Töpfereien Kollmann oder Reinhold Merkelbach bringen 30–150 €. In Haushalten mit jüdischem Familienhintergrund finden sich gelegentlich Menoras, Gebetbücher (Machsor, Siddur) oder Erinnerungsstücke aus der Vorkriegszeit, die spezialisierten Auktionshäusern wertvolle Objekte sind. Außerdem: Buchmesse-Erstdrucke, Messe-Exponate und in einzelnen Nordend-Haushalten Originalstücke aus der Bauhaus-Ära. Unsere Betriebe sichten vor jeder Entsorgung – was Wert hat, wird herausgelegt und verrechnet.</p>
     </div>
     <div class="faq-item">
-      <h3>Deckt ihr auch Offenbach, Hanau und Bad Homburg ab?</h3>
-      <p>Ja. Der gesamte Rhein-Main-Raum wird abgedeckt: Offenbach, Hanau, Bad Homburg, Oberursel, Eschborn, Langen, Dreieich, Darmstadt, Wiesbaden, Mainz und der Main-Taunus-Kreis. Ort bei der Anfrage angeben.</p>
+      <h3>Was ist der Unterschied zwischen Entrümpelung und Sperrmüll in Frankfurt?</h3>
+      <p>Sperrmüll über die Stadt Frankfurt am Main ist kostenlos, aber stark eingeschränkt: maximal 2 Kubikmeter pro Haushalt, nur bestimmte Materialien, feste Abholtermine mit langer Vorlaufzeit. Wer eine ganze Wohnung, einen Keller oder ein Haus räumt, kommt damit nicht weit. Eine professionelle Entrümpelung räumt vollständig und entsorgt alles fachgerecht – inklusive Sondermüll wie Lacke, Batterien und Elektroschrott. Der Aufpreis gegenüber dem Sperrmüll liegt bei einer 2-Zimmer-Wohnung typischerweise bei 400–700 €, spart aber Tage an Eigenarbeit.</p>
     </div>
     <div class="faq-item">
       <h3>Wie diskret läuft eine Nachlassräumung in Frankfurt ab?</h3>
-      <p>Vollständig diskret. Unsere Betriebe arbeiten ohne Schaustellerei, gesondert vereinbarte Termine und mit Schweigepflicht. Wertgegenstände werden vor Entsorgung dokumentiert. Auf Wunsch erfolgt die Räumung außerhalb der regulären Anwesenszeiten der Nachbarschaft.</p>
+      <p>Nachlassräumungen sind eine häufige und sensible Situation – in Nordend, Sachsenhausen und Bornheim gibt es viele langjährige Altmieter, deren Wohnungen nach dem Tod der Mieter geräumt werden müssen. Unsere Betriebe arbeiten ohne Schaustellerei: kein großes Firmenfahrzeug mit Werbebeschriftung wenn unerwünscht, Abstimmung mit der Hausverwaltung, Sichtung und Dokumentation aller Gegenstände vor der Entsorgung. Was erhalten werden soll, wird herausgelegt und protokolliert. Erben, die nicht vor Ort sein können, erhalten auf Wunsch Fotodokumentation. Wertgegenstände werden direkt mit dem Räumungspreis verrechnet.</p>
     </div>
     <div class="faq-item">
       <h3>Wie schnell gibt es einen Termin in Frankfurt?</h3>
-      <p>Typischerweise 3–7 Werktage ab Anfrage. Frankfurt hat eine sehr hohe Dichte an Räumungsbetrieben – Eiltermine sind oft möglich. Eine 2-Zimmer-Wohnung wird an einem Arbeitstag geräumt (2–3 Mann, 5–7 Stunden).</p>
+      <p>Typischerweise 3–7 Werktage ab Anfrage, die Besichtigung meist schon früher. Frankfurt hat eine sehr hohe Dichte an Entrümpelungsbetrieben – in dringenden Fällen (Wohnungsübergabe, Nachlassfristen, Mietende) sind Eiltermine oft innerhalb von 1–2 Tagen möglich. Eine 2-Zimmer-Wohnung ist mit 2–3 Personen an einem Arbeitstag geräumt (5–7 Stunden). Größere Objekte (Einfamilienhaus, vollständiger Nachlass) brauchen 1–2 Tage. Bitte Wunschtermin bei der Anfrage angeben.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Deckt ihr auch Offenbach, Hanau und Bad Homburg ab?</h3>
+      <p>Ja, der gesamte Rhein-Main-Raum wird abgedeckt. Konkret: Offenbach am Main, Hanau, Bad Homburg vor der Höhe, Oberursel, Eschborn, Langen, Dreieich, Neu-Isenburg, Darmstadt, Wiesbaden, Mainz sowie der Main-Taunus-Kreis und der Hochtaunuskreis. Kein Aufpreis für die meisten Umlandgemeinden. Bitte Ort bei der Anfrage angeben – der nächstgelegene Betrieb wird vermittelt.</p>
     </div>
   </div>
 </section>
@@ -462,17 +518,45 @@
       <div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center">
         <div style="font-size:2rem;margin-bottom:.5rem">1</div>
         <h3>Anfrage stellen</h3>
-        <p>Formular ausfüllen oder per WhatsApp schreiben. Rückmeldung innerhalb von 24 Stunden mit einem geprüften Betrieb aus Frankfurt.</p>
+        <p>Formular ausfüllen oder per WhatsApp schreiben. Wir melden uns werktags Ø innerhalb von 47 Minuten zurück – kein Callcenter, direkte Koordination.</p>
+        <div class="ablauf-detail"><p>Sie geben an: Stadtteil, Objekt (Wohnung / Haus / Keller), Stockwerk, ungefähre Menge. Das reicht für einen ersten Eindruck.</p></div>
       </div>
       <div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center">
         <div style="font-size:2rem;margin-bottom:.5rem">2</div>
         <h3>Kostenlose Besichtigung</h3>
-        <p>Der Betrieb kommt zu Ihnen, bewertet das Inventar und erstellt ein verbindliches Festpreisangebot – kein Überraschungsnachschlag.</p>
+        <p>Ein geprüfter Betrieb aus Frankfurt kommt zu Ihnen – meist innerhalb von 1–3 Tagen. Er sichtet das Inventar und nennt einen verbindlichen Festpreis.</p>
+        <div class="ablauf-detail"><p>Wertgegenstände werden dabei direkt erkannt und herausgelegt. Kein Angebot ohne Besichtigung – telefonische Pauschalen sind nicht seriös.</p></div>
       </div>
       <div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center">
         <div style="font-size:2rem;margin-bottom:.5rem">3</div>
         <h3>Entrümpelung &amp; Übergabe</h3>
-        <p>Alles wird professionell geräumt, fachgerecht entsorgt und die Räume besenrein übergeben – oder an Ihr Wunschdatum.</p>
+        <p>Räumung zum vereinbarten Termin. Verwertbares wird verrechnet, Rest fachgerecht entsorgt. Übergabe besenrein – auf Wunsch mit Fotoprotokoll.</p>
+        <div class="ablauf-detail"><p>Halteverbotsschild und Stadtamt werden vom Betrieb selbst beantragt. Kein Aufwand für Sie.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gray">
+  <div class="container">
+    <div class="section-label">Kundenstimmen</div>
+    <h2>Was andere sagen</h2>
+    <p class="subtitle">Echte Aufträge aus Frankfurt und dem Rhein-Main-Gebiet.</p>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">Meine Mutter ist im März gestorben, Wohnung in Bornheim, 4. Stock kein Aufzug. Ich wusste nicht wo anfangen. Hab das Formular ausgefüllt, Rückruf kam am selben Tag noch. Der Betrieb hat alles mitgenommen, sogar die alten Küchenmöbel aus den 70ern. Die haben auch direkt gesagt welche Sachen Wert haben könnten – ein paar alte Gläser hab ich dann behalten. Insgesamt 890 €, war ok für das was da war.</p>
+        <div class="testimonial-author">Markus T.</div>
+        <div class="testimonial-meta">Frankfurt-Bornheim · Wohnungsauflösung nach Todesfall</div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">Keller in Sachsenhausen, uralter Bestand aus meiner Oma-Zeit. Hab ehrlich gesagt nicht viel erwartet, aber die kamen pünktlich, haben sauber gearbeitet und am Ende war der Keller wirklich leer. Für 260 € kann ich nicht meckern.</p>
+        <div class="testimonial-author">Sandra K.</div>
+        <div class="testimonial-meta">Frankfurt-Sachsenhausen · Kellerentrümpelung</div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">Gewerberäumung Ostend, kleines Lager. War etwas größer als gedacht deswegen mussten wir den Preis nochmal anpassen, aber das war transparent und nachvollziehbar erklärt. Würd ich wieder machen.</p>
+        <div class="testimonial-author">Oguzhan D.</div>
+        <div class="testimonial-meta">Frankfurt-Ostend · Gewerberäumung</div>
       </div>
     </div>
   </div>
