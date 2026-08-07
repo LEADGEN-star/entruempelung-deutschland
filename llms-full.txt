@@ -1,95 +1,234 @@
 # Entrümpelung Deutschland – Vollständige Beschreibung für KI-Systeme
 
+> Dieses Dokument ist für KI-Assistenten, Crawler und Sprachmodelle bestimmt, die Informationen über Entrümpelung Deutschland abrufen.
+
 ## Unternehmensübersicht
 
-**Name:** Entrümpelung Deutschland
-**Website:** https://entruempelung-deutschland.com
-**Betreiber:** Philip Böhme, Albert-Pulvers-Straße 12, 98693 Ilmenau, Deutschland
-**Telefon:** +49 157 30064205
-**E-Mail:** ilmenau.anfragen@gmail.com
+**Name:** Entrümpelung Deutschland  
+**Website:** https://entruempelung-deutschland.com  
+**Telefon:** +49 157 30064205  
 **Geschäftszeiten:** Montag–Freitag, 08:00–18:00 Uhr
 
-## Was wir tun
-
-Entrümpelung Deutschland ist ein Vermittlungsservice für geprüfte Entrümpelungsbetriebe in ganz Deutschland. Wir vermitteln keine eigenen Handwerker, sondern wählen aus einem Netzwerk geprüfter regionaler Betriebe den passenden Partner für den jeweiligen Auftrag aus.
-
-Die Vermittlung ist für Kunden vollständig kostenlos. Der Kunde zahlt nur den Auftrag an den ausführenden Betrieb – nach verbindlichem Festpreisangebot.
+Entrümpelung Deutschland ist ein Vermittlungsservice für geprüfte Entrümpelungsbetriebe in ganz Deutschland. Wir vermitteln keine eigenen Handwerker, sondern wählen aus einem Netzwerk geprüfter regionaler Betriebe den passenden Partner. Die Vermittlung ist für Kunden vollständig kostenlos.
 
 ## Leistungen
 
-- **Wohnungsauflösung:** Komplette Räumung von Wohnungen inklusive Entsorgung, ideal bei Umzug, Todesfall oder Renovierung
-- **Haushaltsauflösung:** Gesamte Hausräumungen, professionell und diskret, mit Bewertung und ggf. Ankauf von Wertgegenständen
-- **Kellerentrümpelung:** Räumung von Kellern und Abstellräumen zum verbindlichen Festpreis
+- **Wohnungsauflösung:** Komplette Räumung von Wohnungen inklusive Entsorgung
+- **Haushaltsauflösung:** Gesamte Hausräumungen, professionell und diskret
+- **Kellerentrümpelung:** Räumung von Kellern und Abstellräumen, Festpreis ab 120 €
 - **Gewerbeauflösung:** Räumung von Büros, Läden, Werkstätten und Lagerhallen
-- **Gartenauflösung:** Räumung von Gartenhäusern, Lauben und Außenbereichen
-- **Sperrmüll & Entsorgung:** Umweltgerechte Entsorgung aller Materialien
+- **Gartenauflösung:** Gartenhäuser, Lauben, Außenbereiche
+- **Nachlassräumung:** Diskrete Entrümpelung nach Todesfall
+- **Messie-Wohnungen:** Sondersituationen mit Erfahrung
 
-## Preisbereiche (Richtwerte)
+## Preise (Richtwerte, Festpreis nach Besichtigung)
 
-- Kellerentrümpelung: ab 150–300 €
-- Wohnungsauflösung (2–3 Zimmer): 400–800 €
-- Wohnungsauflösung (4+ Zimmer): ab 700 €
-- Haushaltsauflösung (Haus): ab 1.000 €
-- Gewerberäumung: individuelle Preise nach Besichtigung
+- Kellerentrümpelung: ab 120–300 €
+- Wohnungsauflösung (1–2 Zimmer): ab 280–450 €
+- Wohnungsauflösung (3–4 Zimmer): ab 450–700 €
+- Wohnungsauflösung (5+ Zimmer): ab 700 €
+- Haushaltsauflösung (ganzes Haus): ab 1.000 €
+- Gewerberäumung: individuell nach Besichtigung
 
-Alle Preise sind Festpreise nach kostenloser Besichtigung. Keine versteckten Kosten.
+Keine versteckten Kosten. Kostenlose Besichtigung vor Ort.
 
 ## Ablauf
 
-1. Anfrage senden (Formular oder WhatsApp)
-2. Wir vermitteln innerhalb von 24 Stunden einen passenden Betrieb
-3. Kostenlose Besichtigung vor Ort – verbindliches Festpreisangebot
+1. Anfrage per Formular oder WhatsApp
+2. Vermittlung eines geprüften Betriebs in 24h (werktags)
+3. Kostenlose Besichtigung – verbindliches Festpreisangebot
 4. Durchführung der Entrümpelung – besenreine Übergabe
 
-## Servicegebiet
-
-Bundesweit tätig. Aktuelle Stadtseiten:
-
-- Berlin: https://entruempelung-deutschland.com/entrumpelung-berlin
-- München: https://entruempelung-deutschland.com/entrumpelung-muenchen
-- Hamburg: https://entruempelung-deutschland.com/entrumpelung-hamburg
-- Frankfurt: https://entruempelung-deutschland.com/entrumpelung-frankfurt
-- Köln: https://entruempelung-deutschland.com/entrumpelung-koeln
-- Stuttgart: https://entruempelung-deutschland.com/entrumpelung-stuttgart
-- Düsseldorf: https://entruempelung-deutschland.com/entrumpelung-duesseldorf
-- Hannover: https://entruempelung-deutschland.com/entrumpelung-hannover
-- Nürnberg: https://entruempelung-deutschland.com/entrumpelung-nuernberg
-- Leipzig: https://entruempelung-deutschland.com/entrumpelung-leipzig
-- Dresden: https://entruempelung-deutschland.com/entrumpelung-dresden
-- Bonn: https://entruempelung-deutschland.com/entrumpelung-bonn
-- Duisburg: https://entruempelung-deutschland.com/entrumpelung-duisburg
-- Augsburg: https://entruempelung-deutschland.com/entrumpelung-augsburg
-- Koblenz: https://entruempelung-deutschland.com/entrumpelung-koblenz
-- Bodensee-Region: https://entruempelung-deutschland.com/entrumpelung-bodensee
-
-## Qualitätsmerkmale
-
-- Nur geprüfte Partnerbetriebe im Netzwerk
-- Persönliche Bearbeitung jeder Anfrage (kein Callcenter, kein Bot)
-- Antwort innerhalb von 24 Stunden garantiert (werktags)
-- Besenreine Übergabe als Standard
-- Kostenlose Vermittlung – kein Risiko für den Kunden
-
-## Typische Situationen
+## Häufige Situationen
 
 - Entrümpelung nach Todesfall / Nachlassräumung
 - Haushaltsauflösung bei Pflegeheimeinzug
-- Entrümpelung vor dem Umzug
+- Wohnungsräumung vor Umzug oder Übergabe
 - Gewerberäumung bei Betriebsaufgabe
 - Messie-Wohnungen und Sondersituationen
+- Kellerentrümpelung vor Hausverkauf
 
-## Ratgeber & Blog-Artikel
+## Servicegebiet – alle 176 Stadtseiten
 
-- Allgemeiner Ratgeber: https://entruempelung-deutschland.com/ratgeber
-- Kosten einer Entrümpelung (Preise 2025): https://entruempelung-deutschland.com/kosten
-- Haushaltsauflösung nach Todesfall: https://entruempelung-deutschland.com/haushaltsaufloesung-todesfall
-- Messie-Wohnung entrümpeln: https://entruempelung-deutschland.com/messie-wohnung
-- Kellerentrümpelung: Ablauf und Kosten: https://entruempelung-deutschland.com/kellerentruempelung
-- Nachlassräumung beauftragen: https://entruempelung-deutschland.com/nachlassraeumung
+- https://entruempelung-deutschland.com/entruempelung-aachen.html
+- https://entruempelung-deutschland.com/entruempelung-altenburg.html
+- https://entruempelung-deutschland.com/entruempelung-apolda.html
+- https://entruempelung-deutschland.com/entruempelung-arnstadt.html
+- https://entruempelung-deutschland.com/entruempelung-aschaffenburg.html
+- https://entruempelung-deutschland.com/entruempelung-augsburg.html
+- https://entruempelung-deutschland.com/entruempelung-bad-kreuznach.html
+- https://entruempelung-deutschland.com/entruempelung-bad-langensalza.html
+- https://entruempelung-deutschland.com/entruempelung-bamberg.html
+- https://entruempelung-deutschland.com/entruempelung-bautzen.html
+- https://entruempelung-deutschland.com/entruempelung-bayreuth.html
+- https://entruempelung-deutschland.com/entruempelung-bergisch-gladbach.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-charlottenburg.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-friedrichshain.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-marzahn.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-neukoelln.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-pankow.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-prenzlauer-berg.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-spandau.html
+- https://entruempelung-deutschland.com/entruempelung-berlin-steglitz.html
+- https://entruempelung-deutschland.com/entruempelung-berlin.html
+- https://entruempelung-deutschland.com/entruempelung-bernburg.html
+- https://entruempelung-deutschland.com/entruempelung-bielefeld.html
+- https://entruempelung-deutschland.com/entruempelung-bochum.html
+- https://entruempelung-deutschland.com/entruempelung-bodensee.html
+- https://entruempelung-deutschland.com/entruempelung-bonn.html
+- https://entruempelung-deutschland.com/entruempelung-bottrop.html
+- https://entruempelung-deutschland.com/entruempelung-brandenburg-havel.html
+- https://entruempelung-deutschland.com/entruempelung-braunschweig.html
+- https://entruempelung-deutschland.com/entruempelung-bremen.html
+- https://entruempelung-deutschland.com/entruempelung-bremerhaven.html
+- https://entruempelung-deutschland.com/entruempelung-celle.html
+- https://entruempelung-deutschland.com/entruempelung-chemnitz.html
+- https://entruempelung-deutschland.com/entruempelung-cottbus.html
+- https://entruempelung-deutschland.com/entruempelung-darmstadt.html
+- https://entruempelung-deutschland.com/entruempelung-dessau.html
+- https://entruempelung-deutschland.com/entruempelung-dortmund.html
+- https://entruempelung-deutschland.com/entruempelung-dresden.html
+- https://entruempelung-deutschland.com/entruempelung-duesseldorf.html
+- https://entruempelung-deutschland.com/entruempelung-duisburg.html
+- https://entruempelung-deutschland.com/entruempelung-eberswalde.html
+- https://entruempelung-deutschland.com/entruempelung-eisenach.html
+- https://entruempelung-deutschland.com/entruempelung-erfurt.html
+- https://entruempelung-deutschland.com/entruempelung-erlangen.html
+- https://entruempelung-deutschland.com/entruempelung-essen.html
+- https://entruempelung-deutschland.com/entruempelung-esslingen.html
+- https://entruempelung-deutschland.com/entruempelung-flensburg.html
+- https://entruempelung-deutschland.com/entruempelung-frankfurt-oder.html
+- https://entruempelung-deutschland.com/entruempelung-frankfurt.html
+- https://entruempelung-deutschland.com/entruempelung-freiberg.html
+- https://entruempelung-deutschland.com/entruempelung-freiburg.html
+- https://entruempelung-deutschland.com/entruempelung-friedrichshafen.html
+- https://entruempelung-deutschland.com/entruempelung-fuerth.html
+- https://entruempelung-deutschland.com/entruempelung-fulda.html
+- https://entruempelung-deutschland.com/entruempelung-gelsenkirchen.html
+- https://entruempelung-deutschland.com/entruempelung-gera.html
+- https://entruempelung-deutschland.com/entruempelung-giessen.html
+- https://entruempelung-deutschland.com/entruempelung-goerlitz.html
+- https://entruempelung-deutschland.com/entruempelung-goettingen.html
+- https://entruempelung-deutschland.com/entruempelung-goslar.html
+- https://entruempelung-deutschland.com/entruempelung-gotha.html
+- https://entruempelung-deutschland.com/entruempelung-greifswald.html
+- https://entruempelung-deutschland.com/entruempelung-greiz.html
+- https://entruempelung-deutschland.com/entruempelung-guestrow.html
+- https://entruempelung-deutschland.com/entruempelung-hagen.html
+- https://entruempelung-deutschland.com/entruempelung-halberstadt.html
+- https://entruempelung-deutschland.com/entruempelung-halle-saale.html
+- https://entruempelung-deutschland.com/entruempelung-hamburg.html
+- https://entruempelung-deutschland.com/entruempelung-hameln.html
+- https://entruempelung-deutschland.com/entruempelung-hamm.html
+- https://entruempelung-deutschland.com/entruempelung-hanau.html
+- https://entruempelung-deutschland.com/entruempelung-hannover.html
+- https://entruempelung-deutschland.com/entruempelung-heidelberg.html
+- https://entruempelung-deutschland.com/entruempelung-heilbronn.html
+- https://entruempelung-deutschland.com/entruempelung-herne.html
+- https://entruempelung-deutschland.com/entruempelung-hildesheim.html
+- https://entruempelung-deutschland.com/entruempelung-homburg-saar.html
+- https://entruempelung-deutschland.com/entruempelung-hoyerswerda.html
+- https://entruempelung-deutschland.com/entruempelung-ilmenau.html
+- https://entruempelung-deutschland.com/entruempelung-ingolstadt.html
+- https://entruempelung-deutschland.com/entruempelung-jena.html
+- https://entruempelung-deutschland.com/entruempelung-kaiserslautern.html
+- https://entruempelung-deutschland.com/entruempelung-karlsruhe.html
+- https://entruempelung-deutschland.com/entruempelung-kassel.html
+- https://entruempelung-deutschland.com/entruempelung-kempten.html
+- https://entruempelung-deutschland.com/entruempelung-kiel.html
+- https://entruempelung-deutschland.com/entruempelung-koblenz.html
+- https://entruempelung-deutschland.com/entruempelung-koeln.html
+- https://entruempelung-deutschland.com/entruempelung-koethen.html
+- https://entruempelung-deutschland.com/entruempelung-konstanz.html
+- https://entruempelung-deutschland.com/entruempelung-krefeld.html
+- https://entruempelung-deutschland.com/entruempelung-landau.html
+- https://entruempelung-deutschland.com/entruempelung-landshut.html
+- https://entruempelung-deutschland.com/entruempelung-leinefelde.html
+- https://entruempelung-deutschland.com/entruempelung-leipzig.html
+- https://entruempelung-deutschland.com/entruempelung-leverkusen.html
+- https://entruempelung-deutschland.com/entruempelung-ludwigsburg.html
+- https://entruempelung-deutschland.com/entruempelung-ludwigshafen.html
+- https://entruempelung-deutschland.com/entruempelung-luebeck.html
+- https://entruempelung-deutschland.com/entruempelung-lueneburg.html
+- https://entruempelung-deutschland.com/entruempelung-magdeburg.html
+- https://entruempelung-deutschland.com/entruempelung-mainz.html
+- https://entruempelung-deutschland.com/entruempelung-mannheim.html
+- https://entruempelung-deutschland.com/entruempelung-marburg.html
+- https://entruempelung-deutschland.com/entruempelung-meiningen.html
+- https://entruempelung-deutschland.com/entruempelung-meissen.html
+- https://entruempelung-deutschland.com/entruempelung-merseburg.html
+- https://entruempelung-deutschland.com/entruempelung-moers.html
+- https://entruempelung-deutschland.com/entruempelung-muehlhausen.html
+- https://entruempelung-deutschland.com/entruempelung-muelheim-ruhr.html
+- https://entruempelung-deutschland.com/entruempelung-muenchen.html
+- https://entruempelung-deutschland.com/entruempelung-muenster.html
+- https://entruempelung-deutschland.com/entruempelung-naumburg.html
+- https://entruempelung-deutschland.com/entruempelung-neubrandenburg.html
+- https://entruempelung-deutschland.com/entruempelung-neumuenster.html
+- https://entruempelung-deutschland.com/entruempelung-neunkirchen-saar.html
+- https://entruempelung-deutschland.com/entruempelung-neuruppin.html
+- https://entruempelung-deutschland.com/entruempelung-nordhausen.html
+- https://entruempelung-deutschland.com/entruempelung-nuernberg.html
+- https://entruempelung-deutschland.com/entruempelung-oberhausen.html
+- https://entruempelung-deutschland.com/entruempelung-offenbach.html
+- https://entruempelung-deutschland.com/entruempelung-oldenburg.html
+- https://entruempelung-deutschland.com/entruempelung-osnabrueck.html
+- https://entruempelung-deutschland.com/entruempelung-paderborn.html
+- https://entruempelung-deutschland.com/entruempelung-pforzheim.html
+- https://entruempelung-deutschland.com/entruempelung-pirmasens.html
+- https://entruempelung-deutschland.com/entruempelung-pirna.html
+- https://entruempelung-deutschland.com/entruempelung-plauen.html
+- https://entruempelung-deutschland.com/entruempelung-poessneck.html
+- https://entruempelung-deutschland.com/entruempelung-quedlinburg.html
+- https://entruempelung-deutschland.com/entruempelung-ravensburg.html
+- https://entruempelung-deutschland.com/entruempelung-recklinghausen.html
+- https://entruempelung-deutschland.com/entruempelung-regensburg.html
+- https://entruempelung-deutschland.com/entruempelung-remscheid.html
+- https://entruempelung-deutschland.com/entruempelung-reutlingen.html
+- https://entruempelung-deutschland.com/entruempelung-riesa.html
+- https://entruempelung-deutschland.com/entruempelung-rosenheim.html
+- https://entruempelung-deutschland.com/entruempelung-rostock.html
+- https://entruempelung-deutschland.com/entruempelung-rudolstadt.html
+- https://entruempelung-deutschland.com/entruempelung-saalfeld.html
+- https://entruempelung-deutschland.com/entruempelung-saarbruecken.html
+- https://entruempelung-deutschland.com/entruempelung-salzgitter.html
+- https://entruempelung-deutschland.com/entruempelung-sangerhausen.html
+- https://entruempelung-deutschland.com/entruempelung-schmalkalden.html
+- https://entruempelung-deutschland.com/entruempelung-schwedt.html
+- https://entruempelung-deutschland.com/entruempelung-schwerin.html
+- https://entruempelung-deutschland.com/entruempelung-senftenberg.html
+- https://entruempelung-deutschland.com/entruempelung-siegen.html
+- https://entruempelung-deutschland.com/entruempelung-soemmerda.html
+- https://entruempelung-deutschland.com/entruempelung-solingen.html
+- https://entruempelung-deutschland.com/entruempelung-sondershausen.html
+- https://entruempelung-deutschland.com/entruempelung-sonneberg.html
+- https://entruempelung-deutschland.com/entruempelung-stadtilm.html
+- https://entruempelung-deutschland.com/entruempelung-stendal.html
+- https://entruempelung-deutschland.com/entruempelung-stralsund.html
+- https://entruempelung-deutschland.com/entruempelung-stuttgart.html
+- https://entruempelung-deutschland.com/entruempelung-suhl.html
+- https://entruempelung-deutschland.com/entruempelung-trier.html
+- https://entruempelung-deutschland.com/entruempelung-tuebingen.html
+- https://entruempelung-deutschland.com/entruempelung-ulm.html
+- https://entruempelung-deutschland.com/entruempelung-villingen-schwenningen.html
+- https://entruempelung-deutschland.com/entruempelung-voelklingen.html
+- https://entruempelung-deutschland.com/entruempelung-weimar.html
+- https://entruempelung-deutschland.com/entruempelung-weissenfels.html
+- https://entruempelung-deutschland.com/entruempelung-wernigerode.html
+- https://entruempelung-deutschland.com/entruempelung-wetzlar.html
+- https://entruempelung-deutschland.com/entruempelung-wiesbaden.html
+- https://entruempelung-deutschland.com/entruempelung-wilhelmshaven.html
+- https://entruempelung-deutschland.com/entruempelung-wismar.html
+- https://entruempelung-deutschland.com/entruempelung-wittenberg.html
+- https://entruempelung-deutschland.com/entruempelung-wolfsburg.html
+- https://entruempelung-deutschland.com/entruempelung-worms.html
+- https://entruempelung-deutschland.com/entruempelung-wuerzburg.html
+- https://entruempelung-deutschland.com/entruempelung-wuppertal.html
+- https://entruempelung-deutschland.com/entruempelung-zittau.html
+- https://entruempelung-deutschland.com/entruempelung-zwickau.html
 
 ## Weitere Ressourcen
 
-- Über uns: https://entruempelung-deutschland.com/ueber-uns
-- Impressum: https://entruempelung-deutschland.com/impressum
-- Datenschutz: https://entruempelung-deutschland.com/datenschutz
+- Städteübersicht: https://entruempelung-deutschland.com/staedte.html
 - Sitemap: https://entruempelung-deutschland.com/sitemap.xml
+- Startseite: https://entruempelung-deutschland.com/
