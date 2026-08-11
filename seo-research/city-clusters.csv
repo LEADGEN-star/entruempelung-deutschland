@@ -1,0 +1,92 @@
+cluster_city,satellite_city,state,distance_km,population_satellite,estimated_providers,cluster_score,seo_opportunity_score,recommended_url,notes
+Berlin,Potsdam,Brandenburg,28,185000,30,9,79,/entruempelung-potsdam/,Eigenständig groß genug; Berlin-Cluster-West
+Berlin,Spandau,Berlin,15,0,0,9,72,/entruempelung-berlin-spandau/,Stadtbezirk; bereits in Bezirkseite sinnvoll
+Berlin,Marzahn,Berlin,14,0,0,9,71,/entruempelung-berlin-marzahn/,Stadtbezirk; bereits vorhanden
+Berlin,Pankow,Berlin,8,0,0,9,71,/entruempelung-berlin-pankow/,Stadtbezirk; bereits vorhanden
+Berlin,Steglitz,Berlin,10,0,0,9,71,/entruempelung-berlin-steglitz/,Stadtbezirk; bereits vorhanden
+Berlin,Charlottenburg,Berlin,5,0,0,9,71,/entruempelung-berlin-charlottenburg/,Stadtbezirk; bereits vorhanden
+Berlin,Neukölln,Berlin,8,0,0,9,71,/entruempelung-berlin-neukoelln/,Stadtbezirk; bereits vorhanden
+Berlin,Friedrichshain,Berlin,4,0,0,9,71,/entruempelung-berlin-friedrichshain/,Stadtbezirk; bereits vorhanden
+Berlin,Bernau bei Berlin,Brandenburg,32,38000,2,7,48,/entruempelung-bernau/,Berlin-Cluster-Nord; wenig Wettbewerb
+Berlin,Eberswalde,Brandenburg,60,40000,2,6,44,/entruempelung-eberswalde/,Grenzwert; nur als Cluster-Seite
+München,Dachau,Bayern,18,49000,5,9,50,/entruempelung-dachau/,München-Cluster-NW; Satellit mit eigenem Markt
+München,Germering,Bayern,14,41000,3,9,49,/entruempelung-germering/,München-Cluster-SW
+München,Fürstenfeldbruck,Bayern,20,38000,8,9,51,/entruempelung-fuerstenfeldbruck/,München-Cluster-SW; raeumungsfinder.de: 8 Anbieter gemessen
+München,Freising,Bayern,35,49000,3,9,50,/entruempelung-freising/,München-Cluster-N; Flughafen-Nähe
+München,Erding,Bayern,30,37000,2,8,47,/entruempelung-erding/,München-Cluster-NO; wenig Wettbewerb
+München,Starnberg,Bayern,25,24000,2,8,44,/entruempelung-starnberg/,München-Cluster-SW; Wohlstandsregion; hohe Preise
+München,Landsberg am Lech,Bayern,45,32000,2,8,45,/entruempelung-landsberg/,München-Cluster-SW; wenig Wettbewerb
+München,Rosenheim,Bayern,60,64000,8,7,50,/entruempelung-rosenheim/,München-Cluster-SO; eigenständige Stadt
+München,Garching bei München,Bayern,13,18000,1,9,43,/entruempelung-garching/,München-N; Forschungszentrum; wenig Wettbewerb
+München,Unterföhring,Bayern,10,12000,1,9,40,/entruempelung-unterfohring/,München-O; Medienstadt
+München,Ottobrunn,Bayern,12,20000,1,9,42,/entruempelung-ottobrunn/,München-SO; Wohngebiet
+München,Ingolstadt,Bayern,80,141000,20,6,53,/entruempelung-ingolstadt/,München-Cluster-N; eigenständig groß genug
+München,Augsburg,Bayern,70,300000,45,7,58,/entruempelung-augsburg/,München-Augsburg-Achse; eigenständig groß genug
+Hamburg,Lüneburg,Niedersachsen,50,77000,8,5,49,/entruempelung-lueneburg/,Hamburg-Cluster-S; wenig Wettbewerb
+Hamburg,Norderstedt,Schleswig-Holstein,12,80000,5,8,50,/entruempelung-norderstedt/,Hamburg-Cluster-N; Satellit; wenig Wettbewerb
+Hamburg,Pinneberg,Schleswig-Holstein,25,45000,3,7,45,/entruempelung-pinneberg/,Hamburg-Cluster-NW
+Hamburg,Stade,Niedersachsen,45,47000,3,6,44,/entruempelung-stade/,Hamburg-Cluster-SW; wenig Wettbewerb
+Hamburg,Winsen (Luhe),Niedersachsen,30,35000,2,6,43,/entruempelung-winsen/,Hamburg-Cluster-S
+Hamburg,Ahrensburg,Schleswig-Holstein,25,34000,2,7,43,/entruempelung-ahrensburg/,Hamburg-Cluster-O
+Köln,Bonn,Nordrhein-Westfalen,30,332000,55,9,61,/entruempelung-bonn/,Eigenständig sehr groß; Köln-Bonn-Cluster
+Köln,Leverkusen,Nordrhein-Westfalen,12,163000,25,9,56,/entruempelung-leverkusen/,Köln-Satellit; eigenständig gut genug
+Köln,Bergisch Gladbach,Nordrhein-Westfalen,15,112000,12,9,56,/entruempelung-bergisch-gladbach/,Köln-Cluster-O; sehr wenig Wettbewerb
+Köln,Troisdorf,Nordrhein-Westfalen,20,78000,5,8,48,/entruempelung-troisdorf/,Köln-Cluster-S; wenig Wettbewerb
+Köln,Pulheim,Nordrhein-Westfalen,18,55000,3,8,46,/entruempelung-pulheim/,Köln-Cluster-NW; wenig Wettbewerb
+Köln,Hürth,Nordrhein-Westfalen,12,62000,4,8,47,/entruempelung-huerth/,Köln-Cluster-SW
+Köln,Brühl,Nordrhein-Westfalen,20,46000,3,8,44,/entruempelung-bruehl/,Köln-Cluster-S
+Frankfurt,Offenbach,Hessen,5,134000,20,9,56,/entruempelung-offenbach/,Frankfurt-Cluster-O; eigenständig gut
+Frankfurt,Darmstadt,Hessen,30,160000,25,8,55,/entruempelung-darmstadt/,Frankfurt-Cluster-S; eigenständig gut
+Frankfurt,Wiesbaden,Hessen,40,280000,50,8,58,/entruempelung-wiesbaden/,Hessen-Hauptstadt; eigenständig
+Frankfurt,Mainz,Rheinland-Pfalz,40,218000,38,8,56,/entruempelung-mainz/,Rhein-Main-Cluster
+Frankfurt,Hanau,Hessen,20,97000,8,8,54,/entruempelung-hanau/,Frankfurt-Cluster-O; wenig Wettbewerb
+Frankfurt,Aschaffenburg,Bayern,60,72000,8,7,51,/entruempelung-aschaffenburg/,Frankfurt-Cluster-SE; wenig Wettbewerb
+Frankfurt,Bad Homburg,Hessen,15,53000,4,8,46,/entruempelung-bad-homburg/,Frankfurt-Cluster-N; Wohlstand; wenig Wettbewerb
+Frankfurt,Rüsselsheim,Hessen,30,65000,5,8,47,/entruempelung-ruesselsheim/,Frankfurt-Cluster-SW; wenig Wettbewerb
+Stuttgart,Ludwigsburg,Baden-Württemberg,15,95000,10,8,54,/entruempelung-ludwigsburg/,Stuttgart-Cluster-N; sehr wenig Wettbewerb
+Stuttgart,Esslingen,Baden-Württemberg,12,94000,8,8,54,/entruempelung-esslingen/,Stuttgart-Cluster-O; sehr attraktiv
+Stuttgart,Heilbronn,Baden-Württemberg,50,126000,15,5,52,/entruempelung-heilbronn/,Stuttgart-Cluster-N; eigenständig
+Stuttgart,Reutlingen,Baden-Württemberg,30,116000,12,6,53,/entruempelung-reutlingen/,Stuttgart-Cluster-S
+Stuttgart,Böblingen,Baden-Württemberg,18,50000,4,8,46,/entruempelung-boeblingen/,Stuttgart-Cluster-SW; Aerospace-Standort
+Stuttgart,Sindelfingen,Baden-Württemberg,15,64000,4,8,47,/entruempelung-sindelfingen/,Stuttgart-Cluster-SW; Mercedes-Standort
+Stuttgart,Pforzheim,Baden-Württemberg,40,126000,12,5,52,/entruempelung-pforzheim/,Stuttgart-Cluster-NW
+Nürnberg,Fürth,Bayern,10,128000,15,8,55,/entruempelung-fuerth/,Nürnberg-Cluster-W; eigenständig
+Nürnberg,Erlangen,Bayern,17,114000,12,8,55,/entruempelung-erlangen/,Nürnberg-Cluster-N; Uni-Stadt
+Nürnberg,Bamberg,Bayern,50,77000,8,5,49,/entruempelung-bamberg/,Nürnberg-Cluster-N; Sehenswürdigkeit
+Nürnberg,Schwabach,Bayern,15,42000,3,8,44,/entruempelung-schwabach/,Nürnberg-Cluster-S; wenig Wettbewerb
+Nürnberg,Bayreuth,Bayern,80,74000,8,4,48,/entruempelung-bayreuth/,Nürnberg-Cluster-NO; eigenständig
+Mannheim,Ludwigshafen,Rheinland-Pfalz,2,172000,15,9,56,/entruempelung-ludwigshafen/,Mannheim-Zwillingsstadt; eigenständig sehr attraktiv
+Mannheim,Heidelberg,Baden-Württemberg,15,161000,30,7,54,/entruempelung-heidelberg/,Mannheim-Cluster-N; Uni-Stadt
+Mannheim,Weinheim,Baden-Württemberg,20,45000,3,7,44,/entruempelung-weinheim/,Mannheim-Cluster-N; wenig Wettbewerb
+Mannheim,Viernheim,Hessen,5,33000,2,8,42,/entruempelung-viernheim/,Mannheim-Cluster-N; Hessen
+Ruhrgebiet,Dortmund,Nordrhein-Westfalen,0,588000,77,9,65,/entruempelung-dortmund/,Ruhrgebiet-O; eigenständig
+Ruhrgebiet,Essen,Nordrhein-Westfalen,30,579000,60,9,65,/entruempelung-essen/,Ruhrgebiet-Mitte; eigenständig
+Ruhrgebiet,Bochum,Nordrhein-Westfalen,15,365000,55,9,61,/entruempelung-bochum/,Ruhrgebiet-Mitte; eigenständig
+Ruhrgebiet,Duisburg,Nordrhein-Westfalen,20,498000,65,9,64,/entruempelung-duisburg/,Ruhrgebiet-W; eigenständig
+Ruhrgebiet,Gelsenkirchen,Nordrhein-Westfalen,25,259000,35,9,59,/entruempelung-gelsenkirchen/,Ruhrgebiet-Mitte; eigenständig
+Ruhrgebiet,Mülheim,Nordrhein-Westfalen,10,170000,25,9,57,/entruempelung-muelheim/,Ruhrgebiet-W; eigenständig
+Ruhrgebiet,Herne,Nordrhein-Westfalen,10,154000,20,9,57,/entruempelung-herne/,Ruhrgebiet-Mitte; eigenständig
+Ruhrgebiet,Oberhausen,Nordrhein-Westfalen,20,210000,30,9,58,/entruempelung-oberhausen/,Ruhrgebiet-W; eigenständig
+Ruhrgebiet,Hagen,Nordrhein-Westfalen,35,189000,25,7,56,/entruempelung-hagen/,Ruhrgebiet-SO; eigenständig
+Ruhrgebiet,Hamm,Nordrhein-Westfalen,50,179000,20,7,56,/entruempelung-hamm/,Ruhrgebiet-O; eigenständig
+Ruhrgebiet,Wuppertal,Nordrhein-Westfalen,40,355000,45,7,60,/entruempelung-wuppertal/,Ruhrgebiet-S; eigenständig
+Ruhrgebiet,Recklinghausen,Nordrhein-Westfalen,20,115000,15,8,55,/entruempelung-recklinghausen/,Ruhrgebiet-N; eigenständig
+Ruhrgebiet,Bottrop,Nordrhein-Westfalen,15,117000,12,8,55,/entruempelung-bottrop/,Ruhrgebiet-NW; eigenständig
+Ruhrgebiet,Solingen,Nordrhein-Westfalen,30,159000,20,7,55,/entruempelung-solingen/,Bergisches Land; eigenständig
+Ruhrgebiet,Remscheid,Nordrhein-Westfalen,35,109000,12,7,54,/entruempelung-remscheid/,Bergisches Land; eigenständig
+Ruhrgebiet,Witten,Nordrhein-Westfalen,10,96000,10,8,54,/entruempelung-witten/,Ruhrgebiet-SO; eigenständig
+Ruhrgebiet,Moers,Nordrhein-Westfalen,10,103000,10,8,54,/entruempelung-moers/,Duisburg-Cluster; eigenständig
+Leipzig,Halle (Saale),Sachsen-Anhalt,30,238000,25,6,57,/entruempelung-halle/,Leipzig-Halle-Cluster; eigenständig groß
+Leipzig,Chemnitz,Sachsen,80,243000,30,5,55,/entruempelung-chemnitz/,Sachsen-Dreieck; eigenständig
+Leipzig,Zwickau,Sachsen,70,88000,8,4,49,/entruempelung-zwickau/,Leipzig-Cluster-SW; eigenständig
+Leipzig,Bitterfeld-Wolfen,Sachsen-Anhalt,40,40000,2,6,43,/entruempelung-bitterfeld/,Leipzig-Cluster-N
+Hannover,Hildesheim,Niedersachsen,30,100000,10,4,50,/entruempelung-hildesheim/,Hannover-Cluster-S; eigenständig
+Hannover,Braunschweig,Niedersachsen,55,249000,30,4,55,/entruempelung-braunschweig/,NDS; eigenständig
+Hannover,Lüneburg,Niedersachsen,95,77000,8,3,49,/entruempelung-lueneburg/,Hannover-Cluster-NE
+Dresden,Chemnitz,Sachsen,75,243000,30,5,55,/entruempelung-chemnitz/,Sachsen-Dreieck; eigenständig
+Dresden,Zwickau,Sachsen,100,88000,8,4,49,/entruempelung-zwickau/,Sachsen-Cluster
+Düsseldorf,Krefeld,Nordrhein-Westfalen,20,226000,30,8,58,/entruempelung-krefeld/,Düsseldorf-Cluster-NW; eigenständig
+Düsseldorf,Neuss,Nordrhein-Westfalen,8,152000,15,8,56,/entruempelung-neuss/,Düsseldorf-Cluster; eigenständig
+Düsseldorf,Mönchengladbach,Nordrhein-Westfalen,30,261000,35,8,59,/entruempelung-moenchengladbach/,Düsseldorf-Cluster-W; eigenständig
+Düsseldorf,Ratingen,Nordrhein-Westfalen,10,90000,6,8,51,/entruempelung-ratingen/,Düsseldorf-Cluster-N; wenig Wettbewerb
+Düsseldorf,Meerbusch,Nordrhein-Westfalen,12,55000,3,8,45,/entruempelung-meerbusch/,Düsseldorf-Cluster; wenig Wettbewerb
