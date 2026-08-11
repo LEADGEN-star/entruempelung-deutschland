@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://entruempelung-deutschland.com/datenschutz.html</loc>
+    <loc>https://entruempelung-deutschland.com/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://entruempelung-deutschland.com/staedte</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-aachen</loc>
@@ -79,6 +85,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://entruempelung-deutschland.com/entruempelung-berlin</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-berlin-charlottenburg</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -122,18 +134,6 @@
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-berlin-steglitz</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://entruempelung-deutschland.com/entruempelung-potsdam</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://entruempelung-deutschland.com/entruempelung-berlin</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -295,13 +295,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/entruempelung-frankfurt-oder</loc>
+    <loc>https://entruempelung-deutschland.com/entruempelung-frankfurt</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/entruempelung-frankfurt</loc>
+    <loc>https://entruempelung-deutschland.com/entruempelung-frankfurt-oder</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -418,7 +418,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-hamburg</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-hameln</loc>
@@ -538,7 +538,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-koeln</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-koethen</loc>
@@ -580,7 +580,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-leipzig</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-leverkusen</loc>
@@ -676,7 +676,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-muenchen</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-muenster</loc>
@@ -724,7 +724,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-nuernberg</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-nuernberg-gostenhof</loc>
@@ -827,6 +827,12 @@
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://entruempelung-deutschland.com/entruempelung-potsdam</loc>
+    <lastmod>2026-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-quedlinburg</loc>
@@ -988,7 +994,7 @@
     <loc>https://entruempelung-deutschland.com/entruempelung-stuttgart</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://entruempelung-deutschland.com/entruempelung-suhl</loc>
@@ -1111,63 +1117,57 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/haushaltsaufloesung-todesfall.html</loc>
+    <loc>https://entruempelung-deutschland.com/haushaltsaufloesung-todesfall</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/impressum.html</loc>
+    <loc>https://entruempelung-deutschland.com/kellerentruempelung</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://entruempelung-deutschland.com/kellerentruempelung.html</loc>
+    <loc>https://entruempelung-deutschland.com/kosten</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/kosten.html</loc>
+    <loc>https://entruempelung-deutschland.com/messie-wohnung</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/messie-wohnung.html</loc>
+    <loc>https://entruempelung-deutschland.com/nachlassraeumung</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/nachlassraeumung.html</loc>
+    <loc>https://entruempelung-deutschland.com/ratgeber</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/ratgeber.html</loc>
+    <loc>https://entruempelung-deutschland.com/ueber-uns</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/staedte</loc>
+    <loc>https://entruempelung-deutschland.com/impressum</loc>
     <lastmod>2026-08-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://entruempelung-deutschland.com/ueber-uns.html</loc>
+    <loc>https://entruempelung-deutschland.com/datenschutz</loc>
     <lastmod>2026-08-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
