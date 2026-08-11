@@ -1,0 +1,32 @@
+keyword_pattern,example_berlin,intent_score,intent_label,estimated_volume_multiplier,cpc_multiplier,priority_for_leadgen,notes
+entrümpelung [stadt],entrümpelung berlin,4,unmittelbare Auftragsintention,1.00,1.00,Sehr hoch,Hauptkeyword; höchste Priorität
+haushaltsauflösung [stadt],haushaltsauflösung berlin,4,unmittelbare Auftragsintention,0.60,1.10,Sehr hoch,Zweites Hauptkeyword; oft gleiches Volumen
+wohnungsauflösung [stadt],wohnungsauflösung berlin,4,unmittelbare Auftragsintention,0.40,1.05,Sehr hoch,Drittes Hauptkeyword
+entrümpelungsfirma [stadt],entrümpelungsfirma berlin,4,unmittelbare Auftragsintention,0.30,1.00,Sehr hoch,Markenlose Anbietersuche
+entrümpelungsservice [stadt],entrümpelungsservice berlin,4,unmittelbare Auftragsintention,0.15,1.00,Hoch,Variante
+entrümpelung [stadt] günstig,entrümpelung berlin günstig,3,hohe Kaufintention,0.25,0.90,Hoch,Preisbewusste Suche
+entrümpelung [stadt] kosten,entrümpelung berlin kosten,3,hohe Kaufintention,0.35,0.85,Hoch,Kostenabfrage mit Kaufintention
+entrümpelung [stadt] preise,entrümpelung berlin preise,3,hohe Kaufintention,0.20,0.85,Hoch,Preisabfrage
+entrümpelung [stadt] festpreis,entrümpelung berlin festpreis,4,unmittelbare Auftragsintention,0.15,1.05,Sehr hoch,Fixpreis-Suche; sehr konversionsstark
+entrümpelung [stadt] sofort,entrümpelung berlin sofort,4,unmittelbare Auftragsintention,0.20,1.10,Sehr hoch,Zeitkritische Suche; höchste Konversion
+kellerentrümpelung [stadt],kellerentrümpelung berlin,4,unmittelbare Auftragsintention,0.25,0.90,Sehr hoch,Service-spezifisch; gutes Nebencluster
+kellerräumung [stadt],kellerräumung berlin,4,unmittelbare Auftragsintention,0.20,0.90,Sehr hoch,Synonym kellerentrümpelung
+dachbodenentrümpelung [stadt],dachbodenentrümpelung berlin,4,unmittelbare Auftragsintention,0.20,0.90,Sehr hoch,Dachboden-Service
+dachbodenräumung [stadt],dachbodenräumung berlin,4,unmittelbare Auftragsintention,0.15,0.90,Sehr hoch,Synonym dachbodenentrümpelung
+wohnungsentrümpelung [stadt],wohnungsentrümpelung berlin,4,unmittelbare Auftragsintention,0.25,0.95,Sehr hoch,Wohnungsservice
+möbelentsorgung [stadt],möbelentsorgung berlin,3,hohe Kaufintention,0.30,0.80,Hoch,Möbelspezifisch
+sperrmüll [stadt],sperrmüll berlin,3,hohe Kaufintention,0.80,0.60,Mittel,Hohes Volumen aber niedrigerer CPC; weniger Lead-qualifiziert
+sperrmüll abholung [stadt],sperrmüll abholung berlin,4,unmittelbare Auftragsintention,0.40,0.70,Hoch,Konversionsstärker als generischer Sperrmüll
+nachlassräumung [stadt],nachlassräumung berlin,4,unmittelbare Auftragsintention,0.20,1.00,Sehr hoch,Todesfall-Kontext; emotional; hohes Auftragsvolumen
+haushaltsauflösung todesfall [stadt],haushaltsauflösung todesfall berlin,4,unmittelbare Auftragsintention,0.15,1.05,Sehr hoch,Spezifischer Todesfall-Kontext
+wohnungsauflösung todesfall [stadt],wohnungsauflösung todesfall berlin,4,unmittelbare Auftragsintention,0.10,1.05,Sehr hoch,Wie nachlassräumung
+haushaltsauflösung kosten [stadt],haushaltsauflösung kosten berlin,3,hohe Kaufintention,0.25,0.85,Hoch,Kostenabfrage Haushaltsauflösung
+messie wohnung räumung [stadt],messie wohnung räumung berlin,4,unmittelbare Auftragsintention,0.15,0.90,Sehr hoch,Nischenservice; wenig Wettbewerb; hohes Auftragspotenzial
+entrümpelung [stadtteil] berlin,entrümpelung marzahn berlin,4,unmittelbare Auftragsintention,0.10,1.00,Hoch,Bezirk-Level; sehr lokale Suche
+umzugsentrümpelung [stadt],umzugsentrümpelung berlin,4,unmittelbare Auftragsintention,0.12,0.95,Hoch,Umzugs-kontext
+entrümpelung berlin in der nähe,entrümpelung in der nähe,4,unmittelbare Auftragsintention,0.30,1.00,Sehr hoch,Near-me-Suche; LBS relevant
+wie viel kostet eine entrümpelung,wie viel kostet eine entrümpelung,1,Recherche,0.50,0.40,Gering,Informativer Content; nicht direkt für Leads
+entrümpelung selbst machen,entrümpelung selbst machen,0,rein informativ,0.30,0.20,Sehr gering,Anti-Lead; informativ; kein SEO-Fokus
+günstig entrümpeln [stadt],günstig entrümpeln berlin,3,hohe Kaufintention,0.15,0.80,Hoch,Preisbewusste Near-Purchase
+entrümpelung gratis [stadt],entrümpelung gratis berlin,2,kommerzielle Untersuchung,0.10,0.50,Mittel,Erwartet Gegenverrechnung (Wertanrechnung); klären
+entrümpelung mit wertanrechnung [stadt],entrümpelung mit wertanrechnung berlin,3,hohe Kaufintention,0.10,0.80,Hoch,Wertanrechnungs-Suche; gutes Cluster-Keyword
