@@ -23,8 +23,7 @@
   ['click','scroll','keydown','touchstart'].forEach(function(e){document.addEventListener(e,loadTracking,{once:true,passive:true});});
   setTimeout(loadTracking,3000);
   </script>
-  <script type="application/ld+json">
-{
+  <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -46,7 +45,6 @@
         "Nürnberg-Südost"
       ],
       "description": "Entrümpelung Gibitzenhof Nürnberg – Haushaltsauflösung, Kellerentrümpelung und Räumung. Festpreis nach Besichtigung, besenreine Übergabe.",
-
       "serviceType": "Entrümpelung",
       "image": "https://entruempelung-deutschland.com/og-image.jpg",
       "priceRange": "€€",
@@ -112,12 +110,19 @@
             "@type": "Answer",
             "text": "Ja. Unsere Betriebe sind in ganz Nürnberg-Süd und Südost tätig – Langwasser, Zerzabelshof, Gartenstadt und angrenzende Stadtteile."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Leistungen werden in Gibitzenhof angeboten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Gibitzenhof und Nürnberg-Süd bieten unsere Partnerbetriebe Kellerentrümpelungen, Wohnungsauflösungen, Haushaltsauflösungen nach Todesfall sowie Räumungen bei Messie-Wohnungen an. Auch Dachböden, Garagen und kleinere Gewerbeflächen gehören zum Leistungsumfang."
+          }
         }
       ]
     }
   ]
-}
-</script>
+}</script>
   <style>
 @font-face{font-family:'Oswald';font-style:normal;font-weight:500 700;font-display:swap;src:url('/fonts/oswald-latin.woff2') format('woff2')}
 @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('/fonts/source-sans-3-latin.woff2') format('woff2')}
