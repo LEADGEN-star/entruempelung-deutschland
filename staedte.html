@@ -80,16 +80,26 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Entrümpelung Deutschland – alle Städte",
-    "url": "https://entruempelung-deutschland.com/staedte",
-    "description": "Übersicht aller Stadtseiten für Entrümpelung und Haushaltsauflösung in Deutschland.",
-    "publisher": {
-      "@type": "LocalBusiness",
-      "name": "Entrümpelung Deutschland",
-      "telephone": "+4915730064205",
-      "url": "https://entruempelung-deutschland.com"
-    }
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Entrümpelung Deutschland – alle Städte",
+        "url": "https://entruempelung-deutschland.com/staedte",
+        "description": "Übersicht aller Stadtseiten für Entrümpelung und Haushaltsauflösung in Deutschland.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Entrümpelung Deutschland",
+          "url": "https://entruempelung-deutschland.com"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"}
+        ]
+      }
+    ]
   }
   </script>
   <meta name="twitter:card" content="summary_large_image" />
@@ -141,7 +151,7 @@
   <div class="land-block" id="bw">
     <div class="land-heading">
       <h2>Baden-Württemberg</h2>
-      <span class="land-count">13 Städte</span>
+      <span class="land-count">20 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-esslingen">Esslingen am Neckar</a>
@@ -172,7 +182,7 @@
   <div class="land-block" id="by">
     <div class="land-heading">
       <h2>Bayern</h2>
-      <span class="land-count">11 Städte</span>
+      <span class="land-count">28 Einträge</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-aschaffenburg">Aschaffenburg</a>
@@ -231,7 +241,7 @@
   <div class="land-block" id="bb">
     <div class="land-heading">
       <h2>Brandenburg</h2>
-      <span class="land-count">7 Städte</span>
+      <span class="land-count">8 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-brandenburg-havel">Brandenburg an der Havel</a>
@@ -275,7 +285,7 @@
   <div class="land-block" id="he">
     <div class="land-heading">
       <h2>Hessen</h2>
-      <span class="land-count">8 Städte</span>
+      <span class="land-count">12 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-darmstadt">Darmstadt</a>
@@ -316,7 +326,7 @@
   <div class="land-block" id="ni">
     <div class="land-heading">
       <h2>Niedersachsen</h2>
-      <span class="land-count">12 Städte</span>
+      <span class="land-count">14 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-braunschweig">Braunschweig</a>
@@ -341,7 +351,7 @@
   <div class="land-block" id="nrw">
     <div class="land-heading">
       <h2>Nordrhein-Westfalen</h2>
-      <span class="land-count">16 Städte</span>
+      <span class="land-count">36 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-aachen">Aachen</a>
@@ -388,7 +398,7 @@
   <div class="land-block" id="rlp">
     <div class="land-heading">
       <h2>Rheinland-Pfalz</h2>
-      <span class="land-count">7 Städte</span>
+      <span class="land-count">9 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-bad-kreuznach">Bad Kreuznach</a>
@@ -423,7 +433,7 @@
   <div class="land-block" id="sn">
     <div class="land-heading">
       <h2>Sachsen</h2>
-      <span class="land-count">11 Städte</span>
+      <span class="land-count">13 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-bautzen">Bautzen</a>
@@ -472,7 +482,7 @@
   <div class="land-block" id="sh">
     <div class="land-heading">
       <h2>Schleswig-Holstein</h2>
-      <span class="land-count">4 Städte</span>
+      <span class="land-count">7 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-flensburg">Flensburg</a>
@@ -492,7 +502,7 @@
   <div class="land-block" id="th">
     <div class="land-heading">
       <h2>Thüringen</h2>
-      <span class="land-count">22 Städte</span>
+      <span class="land-count">25 Städte</span>
     </div>
     <div class="city-grid">
       <a class="city-card" href="/entruempelung-altenburg">Altenburg</a>
