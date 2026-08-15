@@ -30,6 +30,58 @@
   </div>
 </header>
 <div class="trust-bar"><div class="trust-item">✓ Geprüfte Betriebe</div><div class="trust-item">📅 Termin in 3–7 Tagen</div><div class="trust-item">🧹 Besenrein übergeben</div><div class="trust-item">📍 Mannheim &amp; Rhein-Neckar</div></div>
+<style>
+.vn-section{padding:3.5rem 1.5rem;background:#faf8f6;border-top:1px solid #e8e2dc}
+.vn-cont{max-width:1100px;margin:0 auto}
+.vn-tag{display:inline-block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#e85d04;margin-bottom:.5rem}
+.vn-h{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:900;color:#0f172a;letter-spacing:-.02em;line-height:1.1;margin-bottom:.6rem}
+.vn-sub{font-size:.95rem;color:#64748b;max-width:560px;margin-bottom:1.8rem;line-height:1.7}
+.vn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}
+.vn-pair{display:grid;grid-template-columns:1fr 1fr;gap:3px;border-radius:10px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.1);background:#ddd}
+.vn-fig{margin:0;position:relative;overflow:hidden}
+.vn-fig img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .3s}
+.vn-pair:hover .vn-fig img{transform:scale(1.03)}
+.vn-cap{position:absolute;bottom:0;left:0;right:0;padding:.3rem .4rem;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-align:center;color:#fff}
+.vn-cap.vb{background:rgba(185,28,28,.7)}
+.vn-cap.vn{background:rgba(21,128,61,.7)}
+</style>
+
+<!-- VORHER NACHHER GALERIE -->
+<section class="vn-section" id="galerie">
+  <div class="vn-cont">
+    <div class="vn-tag">Echte Ergebnisse</div>
+    <h2 class="vn-h">Vorher / Nachher – so arbeiten wir</h2>
+    <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
+    <div class="vn-grid">
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Vorher: vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Nachher: leerer Keller besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Vorher: vollgestellte Wohnung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Nachher: leere Wohnung besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Vorher: vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Nachher: geräumter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Vorher: übervoller Stauraum" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-4-nachher.jpg" alt="Nachher: leerer Stauraum" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-5-vorher.jpg" alt="Vorher: vollgestelltes Zimmer" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-5-nachher.jpg" alt="Nachher: leeres Zimmer besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+      <div class="vn-pair">
+        <figure class="vn-fig"><img src="/img/job-6-vorher.jpg" alt="Vorher: vollgestelltes Lager" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-6-nachher.jpg" alt="Nachher: geräumtes Lager" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+      </div>
+    </div>
+  </div>
+</section>
+<script>document.addEventListener('DOMContentLoaded',function(){var g=document.getElementById('galerie');if(!g)return;var vis=g.querySelectorAll('.vn-pair:not([style])').length;if(vis===0)g.style.display='none';});</script>
+
 <section style="background:#fff;padding:2.5rem 2rem;border-bottom:1px solid #e8e2dc"><div class="container" style="max-width:800px"><h2 style="font-family:'Oswald',sans-serif;font-size:1.5rem;font-weight:700;color:var(--dark);margin-bottom:.75rem">Entrümpelung Mannheim – kurz erklärt</h2><p style="color:var(--muted);font-size:1rem;line-height:1.75">Eine <strong>Entrümpelung in Mannheim</strong> kostet je nach Umfang zwischen <strong>140 € (Kellerentrümpelung)</strong> und <strong>1.800 € (große Wohnung oder Haushaltsauflösung)</strong>. Der Preis wird nach kostenloser Besichtigung als verbindlicher Festpreis mitgeteilt. Wir vermitteln geprüfte Entrümpelungsbetriebe in allen Mannheimer Stadtteilen – in den Quadraten (A1–Q7), der Neckarstadt, Feudenheim, Lindenhof, Käfertal und dem gesamten Rhein-Neckar-Raum inkl. Ludwigshafen und Heidelberg. Antwort innerhalb von 24h, Termin in 3–7 Werktagen.</p></div></section>
 <section class="gray"><div class="container"><div class="section-label">Leistungen in Mannheim</div><h2>Was wir in Mannheim vermitteln</h2><p class="subtitle">Von der einzelnen Kammer bis zur kompletten Haushaltsauflösung – wir finden den richtigen Betrieb für Ihren Auftrag.</p><div class="grid-2"><div class="card"><h3>🏠 Wohnungsauflösung Mannheim</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – ideal bei Umzug, Todesfall oder Renovierung. Verbindliches Angebot nach Besichtigung.</p></div><div class="card"><h3>🏚️ Haushaltsauflösung Mannheim</h3><p>Gesamte Hausräumungen – professionell, diskret, mit Bewertung und Ankauf von Wertgegenständen.</p></div><div class="card"><h3>🪣 Kellerentrümpelung Mannheim</h3><p>Voller Keller? Schnelle Räumung in den Quadraten und allen Mannheimer Stadtteilen zum verbindlichen Preis.</p></div><div class="card"><h3>🏢 Gewerbeauflösung Mannheim</h3><p>Büros, Industrie, Lagerhallen – fachgerechte Räumung aller Gewerberäume, auch kurzfristig möglich.</p></div></div></div></section>
 <section><div class="container"><div class="section-label">Ablauf</div><h2>So läuft Ihre Entrümpelung in Mannheim ab</h2><p class="subtitle">Von der Anfrage bis zur besenreinen Übergabe – einfach und transparent in 3 Schritten.</p><div class="grid-3"><div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center"><div class="step-num">1</div><h3>Anfrage stellen</h3><p>Formular ausfüllen oder per WhatsApp schreiben. Wir melden uns innerhalb von 24 Stunden.</p></div><div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center"><div class="step-num">2</div><h3>Kostenlose Besichtigung</h3><p>Ein geprüfter Betrieb kommt zu Ihnen und erstellt ein verbindliches Festpreisangebot.</p></div><div class="card" style="border-left:none;border-top:4px solid var(--orange);text-align:center"><div class="step-num">3</div><h3>Entrümpelung &amp; Übergabe</h3><p>Alles wird professionell geräumt, fachgerecht entsorgt und die Räume besenrein übergeben.</p></div></div></div></section>
@@ -103,58 +155,6 @@
   <a href="https://wa.me/4915730064205?text=Hallo%2C%20ich%20m%C3%B6chte%20eine%20Entr%C3%BCmpelung%20anfragen." class="s-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
 </div>
 <a href="https://wa.me/4915730064205?text=Hallo%2C%20ich%20brauche%20eine%20Entr%C3%BCmpelung%20in%20Mannheim." class="wa-float" target="_blank" rel="noopener">💬 WhatsApp</a>
-<style>
-.vn-section{padding:3.5rem 1.5rem;background:#faf8f6;border-top:1px solid #e8e2dc}
-.vn-cont{max-width:1100px;margin:0 auto}
-.vn-tag{display:inline-block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#e85d04;margin-bottom:.5rem}
-.vn-h{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:900;color:#0f172a;letter-spacing:-.02em;line-height:1.1;margin-bottom:.6rem}
-.vn-sub{font-size:.95rem;color:#64748b;max-width:560px;margin-bottom:1.8rem;line-height:1.7}
-.vn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem}
-.vn-pair{display:grid;grid-template-columns:1fr 1fr;gap:3px;border-radius:10px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.1);background:#ddd}
-.vn-fig{margin:0;position:relative;overflow:hidden}
-.vn-fig img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .3s}
-.vn-pair:hover .vn-fig img{transform:scale(1.03)}
-.vn-cap{position:absolute;bottom:0;left:0;right:0;padding:.3rem .4rem;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-align:center;color:#fff}
-.vn-cap.vb{background:rgba(185,28,28,.7)}
-.vn-cap.vn{background:rgba(21,128,61,.7)}
-</style>
-
-<!-- VORHER NACHHER GALERIE -->
-<section class="vn-section" id="galerie">
-  <div class="vn-cont">
-    <div class="vn-tag">Echte Ergebnisse</div>
-    <h2 class="vn-h">Vorher / Nachher – so arbeiten wir</h2>
-    <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
-    <div class="vn-grid">
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Vorher: vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Nachher: leerer Keller besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Vorher: vollgestellte Wohnung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Nachher: leere Wohnung besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Vorher: vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Nachher: geräumter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Vorher: übervoller Stauraum" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-4-nachher.jpg" alt="Nachher: leerer Stauraum" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-5-vorher.jpg" alt="Vorher: vollgestelltes Zimmer" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-5-nachher.jpg" alt="Nachher: leeres Zimmer besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-      <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-6-vorher.jpg" alt="Vorher: vollgestelltes Lager" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-6-nachher.jpg" alt="Nachher: geräumtes Lager" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
-      </div>
-    </div>
-  </div>
-</section>
-<script>document.addEventListener('DOMContentLoaded',function(){var g=document.getElementById('galerie');if(!g)return;var vis=g.querySelectorAll('.vn-pair:not([style])').length;if(vis===0)g.style.display='none';});</script>
-
 <footer><p style="margin-bottom:.4rem;font-size:.9rem;color:rgba(255,255,255,.65)"><strong style="color:#fff">Entrümpelung Deutschland</strong> &nbsp;·&nbsp; <a href="tel:+4915730064205" style="color:rgba(255,255,255,.65)">+49 157 30064205</a> &nbsp;·&nbsp; Albert-Pulvers-Straße 12, 98693 Ilmenau</p><p style="margin-bottom:.5rem">© 2026 entruempelung-deutschland.com</p><p><a href="/">Startseite</a> &nbsp;·&nbsp; <a href="/ueber-uns">Über uns</a> &nbsp;·&nbsp; <a href="/impressum">Impressum</a> &nbsp;·&nbsp; <a href="/datenschutz">Datenschutz</a></p></footer>
 </body>
 </html>
