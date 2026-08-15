@@ -41,88 +41,116 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-witten#business",
-        "name": "Entrümpelung Witten",
-        "url": "https://entruempelung-deutschland.com/entruempelung-witten",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-witten#business",
+      "name": "Entrümpelung Witten",
+      "url": "https://entruempelung-deutschland.com/entruempelung-witten",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Witten",
+        "Witten-Annen",
+        "Heven",
+        "Stockum",
+        "Herbede",
+        "Bommern",
+        "Rüdinghausen",
+        "Wetter (Ruhr)",
+        "Herdecke",
+        "Schwelm",
+        "Bochum-Südost"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Witten", "Witten-Annen", "Heven", "Stockum", "Herbede", "Bommern", "Rüdinghausen", "Wetter (Ruhr)", "Herdecke", "Schwelm", "Bochum-Südost"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Entrümpelung Witten", "item": "https://entruempelung-deutschland.com/entruempelung-witten"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Witten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Witten liegt preislich im Ruhrgebiets-Niveau – günstig bis moderat. Kellerentrümpelungen kosten 120–300 €, Wohnungsräumungen 250–680 €. Zechen-Reihenhäuser in Annen mit vollständigem Bergbau-Inventar liegen bei 600–1.400 €. EN-Stahl-Werkzeuge, Bergbau-Memorabilia und Ruhrgebiet-Sammlerstücke werden gesichtet und verrechnet."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist die Zeche Nachtigall und warum ist sie für Entrümpelungen relevant?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Die Zeche Nachtigall in Witten-Bommern ist eine der ältesten Steinkohle-Zechen des Ruhrgebiets (gegründet 1714, heute LWL-Industriemuseum). Witten liegt am nördlichen Rand des Märkischen Sauerlandes, wo Bergbau die Region über Jahrhunderte geprägt hat. In Wittener Bergarbeiterhaushalten finden sich Grubenlampen, Steigermarken, Bergmanns-Chroniken und vollständige Arbeitsmontur-Sets aus bis zu vier Generationen Bergbauzeit."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Wetter (Ruhr), Herdecke und Hattingen ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Wetter (Ruhr), Herdecke, Hattingen, Schwelm, Gevelsberg und der gesamte Ennepe-Ruhr-Kreis werden abgedeckt. Auch Bochum-Südost und Dortmund-Bodelschwingh sind möglich. Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist in Wittener Haushalten besonders wertvoll?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Witten ist historisch Stahl- und Bergbaustadt: EN-Stahl (Ennepe-Ruhr), Hammerwerke und Zechen haben über Generationen spezifisches Inventar hinterlassen. Besonders: Grubenlampen, Bergmanns-Steigermarken, EN-Stahl-Handwerkzeuge, Märkische Trachten und Volkskunst sowie Wittener Blaudruck-Textilien. Zusätzlich: BVB- und VfL-Bochum-Memorabilia aus Jahrzehnten Fangeschichte."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Witten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Der Ruhrgebiet-Raum hat eine hohe Betriebsdichte – Eiltermine sind häufig möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist beim Hevener Villenviertel besonders?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Heven ist Wittens grünste und wohlhabendste Wohnlage – großzügige Einfamilienhäuser und Villen aus den 1920er–60er Jahren, bewohnt von Werks-Direktoren, Ärzten und Unternehmern. Diese Haushalte enthalten häufig hochwertige Möbelgarnituren, Kunstobjekte, Tafelsilber und sorgfältig gepflegte Sammlungen. Nachlassräumungen in Heven haben überdurchschnittlich hohen Sammlerwert."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Witten",
+          "item": "https://entruempelung-deutschland.com/entruempelung-witten"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Witten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Witten liegt preislich im Ruhrgebiets-Niveau – günstig bis moderat. Kellerentrümpelungen kosten 120–300 €, Wohnungsräumungen 250–680 €. Zechen-Reihenhäuser in Annen mit vollständigem Bergbau-Inventar liegen bei 600–1.400 €. EN-Stahl-Werkzeuge, Bergbau-Memorabilia und Ruhrgebiet-Sammlerstücke werden gesichtet und verrechnet."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist die Zeche Nachtigall und warum ist sie für Entrümpelungen relevant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Zeche Nachtigall in Witten-Bommern ist eine der ältesten Steinkohle-Zechen des Ruhrgebiets (gegründet 1714, heute LWL-Industriemuseum). Witten liegt am nördlichen Rand des Märkischen Sauerlandes, wo Bergbau die Region über Jahrhunderte geprägt hat. In Wittener Bergarbeiterhaushalten finden sich Grubenlampen, Steigermarken, Bergmanns-Chroniken und vollständige Arbeitsmontur-Sets aus bis zu vier Generationen Bergbauzeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Wetter (Ruhr), Herdecke und Hattingen ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wetter (Ruhr), Herdecke, Hattingen, Schwelm, Gevelsberg und der gesamte Ennepe-Ruhr-Kreis werden abgedeckt. Auch Bochum-Südost und Dortmund-Bodelschwingh sind möglich. Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist in Wittener Haushalten besonders wertvoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Witten ist historisch Stahl- und Bergbaustadt: EN-Stahl (Ennepe-Ruhr), Hammerwerke und Zechen haben über Generationen spezifisches Inventar hinterlassen. Besonders: Grubenlampen, Bergmanns-Steigermarken, EN-Stahl-Handwerkzeuge, Märkische Trachten und Volkskunst sowie Wittener Blaudruck-Textilien. Zusätzlich: BVB- und VfL-Bochum-Memorabilia aus Jahrzehnten Fangeschichte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Witten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Der Ruhrgebiet-Raum hat eine hohe Betriebsdichte – Eiltermine sind häufig möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist beim Hevener Villenviertel besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heven ist Wittens grünste und wohlhabendste Wohnlage – großzügige Einfamilienhäuser und Villen aus den 1920er–60er Jahren, bewohnt von Werks-Direktoren, Ärzten und Unternehmern. Diese Haushalte enthalten häufig hochwertige Möbelgarnituren, Kunstobjekte, Tafelsilber und sorgfältig gepflegte Sammlungen. Nachlassräumungen in Heven haben überdurchschnittlich hohen Sammlerwert."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face{font-family:'Oswald';font-style:normal;font-weight:500 700;font-display:swap;src:url('oswald-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('source-sans-3-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}

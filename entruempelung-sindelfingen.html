@@ -41,88 +41,115 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-sindelfingen#business",
-        "name": "Entrümpelung Sindelfingen",
-        "url": "https://entruempelung-deutschland.com/entruempelung-sindelfingen",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-sindelfingen#business",
+      "name": "Entrümpelung Sindelfingen",
+      "url": "https://entruempelung-deutschland.com/entruempelung-sindelfingen",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Sindelfingen",
+        "Maichingen",
+        "Darmsheim",
+        "Goldberg",
+        "Böblingen",
+        "Herrenberg",
+        "Aidlingen",
+        "Gärtringen",
+        "Holzgerlingen",
+        "Stuttgart-Süd"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Sindelfingen", "Maichingen", "Darmsheim", "Goldberg", "Böblingen", "Herrenberg", "Aidlingen", "Gärtringen", "Holzgerlingen", "Stuttgart-Süd"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Entrümpelung Sindelfingen", "item": "https://entruempelung-deutschland.com/entruempelung-sindelfingen"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Sindelfingen?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sindelfingen liegt preislich im gehobenen Stuttgarter Umland-Niveau. Kellerentrümpelungen kosten 150–360 €, Wohnungsräumungen 300–800 €. Einfamilienhäuser im Goldberg-Viertel oder in Darmsheim liegen bei 900–2.400 €. Mercedes-Benz-Modelle, Biedermeier-Möbel und Württemberg-Inventar werden gesichtet und können den Preis senken."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Gibt es in Sindelfinger Haushalten Mercedes-Benz-Memorabilia?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sehr häufig. Sindelfingen ist seit 1915 Standort des größten Mercedes-Benz-Werks weltweit. Generationen von Mitarbeitern haben Werksabzeichen, Jubiläumsuhren, limitierte Modellfahrzeuge (W123, W124-Händlermodelle, Classic-Reihe), Mitarbeiter-Chroniken und seltene Werbebroschüren gesammelt. Besonders wertvoll: signierte Rennfahrer-Fotografien und 1:18-Modelle von Sonderserien."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Böblingen, Herrenberg und Holzgerlingen ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Böblingen, Herrenberg, Holzgerlingen, Aidlingen, Gärtringen, Schönaich und der gesamte Landkreis Böblingen werden abgedeckt. Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist beim Goldberg-Viertel in Sindelfingen besonders?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Das Goldberg-Viertel ist Sindefingens wohlhäbendste Wohnlage – Villen und Einfamilienhäuser aus den 1960er–80er Jahren, bewohnt von Werksangehörigen, Ingenieuren und Unternehmern. Diese Haushalte enthalten hochwertige Möbelgarnituren, Kunstobjekte, Tafelsilber und oft vollständige Mercedes-Benz-Memorabilia-Kollektionen über mehrere Jahrzehnte."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Sindelfingen?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Der Stuttgarter Raum hat eine gute Betriebsdichte – Eiltermine sind häufig möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was macht Sindelfingen als Entrümpelungsstandort besonders?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sindelfingen ist eine der wohlhabendsten Städte im Stuttgarter Umland – stark geprägt von Mercedes-Benz (seit 1915 ansässig, heute ~26.000 Werksmitarbeiter). Das erzeugt eine spezifische Haushaltsstruktur: viele Ingenieursfamilien, Werksmitarbeiter-Generationen und gehobene Kaufkraft. Beide Faktoren zusammen bedeuten hochwertige Inventare und eine hohe Nachfrage nach diskreter Nachlassräumung."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Sindelfingen",
+          "item": "https://entruempelung-deutschland.com/entruempelung-sindelfingen"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Sindelfingen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sindelfingen liegt preislich im gehobenen Stuttgarter Umland-Niveau. Kellerentrümpelungen kosten 150–360 €, Wohnungsräumungen 300–800 €. Einfamilienhäuser im Goldberg-Viertel oder in Darmsheim liegen bei 900–2.400 €. Mercedes-Benz-Modelle, Biedermeier-Möbel und Württemberg-Inventar werden gesichtet und können den Preis senken."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es in Sindelfinger Haushalten Mercedes-Benz-Memorabilia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sehr häufig. Sindelfingen ist seit 1915 Standort des größten Mercedes-Benz-Werks weltweit. Generationen von Mitarbeitern haben Werksabzeichen, Jubiläumsuhren, limitierte Modellfahrzeuge (W123, W124-Händlermodelle, Classic-Reihe), Mitarbeiter-Chroniken und seltene Werbebroschüren gesammelt. Besonders wertvoll: signierte Rennfahrer-Fotografien und 1:18-Modelle von Sonderserien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Böblingen, Herrenberg und Holzgerlingen ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Böblingen, Herrenberg, Holzgerlingen, Aidlingen, Gärtringen, Schönaich und der gesamte Landkreis Böblingen werden abgedeckt. Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist beim Goldberg-Viertel in Sindelfingen besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das Goldberg-Viertel ist Sindefingens wohlhäbendste Wohnlage – Villen und Einfamilienhäuser aus den 1960er–80er Jahren, bewohnt von Werksangehörigen, Ingenieuren und Unternehmern. Diese Haushalte enthalten hochwertige Möbelgarnituren, Kunstobjekte, Tafelsilber und oft vollständige Mercedes-Benz-Memorabilia-Kollektionen über mehrere Jahrzehnte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Sindelfingen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Der Stuttgarter Raum hat eine gute Betriebsdichte – Eiltermine sind häufig möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was macht Sindelfingen als Entrümpelungsstandort besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sindelfingen ist eine der wohlhabendsten Städte im Stuttgarter Umland – stark geprägt von Mercedes-Benz (seit 1915 ansässig, heute ~26.000 Werksmitarbeiter). Das erzeugt eine spezifische Haushaltsstruktur: viele Ingenieursfamilien, Werksmitarbeiter-Generationen und gehobene Kaufkraft. Beide Faktoren zusammen bedeuten hochwertige Inventare und eine hohe Nachfrage nach diskreter Nachlassräumung."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face{font-family:'Oswald';font-style:normal;font-weight:500 700;font-display:swap;src:url('oswald-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('source-sans-3-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}

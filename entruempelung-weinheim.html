@@ -41,88 +41,115 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-weinheim#business",
-        "name": "Entrümpelung Weinheim",
-        "url": "https://entruempelung-deutschland.com/entruempelung-weinheim",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-weinheim#business",
+      "name": "Entrümpelung Weinheim",
+      "url": "https://entruempelung-deutschland.com/entruempelung-weinheim",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Weinheim",
+        "Sulzbach",
+        "Lützelsachsen",
+        "Hohensachsen",
+        "Rippenweier",
+        "Oberflockenbach",
+        "Mannheim",
+        "Heddesheim",
+        "Viernheim",
+        "Hirschberg"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Weinheim", "Sulzbach", "Lützelsachsen", "Hohensachsen", "Rippenweier", "Oberflockenbach", "Mannheim", "Heddesheim", "Viernheim", "Hirschberg"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Entrümpelung Weinheim", "item": "https://entruempelung-deutschland.com/entruempelung-weinheim"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Weinheim?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Weinheim liegt im Mannheimer Umland an der Bergstraße – die Preise liegen auf mittlerem Niveau. Kellerentrümpelungen kosten 130–310 €, Wohnungsräumungen 240–680 €. Vollständige EFH-Räumungen liegen bei 750–1.950 €. Badische Fayencen, Freudenberg-Artefakte und Kurpfälzer Antiquitäten werden gesichtet und verrechnet."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist das Besondere an Weinheimer Haushalten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Weinheim ist die Zweiburgenstadt an der Bergstraße mit zwei mittelalterlichen Burgen. Die Freudenberg Group – einer der weltgrößten Hersteller von Dichtungstechnologien – hat hier seit 1849 ihren Sitz. In Haushalten ehemaliger Freudenberg-Mitarbeiter finden sich Firmen-Artefakte, Jubileumsschriften und Werkschroniken. Daneben alte Kurpfälzer Bürgerhaushalte mit badischen Fayencen und Kurpfälzer Antiquitäten."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Mannheim, Heddesheim und Viernheim ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Mannheim, Heddesheim, Viernheim, Hirschberg und die gesamte Bergstraßenregion werden abgedeckt. Bei der Anfrage einfach den genauen Ort angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Gibt es Freudenberg-Memorabilia in Weinheimer Haushalten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Die Freudenberg Group ist seit 1849 der größte Arbeitgeber Weinheims. In Haushalten ehemaliger Mitarbeiter finden sich Jubileumsschriften, Werkschroniken, Produkt-Musterkoffer und Werbematerialien aus der Unternehmensgeschichte. Frühe Stücke aus der Lederzeit (vor dem Kunststoff-Zeitalter) sind besonders selten."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Weinheim?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Die Rhein-Neckar-Region hat eine hohe Betriebsdichte – Eiltermine in 1–2 Tagen sind häufig möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was sind typische Sammlerstücke in Weinheimer Haushalten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Badische Fayencen aus Durlach und Straßburg (50–600€), Kurpfälzisches Tafelsilber und Glaswaren, Weinheimer Keramik und Töpferwaren, Freudenberg-Firmenchroniken, historische Bergstraßen-Weinliteratur und Weinausstattungen, Lederwaren aus der alten Gerber-Tradition Weinheims sowie Biedermeier- und Gründerzeit-Möbel aus dem Rhein-Neckar-Raum."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Weinheim",
+          "item": "https://entruempelung-deutschland.com/entruempelung-weinheim"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Weinheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weinheim liegt im Mannheimer Umland an der Bergstraße – die Preise liegen auf mittlerem Niveau. Kellerentrümpelungen kosten 130–310 €, Wohnungsräumungen 240–680 €. Vollständige EFH-Räumungen liegen bei 750–1.950 €. Badische Fayencen, Freudenberg-Artefakte und Kurpfälzer Antiquitäten werden gesichtet und verrechnet."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist das Besondere an Weinheimer Haushalten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weinheim ist die Zweiburgenstadt an der Bergstraße mit zwei mittelalterlichen Burgen. Die Freudenberg Group – einer der weltgrößten Hersteller von Dichtungstechnologien – hat hier seit 1849 ihren Sitz. In Haushalten ehemaliger Freudenberg-Mitarbeiter finden sich Firmen-Artefakte, Jubileumsschriften und Werkschroniken. Daneben alte Kurpfälzer Bürgerhaushalte mit badischen Fayencen und Kurpfälzer Antiquitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Mannheim, Heddesheim und Viernheim ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Mannheim, Heddesheim, Viernheim, Hirschberg und die gesamte Bergstraßenregion werden abgedeckt. Bei der Anfrage einfach den genauen Ort angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Freudenberg-Memorabilia in Weinheimer Haushalten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Die Freudenberg Group ist seit 1849 der größte Arbeitgeber Weinheims. In Haushalten ehemaliger Mitarbeiter finden sich Jubileumsschriften, Werkschroniken, Produkt-Musterkoffer und Werbematerialien aus der Unternehmensgeschichte. Frühe Stücke aus der Lederzeit (vor dem Kunststoff-Zeitalter) sind besonders selten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Weinheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Die Rhein-Neckar-Region hat eine hohe Betriebsdichte – Eiltermine in 1–2 Tagen sind häufig möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind typische Sammlerstücke in Weinheimer Haushalten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Badische Fayencen aus Durlach und Straßburg (50–600€), Kurpfälzisches Tafelsilber und Glaswaren, Weinheimer Keramik und Töpferwaren, Freudenberg-Firmenchroniken, historische Bergstraßen-Weinliteratur und Weinausstattungen, Lederwaren aus der alten Gerber-Tradition Weinheims sowie Biedermeier- und Gründerzeit-Möbel aus dem Rhein-Neckar-Raum."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face{font-family:'Oswald';font-style:normal;font-weight:500 700;font-display:swap;src:url('oswald-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('source-sans-3-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}

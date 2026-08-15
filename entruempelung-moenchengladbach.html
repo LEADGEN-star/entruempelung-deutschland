@@ -41,88 +41,115 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach#business",
-        "name": "Entrümpelung Mönchengladbach",
-        "url": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach#business",
+      "name": "Entrümpelung Mönchengladbach",
+      "url": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Mönchengladbach",
+        "Rheydt",
+        "Wickrath",
+        "Hardt",
+        "Odenkirchen",
+        "Eicken",
+        "Giesenkirchen",
+        "Viersen",
+        "Krefeld",
+        "Neuss"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Mönchengladbach", "Rheydt", "Wickrath", "Hardt", "Odenkirchen", "Eicken", "Giesenkirchen", "Viersen", "Krefeld", "Neuss"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Entrümpelung Mönchengladbach", "item": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Mönchengladbach?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Mönchengladbach hat moderate Entrümpelungskosten. Kellerentrümpelungen kosten 130–300 €, Wohnungsräumungen 290–700 €. Alte Arbeiterhäuser aus der Textilzeit in Rheydt und Eicken mit vollständigem Inventar können durch Wertanrechnung günstiger werden. Der genaue Preis wird nach kostenloser Besichtigung als Festpreis angeboten."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist in Gladbacher Haushalten wertvoll?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Besonders häufig: BMG (Borussia Mönchengladbach)-Memorabilia aus den Goldenen 1970ern – Schals, Wimpel, signierte Trikots von Legenden wie Netzer, Heynckes oder Bonhof. Dazu Textilmaschinen-Inventar und Muster aus der Textilindustrie, die Mönchengladbach einst weltberühmt machten. Antike Nähmaschinen (Singer, Pfaff) werden von Sammlern gesucht."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Viersen, Krefeld und Neuss ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Viersen, Krefeld, Willich, Tönisvorst, Neuss und der gesamte Niederrhein werden abgedeckt. Mönchengladbach liegt zentral im linksrheinischen NRW – unsere Betriebe sind in der gesamten Region aktiv."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was macht Rheydt zu einem besonderen Einsatzort?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Rheydt war bis 1975 eine eigenständige Stadt und wurde dann mit Mönchengladbach vereinigt. Der Stadtteil hat seinen eigenen Charakter mit Gründerzeit-Bebauung und einem eigenständigen Marktplatz. Alte Rheydter Haushalte zeigen häufig noch die komplette Einrichtung aus der Wiederaufbauzeit – Wohnzimmer-Garnituren der 1950er–60er, Küchenbüfetts und Herrenzimmer mit kompletter Bibliothek."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Mönchengladbach?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage. Mönchengladbach hat ausreichend aktive Betriebe – Eiltermine bei dringenden Anlässen (Todesfall, Wohnungsabgabe) sind häufig möglich. Bitte bei der Anfrage Dringlichkeit und Stadtteil angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Gibt es einen Unterschied zwischen Mönchengladbach und Rheydt?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Für Entrümpelungen spielt die historische Trennung kaum eine Rolle – wir bedienen das gesamte Stadtgebiet Mönchengladbachs inklusive Rheydt, Wickrath, Hardt und alle anderen Stadtbezirke. Preislich gibt es keine nennenswerten Unterschiede zwischen den Stadtteilen."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Mönchengladbach",
+          "item": "https://entruempelung-deutschland.com/entruempelung-moenchengladbach"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Mönchengladbach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mönchengladbach hat moderate Entrümpelungskosten. Kellerentrümpelungen kosten 130–300 €, Wohnungsräumungen 290–700 €. Alte Arbeiterhäuser aus der Textilzeit in Rheydt und Eicken mit vollständigem Inventar können durch Wertanrechnung günstiger werden. Der genaue Preis wird nach kostenloser Besichtigung als Festpreis angeboten."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist in Gladbacher Haushalten wertvoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Besonders häufig: BMG (Borussia Mönchengladbach)-Memorabilia aus den Goldenen 1970ern – Schals, Wimpel, signierte Trikots von Legenden wie Netzer, Heynckes oder Bonhof. Dazu Textilmaschinen-Inventar und Muster aus der Textilindustrie, die Mönchengladbach einst weltberühmt machten. Antike Nähmaschinen (Singer, Pfaff) werden von Sammlern gesucht."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Viersen, Krefeld und Neuss ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Viersen, Krefeld, Willich, Tönisvorst, Neuss und der gesamte Niederrhein werden abgedeckt. Mönchengladbach liegt zentral im linksrheinischen NRW – unsere Betriebe sind in der gesamten Region aktiv."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was macht Rheydt zu einem besonderen Einsatzort?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rheydt war bis 1975 eine eigenständige Stadt und wurde dann mit Mönchengladbach vereinigt. Der Stadtteil hat seinen eigenen Charakter mit Gründerzeit-Bebauung und einem eigenständigen Marktplatz. Alte Rheydter Haushalte zeigen häufig noch die komplette Einrichtung aus der Wiederaufbauzeit – Wohnzimmer-Garnituren der 1950er–60er, Küchenbüfetts und Herrenzimmer mit kompletter Bibliothek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Mönchengladbach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage. Mönchengladbach hat ausreichend aktive Betriebe – Eiltermine bei dringenden Anlässen (Todesfall, Wohnungsabgabe) sind häufig möglich. Bitte bei der Anfrage Dringlichkeit und Stadtteil angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es einen Unterschied zwischen Mönchengladbach und Rheydt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für Entrümpelungen spielt die historische Trennung kaum eine Rolle – wir bedienen das gesamte Stadtgebiet Mönchengladbachs inklusive Rheydt, Wickrath, Hardt und alle anderen Stadtbezirke. Preislich gibt es keine nennenswerten Unterschiede zwischen den Stadtteilen."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face{font-family:'Oswald';font-style:normal;font-weight:500 700;font-display:swap;src:url('oswald-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('source-sans-3-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
