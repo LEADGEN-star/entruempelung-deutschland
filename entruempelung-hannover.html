@@ -44,89 +44,118 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-hannover#business",
-        "name": "Entrümpelung Hannover",
-        "url": "https://entruempelung-deutschland.com/entruempelung-hannover",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-hannover#business",
+      "name": "Entrümpelung Hannover",
+      "url": "https://entruempelung-deutschland.com/entruempelung-hannover",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Hannover",
+        "Linden",
+        "Döhren",
+        "Misburg",
+        "Vahrenwald",
+        "Bothfeld",
+        "Ricklingen",
+        "Südstadt",
+        "Buchholz",
+        "Langenhagen",
+        "Garbsen",
+        "Seelze"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Hannover", "Linden", "Döhren", "Misburg", "Vahrenwald", "Bothfeld", "Ricklingen", "Südstadt", "Buchholz", "Langenhagen", "Garbsen", "Seelze"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Hannover", "item": "https://entruempelung-deutschland.com/entruempelung-hannover"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Hannover?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hannover liegt preislich im westdeutschen Mittelfeld. Kellerentrümpelungen kosten 150–400 €, Wohnungsräumungen 350–900 €. Reihenhäuser aus den 1960er–70er Jahren in Misburg oder Döhren mit vollständigem Inventar liegen eher am oberen Ende. Festpreis nach kostenloser Vor-Ort-Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Können alte Pelikan-Füller aus Hannover Sammlerwert haben?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, erheblich. Pelikan hat seinen Stammsitz in Hannover und produzierte seit 1929 Füllfederhalter. Alte Pelikan-Modelle (100er, 140, 400, M800) erzielen bei Sammlern 50–400 € pro Stück, je nach Zustand und Modell. Auch alte Pelikan-Emaildosen, Werbeartikel und vollständige Tintenflaschensätze sind gefragt. Unsere Betriebe sichten das Inventar vor der Entsorgung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch Reihenhäuser aus den 1960er–70er Jahren?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, das ist einer der häufigsten Auftragstypen in Hannover. Der Wiederaufbau nach dem Krieg hinterließ viele Reihenhäuser und Einfamilienhäuser in den Außenbezirken (Misburg, Bothfeld, Döhren-Wülfel). Diese Häuser stehen oft nach dem Tod der Ersteigentümer zur Auflösung an – vollständig möbliert mit Wirtschaftswunder-Inventar. Unsere Betriebe kümmern sich um alles: Keller, Dachboden, Garage."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch das Umland ab – Langenhagen, Garbsen, Seelze?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Langenhagen, Garbsen, Seelze, Barsinghausen, Burgdorf, Springe und die gesamte Region Hannover werden von unseren Partnerbetrieben mitabgedeckt. Auch Hildesheim und Hameln sind auf Anfrage möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Hannover?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine 3-Zimmer-Altbauwohnung in Linden wird in der Regel an einem Tag geräumt. Ein Reihenhaus mit Keller, Dachboden und Garage kann 1,5 bis 2 Tage beanspruchen."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was passiert mit Möbeln aus dem Wirtschaftswunder (Nierentisch, Teak, Musiktruhe)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hannover wurde im Krieg zu 50% zerstört und danach komplett neu aufgebaut – entsprechend viel Mobiliar stammt aus den 1950er–70er Jahren. Gut erhaltene Nierentische, Teakholz-Schlafzimmer und Musiktruhen (Grundig, Telefunken) haben auf dem Vintagemarkt echten Wert. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen verwertbare Stücke mit dem Räumungspreis."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Hannover",
+          "item": "https://entruempelung-deutschland.com/entruempelung-hannover"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Hannover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hannover liegt preislich im westdeutschen Mittelfeld. Kellerentrümpelungen kosten 150–400 €, Wohnungsräumungen 350–900 €. Reihenhäuser aus den 1960er–70er Jahren in Misburg oder Döhren mit vollständigem Inventar liegen eher am oberen Ende. Festpreis nach kostenloser Vor-Ort-Besichtigung."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Können alte Pelikan-Füller aus Hannover Sammlerwert haben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, erheblich. Pelikan hat seinen Stammsitz in Hannover und produzierte seit 1929 Füllfederhalter. Alte Pelikan-Modelle (100er, 140, 400, M800) erzielen bei Sammlern 50–400 € pro Stück, je nach Zustand und Modell. Auch alte Pelikan-Emaildosen, Werbeartikel und vollständige Tintenflaschensätze sind gefragt. Unsere Betriebe sichten das Inventar vor der Entsorgung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch Reihenhäuser aus den 1960er–70er Jahren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, das ist einer der häufigsten Auftragstypen in Hannover. Der Wiederaufbau nach dem Krieg hinterließ viele Reihenhäuser und Einfamilienhäuser in den Außenbezirken (Misburg, Bothfeld, Döhren-Wülfel). Diese Häuser stehen oft nach dem Tod der Ersteigentümer zur Auflösung an – vollständig möbliert mit Wirtschaftswunder-Inventar. Unsere Betriebe kümmern sich um alles: Keller, Dachboden, Garage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch das Umland ab – Langenhagen, Garbsen, Seelze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Langenhagen, Garbsen, Seelze, Barsinghausen, Burgdorf, Springe und die gesamte Region Hannover werden von unseren Partnerbetrieben mitabgedeckt. Auch Hildesheim und Hameln sind auf Anfrage möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Hannover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine 3-Zimmer-Altbauwohnung in Linden wird in der Regel an einem Tag geräumt. Ein Reihenhaus mit Keller, Dachboden und Garage kann 1,5 bis 2 Tage beanspruchen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert mit Möbeln aus dem Wirtschaftswunder (Nierentisch, Teak, Musiktruhe)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hannover wurde im Krieg zu 50% zerstört und danach komplett neu aufgebaut – entsprechend viel Mobiliar stammt aus den 1950er–70er Jahren. Gut erhaltene Nierentische, Teakholz-Schlafzimmer und Musiktruhen (Grundig, Telefunken) haben auf dem Vintagemarkt echten Wert. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen verwertbare Stücke mit dem Räumungspreis."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

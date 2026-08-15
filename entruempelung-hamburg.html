@@ -44,89 +44,118 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-hamburg#business",
-        "name": "Entrümpelung Hamburg",
-        "url": "https://entruempelung-deutschland.com/entruempelung-hamburg",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-hamburg#business",
+      "name": "Entrümpelung Hamburg",
+      "url": "https://entruempelung-deutschland.com/entruempelung-hamburg",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Hamburg",
+        "Altona",
+        "Eimsbüttel",
+        "Barmbek",
+        "Blankenese",
+        "Wandsbek",
+        "Bergedorf",
+        "Harburg",
+        "Norderstedt",
+        "Ahrensburg",
+        "Reinbek",
+        "Pinneberg"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Hamburg","Altona","Eimsbüttel","Barmbek","Blankenese","Wandsbek","Bergedorf","Harburg","Norderstedt","Ahrensburg","Reinbek","Pinneberg"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Hamburg", "item": "https://entruempelung-deutschland.com/entruempelung-hamburg"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Hamburg?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kellerentrümpelungen in Hamburg kosten 150–400 €, Wohnungsräumungen 350–1.000 €. Altbauten in Eimsbüttel oder Altona mit engen Treppenhäusern liegen am oberen Ende; Reihenhäuser in Wandsbek oder Bergedorf am unteren. Villen in den Elbvororten beginnen ab 1.000 €. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Können maritime Sammlerstücke aus Hamburger Haushalten den Preis senken?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja – Hamburg hat als größter Seehafen Deutschlands eine außergewöhnliche Dichte maritimer Objekte in Privathaushalten. HAPAG-Lloyd-Memorabilia, Schiffsmodelle in Glaskasten, Sextanten, Logbücher und Hamburg-Amerika-Linie-Postkarten erzielen bei Sammlern hohe Preise. Unsere Betriebe sichten das Inventar vor Entsorgung und verrechnen Fundstücke direkt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist bei Altbauten in Altona und Eimsbüttel besonders?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Gründerzeit-Altbauten in Altona und Eimsbüttel haben oft enge Treppenhäuser, Hochparterre mit extra Stufen und keine Aufzüge. Klinker-Fassaden und Dielenboden sind der Standard. Unsere Betriebe bringen die nötige Mannschaft mit und kalkulieren diese Faktoren in den Festpreis ein."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch in den Elbvororten – Blankenese, Wedel, Nienstedten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Die Elbvororte mit ihren Villen und großen Einfamilienhäusern sind ein klassisches Auftragsgebiet für Nachlassräumungen. Oft große Inventarmengen, hochwertige Möbel und maritime Erbstücke. Wir bewerten vor Ort und erstellen ein Festpreisangebot."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie lange dauert eine Haushaltsauflösung in Hamburg?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Eine 2–3-Zimmer-Wohnung in Hamburg wird in der Regel an einem Tag geräumt. Ein Altbau-Haushalt in Altona mit viel Inventar kann 1–2 Tage dauern; eine Villa in Blankenese mit Keller und Dachboden 2–3 Tage. Termine sind typischerweise 3–7 Werktage nach Anfrage möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch das Hamburger Umland ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Norderstedt, Ahrensburg, Reinbek, Pinneberg, Wedel, Stade und der gesamte Hamburger Speckgürtel werden von unseren Partnerbetrieben abgedeckt. Einfach den genauen Ort bei der Anfrage angeben."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Hamburg",
+          "item": "https://entruempelung-deutschland.com/entruempelung-hamburg"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Hamburg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellerentrümpelungen in Hamburg kosten 150–400 €, Wohnungsräumungen 350–1.000 €. Altbauten in Eimsbüttel oder Altona mit engen Treppenhäusern liegen am oberen Ende; Reihenhäuser in Wandsbek oder Bergedorf am unteren. Villen in den Elbvororten beginnen ab 1.000 €. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Können maritime Sammlerstücke aus Hamburger Haushalten den Preis senken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja – Hamburg hat als größter Seehafen Deutschlands eine außergewöhnliche Dichte maritimer Objekte in Privathaushalten. HAPAG-Lloyd-Memorabilia, Schiffsmodelle in Glaskasten, Sextanten, Logbücher und Hamburg-Amerika-Linie-Postkarten erzielen bei Sammlern hohe Preise. Unsere Betriebe sichten das Inventar vor Entsorgung und verrechnen Fundstücke direkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist bei Altbauten in Altona und Eimsbüttel besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gründerzeit-Altbauten in Altona und Eimsbüttel haben oft enge Treppenhäuser, Hochparterre mit extra Stufen und keine Aufzüge. Klinker-Fassaden und Dielenboden sind der Standard. Unsere Betriebe bringen die nötige Mannschaft mit und kalkulieren diese Faktoren in den Festpreis ein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch in den Elbvororten – Blankenese, Wedel, Nienstedten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Die Elbvororte mit ihren Villen und großen Einfamilienhäusern sind ein klassisches Auftragsgebiet für Nachlassräumungen. Oft große Inventarmengen, hochwertige Möbel und maritime Erbstücke. Wir bewerten vor Ort und erstellen ein Festpreisangebot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert eine Haushaltsauflösung in Hamburg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine 2–3-Zimmer-Wohnung in Hamburg wird in der Regel an einem Tag geräumt. Ein Altbau-Haushalt in Altona mit viel Inventar kann 1–2 Tage dauern; eine Villa in Blankenese mit Keller und Dachboden 2–3 Tage. Termine sind typischerweise 3–7 Werktage nach Anfrage möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch das Hamburger Umland ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Norderstedt, Ahrensburg, Reinbek, Pinneberg, Wedel, Stade und der gesamte Hamburger Speckgürtel werden von unseren Partnerbetrieben abgedeckt. Einfach den genauen Ort bei der Anfrage angeben."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

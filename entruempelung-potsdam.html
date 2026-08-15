@@ -44,81 +44,119 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-potsdam#business",
-        "name": "Entrümpelung Potsdam",
-        "url": "https://entruempelung-deutschland.com/entruempelung-potsdam",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-potsdam#business",
+      "name": "Entrümpelung Potsdam",
+      "url": "https://entruempelung-deutschland.com/entruempelung-potsdam",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Potsdam",
+        "Babelsberg",
+        "Brandenburger Vorstadt",
+        "Waldstadt",
+        "Drewitz",
+        "Schlaatz",
+        "Stern",
+        "Eiche",
+        "Golm",
+        "Bornstedt",
+        "Nauener Vorstadt",
+        "Innenstadt",
+        "Potsdam-West",
+        "Marquardt",
+        "Fahrland",
+        "Groß Glienicke",
+        "Krampnitz",
+        "Umland Potsdam",
+        "Teltow",
+        "Werder",
+        "Nuthetal"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Potsdam","Babelsberg","Brandenburger Vorstadt","Waldstadt","Drewitz","Schlaatz","Stern","Eiche","Golm","Bornstedt","Nauener Vorstadt","Innenstadt","Potsdam-West","Marquardt","Fahrland","Groß Glienicke","Krampnitz","Umland Potsdam","Teltow","Werder","Nuthetal"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Potsdam", "item": "https://entruempelung-deutschland.com/entruempelung-potsdam"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Potsdam?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kellerentrümpelungen in Potsdam kosten 130–350 €, Wohnungsräumungen 250–900 €. DDR-Plattenbauten in Waldstadt und Schlaatz liegen am unteren Ende; Gründerzeit-Villen in der Brandenburger Vorstadt oder Nauener Vorstadt mit engen Treppen am oberen. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Haben DEFA-Sammlungen und DDR-Filmdevotionalien aus Potsdam Sammlerwert?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Potsdam-Babelsberg war Standort der DEFA – des größten DDR-Filmstudios. In Babelsberger Haushalten finden sich häufig DEFA-Filmplakate, Drehbücher, Kostümskizzen und Filmtechnik aus den Studios. Originalplakate von DEFA-Klassikern erzielen bei Sammlern 50–400 € pro Stück. Unsere Betriebe sichten das Inventar vor der Entsorgung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Entrümpelt ihr auch Villen und Herrenhäuser im Potsdamer Umland?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja – Potsdams Umland hat viele historische Herrenhäuser und Villen aus der Kaiserzeit, oft mit komplexen Kellern, Dachböden und Nebengebäuden. Wir übernehmen auch großvolumige Räumungen in Werder, Teltow, Nuthetal und dem Havelland. Festpreis nach Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch DDR-Plattenbauten in Waldstadt und Schlaatz?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja – die großen Potsdamer Plattenbau-Viertel Waldstadt I & II, Schlaatz und Drewitz gehören zu unserem Einzugsgebiet. Typische DDR-Haushalte mit Schrankwänden, Werkzeug und Haushaltsgeräten werden komplett geräumt und fachgerecht entsorgt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell bekommen wir einen Termin in Potsdam?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Termine in Potsdam sind in der Regel innerhalb von 3–7 Werktagen möglich. Für dringende Räumungen (Wohnungsübergabe, Erbfall) sprechen Sie uns direkt an: +49 157 30064205."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Potsdam",
+          "item": "https://entruempelung-deutschland.com/entruempelung-potsdam"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Potsdam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellerentrümpelungen in Potsdam kosten 130–350 €, Wohnungsräumungen 250–900 €. DDR-Plattenbauten in Waldstadt und Schlaatz liegen am unteren Ende; Gründerzeit-Villen in der Brandenburger Vorstadt oder Nauener Vorstadt mit engen Treppen am oberen. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Haben DEFA-Sammlungen und DDR-Filmdevotionalien aus Potsdam Sammlerwert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Potsdam-Babelsberg war Standort der DEFA – des größten DDR-Filmstudios. In Babelsberger Haushalten finden sich häufig DEFA-Filmplakate, Drehbücher, Kostümskizzen und Filmtechnik aus den Studios. Originalplakate von DEFA-Klassikern erzielen bei Sammlern 50–400 € pro Stück. Unsere Betriebe sichten das Inventar vor der Entsorgung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entrümpelt ihr auch Villen und Herrenhäuser im Potsdamer Umland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja – Potsdams Umland hat viele historische Herrenhäuser und Villen aus der Kaiserzeit, oft mit komplexen Kellern, Dachböden und Nebengebäuden. Wir übernehmen auch großvolumige Räumungen in Werder, Teltow, Nuthetal und dem Havelland. Festpreis nach Besichtigung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch DDR-Plattenbauten in Waldstadt und Schlaatz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja – die großen Potsdamer Plattenbau-Viertel Waldstadt I & II, Schlaatz und Drewitz gehören zu unserem Einzugsgebiet. Typische DDR-Haushalte mit Schrankwänden, Werkzeug und Haushaltsgeräten werden komplett geräumt und fachgerecht entsorgt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell bekommen wir einen Termin in Potsdam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Termine in Potsdam sind in der Regel innerhalb von 3–7 Werktagen möglich. Für dringende Räumungen (Wohnungsübergabe, Erbfall) sprechen Sie uns direkt an: +49 157 30064205."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
     @font-face{font-family:'Oswald';font-style:normal;font-weight:400 700;font-display:swap;src:url('/fonts/oswald-latin.woff2') format('woff2')}
     @font-face{font-family:'Source Sans 3';font-style:normal;font-weight:400 600;font-display:swap;src:url('/fonts/source-sans-3-latin.woff2') format('woff2')}

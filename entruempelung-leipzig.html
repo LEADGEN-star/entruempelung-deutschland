@@ -44,89 +44,117 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-leipzig#business",
-        "name": "Entrümpelung Leipzig",
-        "url": "https://entruempelung-deutschland.com/entruempelung-leipzig",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-leipzig#business",
+      "name": "Entrümpelung Leipzig",
+      "url": "https://entruempelung-deutschland.com/entruempelung-leipzig",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Leipzig",
+        "Grünau",
+        "Connewitz",
+        "Gohlis",
+        "Plagwitz",
+        "Lindenau",
+        "Reudnitz",
+        "Paunsdorf",
+        "Markkleeberg",
+        "Taucha",
+        "Schkeuditz"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Leipzig", "Grünau", "Connewitz", "Gohlis", "Plagwitz", "Lindenau", "Reudnitz", "Paunsdorf", "Markkleeberg", "Taucha", "Schkeuditz"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Leipzig", "item": "https://entruempelung-deutschland.com/entruempelung-leipzig"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Leipzig?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Leipzig liegt preislich unter dem westdeutschen Durchschnitt. Kellerentrümpelungen kosten 130–360 €, Wohnungsräumungen 300–800 € je nach Größe und Füllstand. Gründerzeit-Wohnungen in Gohlis oder Connewitz mit tiefen Kellern und vollem Inventar liegen eher am oberen Ende. Festpreis wird nach kostenloser Vor-Ort-Besichtigung verbindlich angeboten."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist bei Entrümpelungen in Grünauer Plattenbauten zu beachten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Grünau ist Leipzigs größte Plattenbausiedlung mit über 36.000 Wohnungen, hauptsächlich WBS-70-Typ (11 Stockwerke, 2–3 Zimmer, ca. 55–65 m²). Die Aufzüge sind oft schmal – Möbel müssen ggf. zerlegt werden. Unsere Betriebe kennen die Gebäude und kalkulieren Transportaufwand realistisch ein. Typische Räumungen: Seniorenwohnungen mit vollständigem DDR-Mobiliar aus den 1970er–1990er Jahren."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Hat DDR-Inventar aus Leipzig Sammlerwert?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, teilweise erheblich. Leipzig war Buchstadt – alte Reclam-Bände, Karl-May-Ausgaben und Erstdrucke aus dem Brockhaus-Verlag werden von Antiquariaten bezahlt. Grafiken und Druckgrafiken der Hochschule für Grafik und Buchkunst Leipzig (HGB) sind auf dem Kunstmarkt gefragt. Meissener Porzellan findet sich häufig in Sachsen und erzielt stabile Preise. Druckmaschinen und Schreibmaschinen (VEB Robotron, Optima) haben Liebhaber. Was echt ist, wird direkt mit dem Räumungspreis verrechnet."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch in Gewerbehöfen und Ateliers in Plagwitz oder Lindenau?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Plagwitz und das Westliche Ringgebiet haben viele umgenutzte Fabrikhallen und Ateliergebäude (u.a. Baumwollspinnerei, Westwerk). Gewerbeauflösungen in großen Hallen, Druckereien oder Ateliers mit sperrigem Inventar sind für unsere Betriebe Routine. Wir vermitteln Unternehmen mit eigenem Schwerlasttransport."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch den Speckgürtel um Leipzig ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Markkleeberg, Taucha, Schkeuditz, Markranstädt, Borsdorf und der Landkreis Leipzig-Land werden von unseren Partnerbetrieben mitabgedeckt. Auch Bitterfeld-Wolfen und Halle (Saale) sind auf Anfrage möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie lange dauert eine Wohnungsräumung in Leipzig?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Eine 2-Zimmer-Wohnung wird typischerweise an einem Arbeitstag geräumt (2–3 Mann, 6–8 Stunden). Gründerzeit-Wohnungen mit tiefen Kellern und vollem Inventar, wie sie in Gohlis oder Reudnitz häufig sind, können 1,5 bis 2 Tage in Anspruch nehmen. Bei der Besichtigung wird die genaue Zeit realistisch eingeschätzt."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Leipzig",
+          "item": "https://entruempelung-deutschland.com/entruempelung-leipzig"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Leipzig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leipzig liegt preislich unter dem westdeutschen Durchschnitt. Kellerentrümpelungen kosten 130–360 €, Wohnungsräumungen 300–800 € je nach Größe und Füllstand. Gründerzeit-Wohnungen in Gohlis oder Connewitz mit tiefen Kellern und vollem Inventar liegen eher am oberen Ende. Festpreis wird nach kostenloser Vor-Ort-Besichtigung verbindlich angeboten."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist bei Entrümpelungen in Grünauer Plattenbauten zu beachten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grünau ist Leipzigs größte Plattenbausiedlung mit über 36.000 Wohnungen, hauptsächlich WBS-70-Typ (11 Stockwerke, 2–3 Zimmer, ca. 55–65 m²). Die Aufzüge sind oft schmal – Möbel müssen ggf. zerlegt werden. Unsere Betriebe kennen die Gebäude und kalkulieren Transportaufwand realistisch ein. Typische Räumungen: Seniorenwohnungen mit vollständigem DDR-Mobiliar aus den 1970er–1990er Jahren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hat DDR-Inventar aus Leipzig Sammlerwert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, teilweise erheblich. Leipzig war Buchstadt – alte Reclam-Bände, Karl-May-Ausgaben und Erstdrucke aus dem Brockhaus-Verlag werden von Antiquariaten bezahlt. Grafiken und Druckgrafiken der Hochschule für Grafik und Buchkunst Leipzig (HGB) sind auf dem Kunstmarkt gefragt. Meissener Porzellan findet sich häufig in Sachsen und erzielt stabile Preise. Druckmaschinen und Schreibmaschinen (VEB Robotron, Optima) haben Liebhaber. Was echt ist, wird direkt mit dem Räumungspreis verrechnet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch in Gewerbehöfen und Ateliers in Plagwitz oder Lindenau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Plagwitz und das Westliche Ringgebiet haben viele umgenutzte Fabrikhallen und Ateliergebäude (u.a. Baumwollspinnerei, Westwerk). Gewerbeauflösungen in großen Hallen, Druckereien oder Ateliers mit sperrigem Inventar sind für unsere Betriebe Routine. Wir vermitteln Unternehmen mit eigenem Schwerlasttransport."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch den Speckgürtel um Leipzig ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Markkleeberg, Taucha, Schkeuditz, Markranstädt, Borsdorf und der Landkreis Leipzig-Land werden von unseren Partnerbetrieben mitabgedeckt. Auch Bitterfeld-Wolfen und Halle (Saale) sind auf Anfrage möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert eine Wohnungsräumung in Leipzig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine 2-Zimmer-Wohnung wird typischerweise an einem Arbeitstag geräumt (2–3 Mann, 6–8 Stunden). Gründerzeit-Wohnungen mit tiefen Kellern und vollem Inventar, wie sie in Gohlis oder Reudnitz häufig sind, können 1,5 bis 2 Tage in Anspruch nehmen. Bei der Besichtigung wird die genaue Zeit realistisch eingeschätzt."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

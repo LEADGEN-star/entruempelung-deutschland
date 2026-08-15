@@ -44,97 +44,126 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-frankfurt#business",
-        "name": "Entrümpelung Frankfurt",
-        "url": "https://entruempelung-deutschland.com/entruempelung-frankfurt",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-frankfurt#business",
+      "name": "Entrümpelung Frankfurt",
+      "url": "https://entruempelung-deutschland.com/entruempelung-frankfurt",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Frankfurt am Main",
+        "Sachsenhausen",
+        "Bornheim",
+        "Nordend",
+        "Bockenheim",
+        "Ostend",
+        "Griesheim",
+        "Bergen-Enkheim",
+        "Rödelheim",
+        "Offenbach",
+        "Hanau",
+        "Bad Homburg"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Frankfurt am Main", "Sachsenhausen", "Bornheim", "Nordend", "Bockenheim", "Ostend", "Griesheim", "Bergen-Enkheim", "Rödelheim", "Offenbach", "Hanau", "Bad Homburg"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Frankfurt", "item": "https://entruempelung-deutschland.com/entruempelung-frankfurt"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Frankfurt am Main?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Frankfurt liegt preislich im oberen Mittelfeld. Kellerentrümpelungen kosten 180–420 €, Wohnungsräumungen 450–1.400 € je nach Größe und Füllstand. Gründerzeit-Wohnungen in Bornheim oder Nordend mit tiefen Kellern und vollem Inventar liegen eher am oberen Ende. Der verbindliche Festpreis wird nach kostenloser Vor-Ort-Besichtigung genannt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist bei Entrümpelungen in Frankfurter Hochhäusern zu beachten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Frankfurt hat neben dem Bankenviertel auch viele Wohnhochhäuser aus den 1960er–80er Jahren in Griesheim, Niederrad und Sachsenhausen-Süd. Aufzüge sind oft schmal, Möbel müssen zerlegt werden. Halteverbote vor dem Gebäude müssen beantragt werden – unsere Betriebe übernehmen das."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Gibt es in Frankfurter Haushalten Sammlerwert-Gegenstände?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Frankfurt war und ist Messestadt und Finanzmetropole. In Haushalten finden sich häufig historische Wertpapiere (Aktien, Obligationen aus Frankfurter Emissionshäusern), alte Bembel (Steingutknöpfe, Apfelweinkrüge der ältesten Töpfereien erzielen 30–150 €), Judaica aus der bedeutenden jüdischen Gemeinde, Buchmesse-Erstdrucke und Messemusterstücke."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch den Frankfurter Speckgürtel ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Offenbach, Hanau, Bad Homburg, Oberursel, Eschborn, Langen, Dreieich und der gesamte Rhein-Main-Raum werden von unseren Partnerbetrieben abgedeckt. Bitte Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie läuft eine Nachlassräumung in Frankfurt diskret ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Unsere Betriebe arbeiten diskret und respektvoll. Vor der Entsorgung werden alle Gegenstände gesichtet. Verwertbares – Schmuck, Porzellan, Bücher, Wertpapiere – wird dokumentiert und direkt mit dem Räumungspreis verrechnet. Wohnungsübergabe erfolgt besenrein zum vereinbarten Termin."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Frankfurt?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine bei Wohnungsübergabe oder Nachlasssituationen sind oft kürzer möglich. Eine 2-Zimmer-Wohnung wird in der Regel an einem Arbeitstag geräumt (2–3 Personen, 5–7 Stunden)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist der Unterschied zwischen Entrümpelung und Sperrmüll in Frankfurt?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sperrmüll über die Stadt Frankfurt am Main ist kostenlos, aber auf maximal 2 Kubikmeter pro Haushalt und bestimmte Materialien beschränkt. Für eine vollständige Wohnungs- oder Kellerräumung reicht das nicht. Eine professionelle Entrümpelung räumt vollständig, entsorgt fachgerecht inklusive Sondermüll (Lacke, Batterien, Elektroschrott) und liefert besenreine Übergabe. Bei einer 2-Zimmer-Wohnung liegt der Mehrpreis gegenüber Sperrmüll bei 400–700 €, dafür entfällt der gesamte Eigenaufwand."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Frankfurt",
+          "item": "https://entruempelung-deutschland.com/entruempelung-frankfurt"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Frankfurt am Main?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frankfurt liegt preislich im oberen Mittelfeld. Kellerentrümpelungen kosten 180–420 €, Wohnungsräumungen 450–1.400 € je nach Größe und Füllstand. Gründerzeit-Wohnungen in Bornheim oder Nordend mit tiefen Kellern und vollem Inventar liegen eher am oberen Ende. Der verbindliche Festpreis wird nach kostenloser Vor-Ort-Besichtigung genannt."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist bei Entrümpelungen in Frankfurter Hochhäusern zu beachten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frankfurt hat neben dem Bankenviertel auch viele Wohnhochhäuser aus den 1960er–80er Jahren in Griesheim, Niederrad und Sachsenhausen-Süd. Aufzüge sind oft schmal, Möbel müssen zerlegt werden. Halteverbote vor dem Gebäude müssen beantragt werden – unsere Betriebe übernehmen das."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es in Frankfurter Haushalten Sammlerwert-Gegenstände?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Frankfurt war und ist Messestadt und Finanzmetropole. In Haushalten finden sich häufig historische Wertpapiere (Aktien, Obligationen aus Frankfurter Emissionshäusern), alte Bembel (Steingutknöpfe, Apfelweinkrüge der ältesten Töpfereien erzielen 30–150 €), Judaica aus der bedeutenden jüdischen Gemeinde, Buchmesse-Erstdrucke und Messemusterstücke."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch den Frankfurter Speckgürtel ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Offenbach, Hanau, Bad Homburg, Oberursel, Eschborn, Langen, Dreieich und der gesamte Rhein-Main-Raum werden von unseren Partnerbetrieben abgedeckt. Bitte Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie läuft eine Nachlassräumung in Frankfurt diskret ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unsere Betriebe arbeiten diskret und respektvoll. Vor der Entsorgung werden alle Gegenstände gesichtet. Verwertbares – Schmuck, Porzellan, Bücher, Wertpapiere – wird dokumentiert und direkt mit dem Räumungspreis verrechnet. Wohnungsübergabe erfolgt besenrein zum vereinbarten Termin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Frankfurt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine bei Wohnungsübergabe oder Nachlasssituationen sind oft kürzer möglich. Eine 2-Zimmer-Wohnung wird in der Regel an einem Arbeitstag geräumt (2–3 Personen, 5–7 Stunden)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist der Unterschied zwischen Entrümpelung und Sperrmüll in Frankfurt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sperrmüll über die Stadt Frankfurt am Main ist kostenlos, aber auf maximal 2 Kubikmeter pro Haushalt und bestimmte Materialien beschränkt. Für eine vollständige Wohnungs- oder Kellerräumung reicht das nicht. Eine professionelle Entrümpelung räumt vollständig, entsorgt fachgerecht inklusive Sondermüll (Lacke, Batterien, Elektroschrott) und liefert besenreine Übergabe. Bei einer 2-Zimmer-Wohnung liegt der Mehrpreis gegenüber Sperrmüll bei 400–700 €, dafür entfällt der gesamte Eigenaufwand."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

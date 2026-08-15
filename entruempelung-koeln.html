@@ -44,89 +44,119 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-koeln#business",
-        "name": "Entrümpelung Köln",
-        "url": "https://entruempelung-deutschland.com/entruempelung-koeln",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-koeln#business",
+      "name": "Entrümpelung Köln",
+      "url": "https://entruempelung-deutschland.com/entruempelung-koeln",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Köln",
+        "Belgisches Viertel",
+        "Nippes",
+        "Ehrenfeld",
+        "Mülheim",
+        "Lindenthal",
+        "Sülz",
+        "Rodenkirchen",
+        "Kalk",
+        "Chorweiler",
+        "Leverkusen",
+        "Bergisch Gladbach",
+        "Pulheim"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Köln","Belgisches Viertel","Nippes","Ehrenfeld","Mülheim","Lindenthal","Sülz","Rodenkirchen","Kalk","Chorweiler","Leverkusen","Bergisch Gladbach","Pulheim"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Köln", "item": "https://entruempelung-deutschland.com/entruempelung-koeln"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Köln?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kellerentrümpelungen in Köln kosten 140–420 €, Wohnungsräumungen 380–950 €. Gründerzeitaltbauten im Belgischen Viertel oder Nippes mit tiefen Kelleranlagen liegen am oberen Ende; Chorweiler-Hochhäuser am unteren. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Können Antiquitäten und Sammlerstücke aus Kölner Haushalten Wert haben?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. In Kölner Haushalten finden sich regelmäßig historisches Rheinisches Steinzeug (Kölner Keramiktraditionen), alte Karnevalsorden aus Jahrzehnten, Kunstdrucke und Editionen aus dem Umfeld von Wallraf-Richartz-Museum und Ludwig Museum sowie 4711-Sammlerstücke. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen Fundstücke direkt mit dem Räumungspreis."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist beim Räumen von Altbauten im Belgischen Viertel zu beachten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Das Belgische Viertel hat dichte Gründerzeitbebauung mit engen Treppenhäusern ohne Fahrstuhl und mehrstöckigen Kelleranlagen. Designmöbel, Kunstobjekte und Mediabranche-Inventar (WDR/RTL-Haushalt) erfordern Sorgfalt bei der Sichtung. Die Parksituation für Lkw ist auf dem Ring komplex – Stellgenehmigungen werden im Vorfeld beantragt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch Chorweiler-Hochhäuser und Kalk?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Chorweiler (1970er Plattenbau-Satellitenstadt), Kalk (ehemalige Industrielagen, günstige Altbauten) und Mülheim werden regelmäßig bedient. Enge Aufzüge erfordern Möbeldemontage – das planen wir im Vorfeld bei der Besichtigung mit ein."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Leverkusen, Bergisch Gladbach und den Rhein-Erft-Kreis ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Unsere Partnerbetriebe sind auch in Leverkusen, Bergisch Gladbach, Pulheim, Frechen, Hürth, Brühl und dem gesamten Rhein-Erft-Kreis aktiv. Einfach den genauen Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Köln?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine Sülz-WG (3 Zimmer) wird in der Regel an einem Tag geräumt. Eine Rodenkirchen-Villa mit Keller, Dachboden und Garage kann 1,5 bis 2 Tage in Anspruch nehmen."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Köln",
+          "item": "https://entruempelung-deutschland.com/entruempelung-koeln"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Köln?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellerentrümpelungen in Köln kosten 140–420 €, Wohnungsräumungen 380–950 €. Gründerzeitaltbauten im Belgischen Viertel oder Nippes mit tiefen Kelleranlagen liegen am oberen Ende; Chorweiler-Hochhäuser am unteren. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Können Antiquitäten und Sammlerstücke aus Kölner Haushalten Wert haben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. In Kölner Haushalten finden sich regelmäßig historisches Rheinisches Steinzeug (Kölner Keramiktraditionen), alte Karnevalsorden aus Jahrzehnten, Kunstdrucke und Editionen aus dem Umfeld von Wallraf-Richartz-Museum und Ludwig Museum sowie 4711-Sammlerstücke. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen Fundstücke direkt mit dem Räumungspreis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist beim Räumen von Altbauten im Belgischen Viertel zu beachten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das Belgische Viertel hat dichte Gründerzeitbebauung mit engen Treppenhäusern ohne Fahrstuhl und mehrstöckigen Kelleranlagen. Designmöbel, Kunstobjekte und Mediabranche-Inventar (WDR/RTL-Haushalt) erfordern Sorgfalt bei der Sichtung. Die Parksituation für Lkw ist auf dem Ring komplex – Stellgenehmigungen werden im Vorfeld beantragt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch Chorweiler-Hochhäuser und Kalk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Chorweiler (1970er Plattenbau-Satellitenstadt), Kalk (ehemalige Industrielagen, günstige Altbauten) und Mülheim werden regelmäßig bedient. Enge Aufzüge erfordern Möbeldemontage – das planen wir im Vorfeld bei der Besichtigung mit ein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Leverkusen, Bergisch Gladbach und den Rhein-Erft-Kreis ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Unsere Partnerbetriebe sind auch in Leverkusen, Bergisch Gladbach, Pulheim, Frechen, Hürth, Brühl und dem gesamten Rhein-Erft-Kreis aktiv. Einfach den genauen Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Köln?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine Sülz-WG (3 Zimmer) wird in der Regel an einem Tag geräumt. Eine Rodenkirchen-Villa mit Keller, Dachboden und Garage kann 1,5 bis 2 Tage in Anspruch nehmen."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

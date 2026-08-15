@@ -49,75 +49,105 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://entruempelung-deutschland.com/#website",
-        "url": "https://entruempelung-deutschland.com",
-        "name": "Entrümpelung Deutschland",
-        "description": "Vermittlung geprüfter Entrümpelungsbetriebe bundesweit",
-        "inLanguage": "de"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://entruempelung-deutschland.com/#website",
+      "url": "https://entruempelung-deutschland.com",
+      "name": "Entrümpelung Deutschland",
+      "description": "Vermittlung geprüfter Entrümpelungsbetriebe bundesweit",
+      "inLanguage": "de"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/#business",
+      "name": "Entrümpelung Deutschland",
+      "url": "https://entruempelung-deutschland.com",
+      "telephone": "+4915730064205",
+      "description": "Vermittlung geprüfter Entrümpelungsbetriebe in ganz Deutschland – für Haushaltsauflösung, Kellerentrümpelung und Wohnungsräumung.",
+      "priceRange": "€€",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Deutschland"
       },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/#business",
-        "name": "Entrümpelung Deutschland",
-        "url": "https://entruempelung-deutschland.com",
-        "telephone": "+4915730064205",
-        "description": "Vermittlung geprüfter Entrümpelungsbetriebe in ganz Deutschland – für Haushaltsauflösung, Kellerentrümpelung und Wohnungsräumung.",
-        "priceRange": "€€",
-        "areaServed": {"@type": "Country", "name": "Deutschland"},
-        "serviceType": ["Entrümpelung", "Haushaltsauflösung", "Wohnungsauflösung", "Kellerentrümpelung"],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "postalCode": "98693",
-          "addressLocality": "Ilmenau",
-          "addressCountry": "DE"
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-          "opens": "08:00",
-          "closes": "18:00"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "50.68240",
-          "longitude": "10.91970"
-        },
-        "hasMap": "https://maps.google.com/?q=Albert-Pulvers-Stra%C3%9Fe+12,+98693+Ilmenau"
+      "serviceType": [
+        "Entrümpelung",
+        "Haushaltsauflösung",
+        "Wohnungsauflösung",
+        "Kellerentrümpelung"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "postalCode": "98693",
+        "addressLocality": "Ilmenau",
+        "addressCountry": "DE"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Die Kosten hängen vom Umfang ab. Eine Kellerentrümpelung beginnt ab ca. 150–300 €, eine Wohnungsauflösung kostet typischerweise 600–1.500 €. Wir vermitteln kostenlos einen passenden Betrieb – das Angebot ist immer unverbindlich."}
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell kann eine Entrümpelung stattfinden?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Viele unserer Partnerbetriebe bieten Termine innerhalb von 2–5 Werktagen an. Bei dringenden Fällen ist oft auch kurzfristigere Durchführung möglich. Nach Ihrer Anfrage melden wir uns innerhalb von 24 Stunden."}
-          },
-          {
-            "@type": "Question",
-            "name": "Ist die Vermittlung wirklich kostenlos?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Ja, die Vermittlung über Entruempelung-Deutschland.com ist vollständig kostenlos und unverbindlich. Sie zahlen nichts, wenn Sie kein passendes Angebot erhalten."}
-          },
-          {
-            "@type": "Question",
-            "name": "In welchen Städten vermitteln Sie?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Wir vermitteln bundesweit – unter anderem in Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart, Düsseldorf, Hannover, Nürnberg, Leipzig, Dresden, Bonn, Duisburg, Augsburg und Koblenz."}
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "50.68240",
+        "longitude": "10.91970"
+      },
+      "hasMap": "https://maps.google.com/?q=Albert-Pulvers-Stra%C3%9Fe+12,+98693+Ilmenau",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg",
+      "sameAs": [
+        "https://www.cylex.de/de-de/firma/entruempelung-deutschland-31009619.html"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Kosten hängen vom Umfang ab. Eine Kellerentrümpelung beginnt ab ca. 150–300 €, eine Wohnungsauflösung kostet typischerweise 600–1.500 €. Wir vermitteln kostenlos einen passenden Betrieb – das Angebot ist immer unverbindlich."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell kann eine Entrümpelung stattfinden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Viele unserer Partnerbetriebe bieten Termine innerhalb von 2–5 Werktagen an. Bei dringenden Fällen ist oft auch kurzfristigere Durchführung möglich. Nach Ihrer Anfrage melden wir uns innerhalb von 24 Stunden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist die Vermittlung wirklich kostenlos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, die Vermittlung über Entruempelung-Deutschland.com ist vollständig kostenlos und unverbindlich. Sie zahlen nichts, wenn Sie kein passendes Angebot erhalten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In welchen Städten vermitteln Sie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir vermitteln bundesweit – unter anderem in Berlin, München, Hamburg, Frankfurt, Köln, Stuttgart, Düsseldorf, Hannover, Nürnberg, Leipzig, Dresden, Bonn, Duisburg, Augsburg und Koblenz."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>/* latin-ext – für deutsche Umlaute (ä, ö, ü, ß) */
 @font-face {
   font-family: 'Oswald';

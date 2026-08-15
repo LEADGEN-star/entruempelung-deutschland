@@ -44,89 +44,118 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-duesseldorf#business",
-        "name": "Entrümpelung Düsseldorf",
-        "url": "https://entruempelung-deutschland.com/entruempelung-duesseldorf",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-duesseldorf#business",
+      "name": "Entrümpelung Düsseldorf",
+      "url": "https://entruempelung-deutschland.com/entruempelung-duesseldorf",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Düsseldorf",
+        "Oberkassel",
+        "Flingern",
+        "Pempelfort",
+        "Gerresheim",
+        "Garath",
+        "Bilk",
+        "Carlstadt",
+        "Golzheim",
+        "Meerbusch",
+        "Ratingen",
+        "Neuss"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Düsseldorf", "Oberkassel", "Flingern", "Pempelfort", "Gerresheim", "Garath", "Bilk", "Carlstadt", "Golzheim", "Meerbusch", "Ratingen", "Neuss"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Düsseldorf", "item": "https://entruempelung-deutschland.com/entruempelung-duesseldorf"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Düsseldorf?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Kellerentrümpelungen in Düsseldorf kosten 150–420 €, Wohnungsräumungen 380–1.000 €. Oberkassel-Villen mit Keller und Dachboden liegen am oberen Ende; Garath-Plattenbauten am unteren. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Können Kunstwerke und Antiquitäten aus Düsseldorfer Haushalten Wert haben?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Düsseldorf ist Standort der Kunstakademie, aus der Beuys, Richter und Kiefer hervorgingen. In gut bürgerlichen Haushalten finden sich häufig Grafiken, Editionen und Kunsthandwerk mit echtem Marktwert. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen Fundstücke direkt mit dem Räumungspreis."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist bei Oberkassel-Villen beim Räumen zu beachten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oberkassel ist Düsseldorfs teuerster Wohnstadtteil am linken Rheinufer. Die Gründerzeit- und Jugendstilvillen haben weitläufige Keller, Dachböden und oft hochwertiges Inventar: Silberbesteck, Gemälde, antike Möbel. Nachlassräumungen erfordern hier besondere Sorgfalt bei der Inventarsichtung. Unsere Betriebe kennen lokale Auktionshäuser und Galeristen und können werthaltige Stücke gezielt herausfiltern."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Räumt ihr auch im Medienhafen und bei Gewerberäumen?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Büroauflösungen, Lagerräumungen und Gewerberäumungen in Düsseldorf – auch im Medienhafen und auf der Messe – werden regelmäßig durchgeführt. Auch kurzfristige Termine bei Betriebsaufgabe oder Mieterenden sind möglich."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch Neuss, Meerbusch und Ratingen ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Unsere Partnerbetriebe sind auch in Neuss, Meerbusch, Ratingen, Erkrath und im Rhein-Kreis Neuss aktiv. Einfach den genauen Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Düsseldorf?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine Garath-Wohnung (2–3 Zimmer) wird typischerweise an einem Tag geräumt. Eine Oberkassel-Villa mit Keller und Dachboden kann 1,5–2 Tage beanspruchen."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Düsseldorf",
+          "item": "https://entruempelung-deutschland.com/entruempelung-duesseldorf"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Düsseldorf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kellerentrümpelungen in Düsseldorf kosten 150–420 €, Wohnungsräumungen 380–1.000 €. Oberkassel-Villen mit Keller und Dachboden liegen am oberen Ende; Garath-Plattenbauten am unteren. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Können Kunstwerke und Antiquitäten aus Düsseldorfer Haushalten Wert haben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Düsseldorf ist Standort der Kunstakademie, aus der Beuys, Richter und Kiefer hervorgingen. In gut bürgerlichen Haushalten finden sich häufig Grafiken, Editionen und Kunsthandwerk mit echtem Marktwert. Unsere Betriebe sichten das Inventar vor der Entsorgung und verrechnen Fundstücke direkt mit dem Räumungspreis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist bei Oberkassel-Villen beim Räumen zu beachten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oberkassel ist Düsseldorfs teuerster Wohnstadtteil am linken Rheinufer. Die Gründerzeit- und Jugendstilvillen haben weitläufige Keller, Dachböden und oft hochwertiges Inventar: Silberbesteck, Gemälde, antike Möbel. Nachlassräumungen erfordern hier besondere Sorgfalt bei der Inventarsichtung. Unsere Betriebe kennen lokale Auktionshäuser und Galeristen und können werthaltige Stücke gezielt herausfiltern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Räumt ihr auch im Medienhafen und bei Gewerberäumen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Büroauflösungen, Lagerräumungen und Gewerberäumungen in Düsseldorf – auch im Medienhafen und auf der Messe – werden regelmäßig durchgeführt. Auch kurzfristige Termine bei Betriebsaufgabe oder Mieterenden sind möglich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch Neuss, Meerbusch und Ratingen ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Unsere Partnerbetriebe sind auch in Neuss, Meerbusch, Ratingen, Erkrath und im Rhein-Kreis Neuss aktiv. Einfach den genauen Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Düsseldorf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Eiltermine vor Wohnungsübergabe sind oft früher möglich. Eine Garath-Wohnung (2–3 Zimmer) wird typischerweise an einem Tag geräumt. Eine Oberkassel-Villa mit Keller und Dachboden kann 1,5–2 Tage beanspruchen."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';

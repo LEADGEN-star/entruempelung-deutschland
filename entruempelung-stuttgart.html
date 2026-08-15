@@ -44,89 +44,117 @@
   setTimeout(loadTracking, 3000);
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://entruempelung-deutschland.com/entruempelung-stuttgart#business",
-        "name": "Entrümpelung Stuttgart",
-        "url": "https://entruempelung-deutschland.com/entruempelung-stuttgart",
-        "telephone": "+4915730064205",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Albert-Pulvers-Straße 12",
-          "addressLocality": "Ilmenau",
-          "postalCode": "98693",
-          "addressCountry": "DE"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://entruempelung-deutschland.com/entruempelung-stuttgart#business",
+      "name": "Entrümpelung Stuttgart",
+      "url": "https://entruempelung-deutschland.com/entruempelung-stuttgart",
+      "telephone": "+4915730064205",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albert-Pulvers-Straße 12",
+        "addressLocality": "Ilmenau",
+        "postalCode": "98693",
+        "addressCountry": "DE"
+      },
+      "areaServed": [
+        "Stuttgart",
+        "Bad Cannstatt",
+        "Zuffenhausen",
+        "Degerloch",
+        "Feuerbach",
+        "Untertürkheim",
+        "Vaihingen",
+        "Möhringen",
+        "Ludwigsburg",
+        "Esslingen",
+        "Leonberg"
+      ],
+      "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung",
+      "image": "https://entruempelung-deutschland.com/og-image.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://entruempelung-deutschland.com/"
         },
-        "areaServed": ["Stuttgart", "Bad Cannstatt", "Zuffenhausen", "Degerloch", "Feuerbach", "Untertürkheim", "Vaihingen", "Möhringen", "Ludwigsburg", "Esslingen", "Leonberg"],
-        "serviceType": "Entrümpelung, Haushaltsauflösung, Kellerentrümpelung, Nachlassräumung"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://entruempelung-deutschland.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Alle Städte", "item": "https://entruempelung-deutschland.com/staedte"},
-          {"@type": "ListItem", "position": 3, "name": "Entrümpelung Stuttgart", "item": "https://entruempelung-deutschland.com/entruempelung-stuttgart"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was kostet eine Entrümpelung in Stuttgart?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Stuttgart liegt preislich im oberen Mittelfeld. Kellerentrümpelungen kosten 170–400 €, Wohnungsräumungen 450–1.500 € je nach Größe und Füllstand. Hanglagen und enge Treppen in Stuttgart-West erhöhen den Aufwand und damit den Preis leicht. Der verbindliche Festpreis wird nach kostenloser Vor-Ort-Besichtigung genannt."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Was ist bei Entrümpelungen in Stuttgarter Hanglagen besonders?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Stuttgart ist extrem hügelig – Stadtteile wie Stuttgart-West, Heslach oder der Stuttgarter Süden haben enge Treppenhäuser und oft keine Aufzüge. Möbel müssen über steile Wendeltreppen getragen werden. Manchmal gibt es keinen direkten Straßenzugang; das erhöht den Trageaufwand. Unsere Betriebe kalkulieren das bei der Besichtigung realistisch ein."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Gibt es Porsche- oder Mercedes-Memorabilia in Stuttgarter Haushalten?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, regelmäßig. In Zuffenhausen und Umgebung (Nähe Porsche-Stammwerk) finden sich häufig Werksangehörigen-Memorabilia: originale Motorsport-Pokale, signierte Fahrerfotos, frühe Modellfahrzeuge und Werkskalender. Mercedes-Benz-Memorabilia (Untertürkheim/Sindelfingen) wird ebenfalls gefunden. Bosch-Werkzeug und frühe elektrische Haushaltsgeräte aus dem Werk Feuerbach haben Sammlerwert."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Deckt ihr auch den Stuttgarter Speckgürtel ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja. Ludwigsburg, Esslingen, Leonberg, Sindelfingen, Böblingen, Waiblingen, Fellbach und der gesamte Raum Stuttgart werden abgedeckt. Ort bei der Anfrage angeben."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie läuft eine Haushaltsauflösung nach einem Todesfall in Stuttgart ab?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Diskret und respektvoll. Unsere Betriebe sichten alle Gegenstände vor der Entsorgung. Verwertbares – Schmuck, Porzellan, Porsche-Memorabilia, Werkzeug – wird mit dem Räumungspreis verrechnet. Sie erhalten eine Auflistung der verwerteten Stücke. Wohnungsübergabe erfolgt besenrein."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Wie schnell gibt es einen Termin in Stuttgart?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Typischerweise 3–7 Werktage ab Anfrage. Eine 2-Zimmer-Wohnung wird an einem Arbeitstag geräumt. In Hanglagen mit erschwertem Zugang etwas länger – der Betrieb schätzt das bei der Besichtigung realistisch ein."
-            }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Alle Städte",
+          "item": "https://entruempelung-deutschland.com/staedte"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Entrümpelung Stuttgart",
+          "item": "https://entruempelung-deutschland.com/entruempelung-stuttgart"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet eine Entrümpelung in Stuttgart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stuttgart liegt preislich im oberen Mittelfeld. Kellerentrümpelungen kosten 170–400 €, Wohnungsräumungen 450–1.500 € je nach Größe und Füllstand. Hanglagen und enge Treppen in Stuttgart-West erhöhen den Aufwand und damit den Preis leicht. Der verbindliche Festpreis wird nach kostenloser Vor-Ort-Besichtigung genannt."
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist bei Entrümpelungen in Stuttgarter Hanglagen besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stuttgart ist extrem hügelig – Stadtteile wie Stuttgart-West, Heslach oder der Stuttgarter Süden haben enge Treppenhäuser und oft keine Aufzüge. Möbel müssen über steile Wendeltreppen getragen werden. Manchmal gibt es keinen direkten Straßenzugang; das erhöht den Trageaufwand. Unsere Betriebe kalkulieren das bei der Besichtigung realistisch ein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Porsche- oder Mercedes-Memorabilia in Stuttgarter Haushalten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, regelmäßig. In Zuffenhausen und Umgebung (Nähe Porsche-Stammwerk) finden sich häufig Werksangehörigen-Memorabilia: originale Motorsport-Pokale, signierte Fahrerfotos, frühe Modellfahrzeuge und Werkskalender. Mercedes-Benz-Memorabilia (Untertürkheim/Sindelfingen) wird ebenfalls gefunden. Bosch-Werkzeug und frühe elektrische Haushaltsgeräte aus dem Werk Feuerbach haben Sammlerwert."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deckt ihr auch den Stuttgarter Speckgürtel ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ludwigsburg, Esslingen, Leonberg, Sindelfingen, Böblingen, Waiblingen, Fellbach und der gesamte Raum Stuttgart werden abgedeckt. Ort bei der Anfrage angeben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie läuft eine Haushaltsauflösung nach einem Todesfall in Stuttgart ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diskret und respektvoll. Unsere Betriebe sichten alle Gegenstände vor der Entsorgung. Verwertbares – Schmuck, Porzellan, Porsche-Memorabilia, Werkzeug – wird mit dem Räumungspreis verrechnet. Sie erhalten eine Auflistung der verwerteten Stücke. Wohnungsübergabe erfolgt besenrein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie schnell gibt es einen Termin in Stuttgart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typischerweise 3–7 Werktage ab Anfrage. Eine 2-Zimmer-Wohnung wird an einem Arbeitstag geräumt. In Hanglagen mit erschwertem Zugang etwas länger – der Betrieb schätzt das bei der Besichtigung realistisch ein."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
 @font-face {
   font-family: 'Oswald';
