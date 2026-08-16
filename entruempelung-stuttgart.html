@@ -315,6 +315,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Stuttgart ✓ ab 170 € – Festpreis, 24h Antwort" />
@@ -443,12 +454,15 @@
     <div class="section-label">Leistungen in Stuttgart</div>
     <h2>Was wir in Stuttgart vermitteln</h2>
     <p class="subtitle">Vom Porsche-Werksangehörigen-Nachlass in Zuffenhausen bis zur Villa am Hang in Degerloch – wir finden den richtigen Betrieb für Stuttgarts anspruchsvolle Topografie.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Stuttgart anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Stuttgart</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Enge Treppenhäuser in Hanglagen und schwieriger Straßenzugang sind für unsere Betriebe Alltag.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Stuttgart</h3><p>Diskrete, vollständige Hausräumungen – inkl. Bewertung von Wertgegenständen. Porsche- und Mercedes-Memorabilia, Bosch-Werkzeug und württembergisches Kunsthandwerk werden vor der Entsorgung gesichtet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Stuttgart</h3><p>Viele Stuttgarter Einfamilienhäuser haben tiefe Keller und zusätzliche Hangkeller mit mehreren Kammern. Auch Garagen in den Wohngebieten am Hang werden mitgeräumt.</p></div>
       <div class="card"><h3>🏠 Einfamilienhaus &amp; Villa</h3><p>Degerloch, Vaihingen und Möhringen haben viele Villen und Einfamilienhäuser aus den 1950er–80er Jahren. Dachboden, Keller, Garage und Werkstatt in einer Räumung.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

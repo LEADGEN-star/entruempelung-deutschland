@@ -277,6 +277,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Freising ✓ ab 150 € – Festpreis, 24h Antwort" />
@@ -395,12 +406,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Freising</div>
     <h2>Was wir in Freising und Umgebung vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Freising und Umgebung anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Freising</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. In der Freisinger Altstadt: historische Häuser mit Gewölbekellern und schwierigem Zugang. In Pulling, Neustift und Lerchenfeld: typische Nachkriegs-Einfamilienhäuser mit vollständigem Inventar.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Freising</h3><p>Diskrete Hausräumungen in Freisinger Bürger- und Priesterhäusern. In Altstadthäusern mit langer Geschichte finden sich gelegentlich kirchliche Artefakte, historische Stadtdokumente und Biedermeier-Möbel aus Freisings langer Bistumsgeschichte.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Freising</h3><p>Freisinger Altstadthäuser haben Gewölbekeller und Souterrains mit jahrzehntelangem Inhalt. Einfamilienhäuser in Lerchenfeld und Vötting haben tiefe Kellerräume. Professionelle Räumung inkl. Entsorgungsnachweis.</p></div>
       <div class="card"><h3>✈️ Flughafen-Region &amp; Gewerbe</h3><p>In Hallbergmoos, Schwaig und der Flughafenregion: Gewerbeobjekte, Logistikflächen und Büroauflösungen. Durch die internationale Flughafenpräsenz auch Wohnungsauflösungen nach Auslandsversetzung häufig.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

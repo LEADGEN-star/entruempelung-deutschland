@@ -279,6 +279,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Weinheim ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -397,12 +408,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Weinheim</div>
     <h2>Was wir in Weinheim vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Weinheim anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Weinheim</h3><p>Komplette Wohnungsräumungen – bei Umzug, Todesfall oder Sanierung. Altbauwohnungen in der Weinheimer Innenstadt und Einfamilienhäuser in Sulzbach und Lützelsachsen gehören zu den häufigsten Aufträgen.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Weinheim</h3><p>Diskrete Hausräumungen inkl. Bewertung von badischen Fayencen, Kurpfälzer Antiquitäten, Freudenberg-Artefakten und Bergstraßen-Weinkultur-Objekten. Verwertbares wird direkt verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Weinheim</h3><p>Ältere Weinheimer Häuser haben oft tiefe Keller und Nebengebäude mit jahrzehntelangem Inventar. Alle Nebengebäude und Garagen auf Wunsch in einem Auftrag mitgeräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Büroauflösung</h3><p>Gewerbliche Räumungen in Weinheim und der Bergstraßenregion: Büros, Lager, Praxen und Werkstätten im Freudenberg-Umfeld und den Gewerbegebieten Weinheims.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

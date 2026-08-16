@@ -240,6 +240,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
 .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
 .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Berlin Friedrichshain ✓ ab 150 € – Festpreis" />
@@ -358,12 +369,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Friedrichshain</div>
     <h2>Was wir in Friedrichshain vermitteln</h2>
     <p class="subtitle">Ob WG-Auflösung, Altbau-Nachlass oder Gewerberäumung im Gewerbehof – wir finden den richtigen Betrieb.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Friedrichshain anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Friedrichshain</h3><p>Komplette Räumung von Altbauwohnungen inkl. Möbeldemontage, Sperrmüllentsorgung und besenreiner Übergabe an den Vermieter.</p></div>
       <div class="card"><h3>👥 WG-Räumung &amp; Teilräumung</h3><p>Einzelne Zimmer, ausgewählte Möbelstücke oder komplette WG-Auflösungen – auch kurzfristige Termine möglich.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung</h3><p>Altbaukeller in Friedrichshain sind oft tief und verwinkelt. Wir vermitteln Betriebe mit Erfahrung in solchen Zugangssituationen.</p></div>
       <div class="card"><h3>🏢 Gewerberäumung</h3><p>Büros, Ateliers, Gewerbehöfe – fachgerechte Räumung von Gewerberäumen, auch kurzfristig und über Wochenende.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

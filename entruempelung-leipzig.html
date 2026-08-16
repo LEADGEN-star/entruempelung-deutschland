@@ -312,6 +312,17 @@
     .direct-answer{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;margin:0}
     .direct-answer p{font-size:.98rem;color:#14532d;line-height:1.7;margin:0}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Leipzig ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -415,12 +426,15 @@
     <div class="section-label">Leistungen in Leipzig</div>
     <h2>Was wir in Leipzig vermitteln</h2>
     <p class="subtitle">Von der einzelnen Kellerkammer bis zur Komplettauflösung von Gewerbeeinheiten in Plagwitz – wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Leipzig anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Leipzig</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Altbauten mit 3-Meter-Decken und tiefen Kellern sind unseren Betrieben vertraut.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Leipzig</h3><p>Gesamte Hausräumungen diskret und professionell – inkl. Bewertung von Wertgegenständen. Verrechnung verwertbarer Objekte direkt mit dem Räumungspreis.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Leipzig</h3><p>Gründerzeithäuser in Gohlis, Connewitz und Reudnitz haben oft tiefe Kellergewölbe mit mehreren Kammern. Schnelle Räumung zum verbindlichen Preis.</p></div>
       <div class="card"><h3>🏭 Gewerbeauflösung Leipzig</h3><p>Ateliers, Gewerbehöfe und Fabrikhallen in Plagwitz und Lindenau – fachgerechte Räumung auch bei sperriger Ausstattung und großen Flächen.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

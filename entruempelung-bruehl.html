@@ -280,6 +280,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Brühl ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -398,12 +409,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Brühl</div>
     <h2>Was wir in Brühl vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Brühl anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Brühl</h3><p>Komplette Wohnungsräumungen – bei Umzug, Todesfall oder Sanierung. Altbaubestände in Pingsdorf und Badorf sowie Einfamilienhäuser in Vochem und Schwadorf sind häufige Auftragstypen.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Brühl</h3><p>Diskrete Hausräumungen inkl. Bewertung von Pingsdorfer Keramik, Barock-Antiquitäten, rheinischem Tafelsilber und Gründerzeit-Möbeln. Verwertbares wird direkt verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Brühl</h3><p>Ältere Brühler Häuser, besonders in Pingsdorf und der Innenstadt, haben oft tief gefüllte Keller mit jahrzehntelangem Bestand. Alle Nebengebäude auf Wunsch in einem Auftrag mitgeräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Büroauflösung</h3><p>Gewerbliche Auflösungen im Rhein-Erft-Kreis: Büros, Lager, Werkstätten und Gastronomie in Brühl und Umgebung. Schnelle Terminvergabe möglich.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

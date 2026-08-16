@@ -239,6 +239,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .t-desc{font-size:.88rem;color:var(--muted);margin-top:.3rem;line-height:1.5}
 .answer-box{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0}
 .answer-box p{font-size:1rem;color:#14532d;line-height:1.7;margin:0}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Gostenhof Nürnberg ✓ ab 150 € – Festpreis, 24h" />
@@ -361,12 +372,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Gostenhof</div>
     <h2>Was wir in Gostenhof vermitteln</h2>
     <p class="subtitle">Vom Altbau-Keller bis zur kompletten Wohnungsauflösung – wir finden den richtigen Betrieb für Ihren Auftrag im GoHo.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Gostenhof anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Gostenhof</h3><p>Komplette Räumung von Wohnungen im Gostenhof – inklusive Möbeltransport, Sperrmüllentsorgung und besenreiner Übergabe an Vermieter oder Erben.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung</h3><p>Gostenhof hat viele Altbauten mit großen Kellergemächern. Wir räumen Keller vollständig aus – Sperrmüll, alte Möbel, Gerümpel aller Art. Ab 150 €.</p></div>
       <div class="card"><h3>🏘️ WG-Auflösung</h3><p>WG-Auflösungen im GoHo sind häufig – gemischtes Mobiliar, Elektrogeräte, viel Kleinkram. Kurzfristige Termine, faire Festpreise.</p></div>
       <div class="card"><h3>🧹 Haushaltsauflösung nach Todesfall</h3><p>Diskrete und respektvolle Räumung nach Sterbfall. Der Betrieb geht behutsam vor, erhält was gewünscht ist und entsorgt den Rest fachgerecht.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

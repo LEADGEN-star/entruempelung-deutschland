@@ -275,6 +275,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Dachau ✓ ab 150 € – Festpreis, 24h Antwort" />
@@ -393,12 +404,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Dachau</div>
     <h2>Was wir in Dachau und im Landkreis vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Dachau und im Landkreis anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Dachau</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. Dachau hat eine hohe Eigenheim-Dichte aus den 1950er–70er Jahren – vollständige Familienhaushalte nach Generationenwechsel sind typisch.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Dachau</h3><p>Diskrete Hausräumungen in Einfamilienhäusern und Altbauwohnungen. In Altdachau finden sich häufig vollständige Bürgerhaushalte mit Mobiliar aus dem 19.–20. Jahrhundert – darunter gelegentlich Gemälde der Dachauer Malerschule.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Dachau</h3><p>Einfamilienhäuser und Reihenhäuser im Landkreis Dachau haben häufig tiefe Keller mit jahrzehntelangem Inhalt. Professionelle Räumung inkl. Entsorgungsnachweis – auch Werkstätten und Garagen auf Anfrage.</p></div>
       <div class="card"><h3>🏡 Gartenhaus &amp; Ländliche Objekte</h3><p>Im Landkreis Dachau gibt es auch ländliche Gemeinden mit Hofgebäuden und Freizeitgrundstücken. Scheunenleerungen, Gartenhaus-Räumungen und Außenbereich-Räumungen auf Anfrage.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

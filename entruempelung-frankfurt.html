@@ -330,6 +330,17 @@
     /* Ablauf was-passiert */
     .ablauf-detail{background:#fffbf7;border:1px solid #f0e6dc;border-radius:8px;padding:1.2rem 1.4rem;margin-top:.8rem}
     .ablauf-detail p{font-size:.88rem;color:var(--muted);line-height:1.6;margin:0}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Frankfurt ✓ ab 160 € – Festpreis, 24h Antwort" />
@@ -458,12 +469,15 @@
     <div class="section-label">Leistungen in Frankfurt</div>
     <h2>Was wir in Frankfurt vermitteln</h2>
     <p class="subtitle">Vom Nachlass einer Bankerfamilie in Sachsenhausen bis zur Gewerbefläche im Ostend – wir finden den richtigen Betrieb für jeden Räumungsauftrag in Frankfurt.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Frankfurt anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Frankfurt</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Altbauten in Bornheim und Nordend mit tiefen Kellern und vollen Abstellkammern sind unseren Betrieben vertraut.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Frankfurt</h3><p>Gesamte Hausräumungen diskret und professionell – inkl. Bewertung von Wertgegenständen. Verwertbare Objekte (Antiquitäten, Porzellan, Wertpapiere) werden direkt mit dem Räumungspreis verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Frankfurt</h3><p>Gründerzeithäuser in Bornheim, Nordend und Sachsenhausen haben oft tiefe Kellergewölbe. Auch Hochhausabstellräume in Griesheim und Niederrad werden zuverlässig geräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbeauflösung Frankfurt</h3><p>Büros, Ladenlokale und Lagerräume im Ostend, Sachsenhausen und Westend – fachgerechte Räumung mit kurzen Wegen zu gewerblichen Entsorgungsstellen im Rhein-Main-Gebiet.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

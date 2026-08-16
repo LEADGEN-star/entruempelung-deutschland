@@ -240,6 +240,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .t-desc{font-size:.88rem;color:var(--muted);margin-top:.3rem;line-height:1.5}
 .answer-box{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0}
 .answer-box p{font-size:1rem;color:#14532d;line-height:1.7;margin:0}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Nürnberg Altstadt ✓ ab 200 € – Festpreis, 24h" />
@@ -362,12 +373,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in der Altstadt</div>
     <h2>Was wir in der Nürnberger Altstadt vermitteln</h2>
     <p class="subtitle">Von der historischen Fachwerketage bis zum Kellergewölbe – wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in der Nürnberger Altstadt anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Altstadt</h3><p>Räumung von Wohnungen in historischen Altstadthäusern – mit dem nötigen Respekt für enge Treppenhäuser, wertvolle Böden und alte Bausubstanz. Besenreine Übergabe.</p></div>
       <div class="card"><h3>🎨 Nachlassverwertung &amp; Sichtung</h3><p>Nürnberger Altstadtnachlässe können Keramik, historisches Spielzeug, alte Stiche und Kunstgegenstände enthalten. Betriebe sichten systematisch vor der Entsorgung.</p></div>
       <div class="card"><h3>🪣 Keller &amp; Gewölbe</h3><p>Historische Keller in der Nürnberger Altstadt sind einzigartig – teilweise bis ins Mittelalter zurückreichend. Fachgerechte Räumung auch bei beengten Verhältnissen.</p></div>
       <div class="card"><h3>🏢 Laden- &amp; Gewerbeauflösung</h3><p>Ladengeschäfte, Ateliers und kleine Gewerbeeinheiten in der Altstadt – fachgerechte Räumung inkl. Schaufensterausstattung, Regale und Inventar.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

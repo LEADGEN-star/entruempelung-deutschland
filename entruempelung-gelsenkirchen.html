@@ -279,6 +279,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Gelsenkirchen ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -397,12 +408,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Gelsenkirchen</div>
     <h2>Was wir in Gelsenkirchen vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Gelsenkirchen anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Gelsenkirchen</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. Zechenwohnungen in Schalke und Bismarck mit jahrzehntelangem Inventar gehören zu den häufigsten Aufträgen.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Gelsenkirchen</h3><p>Diskrete Hausräumungen – inkl. Bewertung von Schalke-Memorabilia, Grubenlampen und Bergmann-Inventar. Verwertbares wird direkt mit dem Räumungspreis verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Gelsenkirchen</h3><p>Zechenkolonien-Reihenhäuser haben typischerweise Kohlenkeller, Waschküchenraum und Holzschuppen – alle werden in einem Auftrag geräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Industrie</h3><p>Gelsenkirchens Industriegeschichte hinterlässt Gewerbeauflösungen: Lagerräume, alte Werkstätten und Zechennebengebäude. Schwerlasttransport verfügbar.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

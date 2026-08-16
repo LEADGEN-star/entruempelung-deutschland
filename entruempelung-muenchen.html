@@ -300,6 +300,17 @@
     .breadcrumb a{color:var(--muted);text-decoration:none}
     .step-num{font-family:'Oswald',sans-serif;font-size:2.5rem;font-weight:700;color:var(--orange);margin-bottom:.5rem;display:block}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung München ✓ ab 180 € – Festpreis, 24h Antwort" />
@@ -403,6 +414,8 @@
     <div class="section-label">Leistungen in München</div>
     <h2>Was wir in München vermitteln</h2>
     <p class="subtitle">Von der Altbau-Wohnung in Schwabing bis zur Villa in Bogenhausen – wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in München anzeigen</summary>
     <div class="grid-2">
       <div class="card">
         <h3>Wohnungsauflösung München</h3>
@@ -421,6 +434,7 @@
         <p>Büros, Praxen, Werkstätten – fachgerechte Räumung aller Gewerberäume in München und Umland. Auch kurzfristig möglich bei Mietende oder Insolvenz.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

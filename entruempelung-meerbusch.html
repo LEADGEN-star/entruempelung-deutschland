@@ -280,6 +280,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Meerbusch ✓ ab 150 € – Festpreis, 24h Antwort" />
@@ -398,12 +409,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Meerbusch</div>
     <h2>Was wir in Meerbusch vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Meerbusch anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Meerbusch</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. Meerbuscher Villen mit hochwertigen Inventaren gehören zu den anspruchsvollsten Aufträgen im Düsseldorfer Raum.</p></div>
       <div class="card"><h3>🏚️ Nachlassräumung Meerbusch</h3><p>Diskrete Hausräumungen nach Todesfall – vollständige Inventare mit Gemälden, Tafelsilber und Kunstobjekten werden inventarisiert. Auf Wunsch werden Stücke für Erben reserviert.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Meerbusch</h3><p>Meerbuscher Einfamilienhäuser und Villen haben oft große Keller und Garagen mit jahrzehntelangem Inventar – Weinkeller, Werkzeug, Sportausrüstung, Gartengeräte.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Atelier</h3><p>Meerbusch hat vereinzelt Gewerbe- und Dienstleistungsbetriebe. Praxisauflösungen, Büroräumungen und Atelierauflösungen werden professionell durchgeführt.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

@@ -239,6 +239,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
 .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
 .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Berlin Steglitz-Zehlendorf ✓ ab 200 € – Festpreis" />
@@ -357,12 +368,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Steglitz-Zehlendorf</div>
     <h2>Was wir in Steglitz-Zehlendorf vermitteln</h2>
     <p class="subtitle">Vom Kellerraum in Steglitz bis zur Villa am Wannsee – wir finden den richtigen Betrieb, der dem Bestand gerecht wird.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Steglitz-Zehlendorf anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏛️ Villenräumung Dahlem &amp; Lichterfelde</h3><p>Großflächige Wohnhäuser mit Bibliotheken, Kunstsammlungen und Gärten. Betriebe mit Erfahrung im gehobenen Segment – diskret, methodisch, mit Wertermittlung.</p></div>
       <div class="card"><h3>🎨 Nachlassverwertung &amp; Kunstsichtung</h3><p>Akademiker- und Künstlernachlässe aus FU-Umfeld, Max-Planck-Institut und Dahlem Museums-Kiez. Gemälde, Grafiken, Bibliotheken – nichts wird ungeprüft entsorgt.</p></div>
       <div class="card"><h3>🏠 Wohnungsauflösung Steglitz</h3><p>Altbau- und Neubauwohnungen im Schloss- und Ringbereich – komplette Räumung, Sperrmüll inklusive, besenreine Übergabe. Auch bei kurzer Vorlaufzeit.</p></div>
       <div class="card"><h3>🌊 Wannsee &amp; Kleinmachnow-Grenze</h3><p>Seevillen und Grundstücke mit Bootshäusern, Gartenhäusern und langen Zufahrten. Betriebe mit entsprechenden Fahrzeugen und Kapazitäten.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

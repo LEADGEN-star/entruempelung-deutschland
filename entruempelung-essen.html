@@ -314,6 +314,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Essen ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -434,12 +445,15 @@
     <div class="section-label">Leistungen in Essen</div>
     <h2>Was wir in Essen vermitteln</h2>
     <p class="subtitle">Von Bergarbeiterhaushalten in Katernberg bis zu Krupp-Direktoren-Villen in Bredeney – Essens Geschichte lebt in seinen Kellern und Abstellräumen.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Essen anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Essen</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Zechen-Reihenhäuser mit Kohlenkeller und Waschküche gehören zu den häufigsten Aufträgen.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Essen</h3><p>Diskrete Hausräumungen – inkl. Bewertung von Wertgegenständen. Grubenlampen, Krupp-Industrialia und Bergbau-Uniformen werden vor der Entsorgung gesichtet und verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Essen</h3><p>Viele Essener Zechen-Reihenhäuser haben Kohlenkeller, Waschküchenräume und mehrere Abstellkammern. Auch Industrielager und Lagerhallen im Essener Norden werden geräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Industrie Essen</h3><p>Essens Industriegeschichte hinterlässt Gewerbeauflösungen: Lagerräume, Werkstätten und alte Maschinenhallen – unsere Betriebe haben Schwerlasttransport und kennen die Entsorgungswege.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

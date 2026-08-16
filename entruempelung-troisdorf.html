@@ -279,6 +279,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Troisdorf ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -397,12 +408,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Troisdorf</div>
     <h2>Was wir in Troisdorf vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Troisdorf anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Troisdorf</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. Troisdorfs Siedlungsgebiete aus den 1950er–80er Jahren, gebaut für Fabrikarbeiter und Köln-Pendler, bieten viele vollständige Erstbewohner-Haushalte.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Troisdorf</h3><p>Diskrete Räumungen inkl. Bewertung von Industrie-Artefakten, Rheinischer Volkskunst und Wirtschaftswunder-Möbeln. Was verwertbar ist, wird mit dem Räumungspreis verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Troisdorf</h3><p>Troisdorfs Einfamilienhäuser und Reihenhäuser der 1960er–80er haben typischerweise großen Keller, Garage und Gartenschuppen – alle werden in einem Auftrag geräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Industrie</h3><p>Troisdorf hat einen bedeutenden Gewerbe- und Industriebestand (Industrie- und Gewerbepark). Büroauflösungen, Lagerhallen und Betriebsaufgaben im Raum Troisdorf werden abgedeckt.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

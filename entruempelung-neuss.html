@@ -278,6 +278,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Neuss ✓ ab 140 € – Festpreis, 24h Antwort" />
@@ -396,12 +407,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Neuss</div>
     <h2>Was wir in Neuss vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Neuss anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Neuss</h3><p>Komplette Wohnungsräumung – bei Umzug, Todesfall oder Sanierung. Von historischen Altstadtwohnungen am Quirinus-Münster bis zu Gründerzeit-Mehrfamilienhäusern im Hammfeld und modernen Wohnungen in Reuschenberg.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Neuss</h3><p>Diskrete Hausräumungen in Neusser Einfamilienhäusern und Villen. In Holzheim und Weckhoven häufig: hochwertige Möbel, Kunstsammlungen und vollständige Haushalte wohlhabender Bewohner aus dem 20. Jahrhundert.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Neuss</h3><p>Neusser Altbauten haben tiefe Gewölbekeller und Souterrains mit jahrzehntelangem Inhalt. Professionelle Räumung inkl. Entsorgungsnachweis – besonders in der dicht besiedelten Altstadtzone wichtig.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Lager Neuss</h3><p>Neuss ist Logistik-Standort und Hafenstadt – Gewerbeauflösungen, Lagerraumräumungen und Büroauflösungen werden durch spezialisierte Betriebe mit Schwerlasttransport abgedeckt.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

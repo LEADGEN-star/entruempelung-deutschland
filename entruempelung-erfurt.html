@@ -228,6 +228,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .sticky-mobile a{flex:1;display:flex;align-items:center;justify-content:center;gap:.4rem;font-weight:700;font-size:.9rem;padding:.65rem;border-radius:6px;text-decoration:none}
 .s-tel{background:#f1f5f9;color:var(--dark);border:1px solid #e8e2dc}
 .s-wa{background:#25D366;color:#fff}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Erfurt ✓ ab 110 € – Festpreis, 24h Antwort" />
@@ -364,6 +375,8 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Erfurt</div>
     <h2>Was wir in Erfurt vermitteln</h2>
     <p class="subtitle">Von der einzelnen Kellerkammer bis zur vollständigen Haushaltsauflösung &ndash; wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Erfurt anzeigen</summary>
     <div class="grid-2">
       <div class="card">
         <h3>Kellerentrümpelung Erfurt</h3>
@@ -390,6 +403,7 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
         <p>Kleingärten in Erfurter Kleingartenanlagen und Datschengärten. Komplette Räumung inkl. Geräteschuppen und Gewächshaus, auch bei schmalem Zugangsweg.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

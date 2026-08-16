@@ -310,6 +310,17 @@
     .cost-note{font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:italic}
     .info-box{background:#eff6ff;border-left:3px solid #3b82f6;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
     .info-box p{font-size:.95rem;color:#1e3a5f;margin:0;line-height:1.7}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Nürnberg ✓ ab 150 € – Festpreis, 24h Antwort" />
@@ -407,12 +418,15 @@
     <div class="section-label">Leistungen in Nürnberg</div>
     <h2>Was wir in Nürnberg vermitteln</h2>
     <p class="subtitle">Von der einzelnen Kammer bis zur kompletten Haushaltsauflösung – wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Nürnberg anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Nürnberg</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – ideal bei Umzug, Todesfall oder Renovierung.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Nürnberg</h3><p>Gesamte Hausräumungen – professionell und diskret, mit Bewertung von Wertgegenständen.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Nürnberg</h3><p>Voller Keller? Schnelle Räumung zum verbindlichen Preis nach kostenloser Besichtigung.</p></div>
       <div class="card"><h3>🏢 Gewerbeauflösung Nürnberg</h3><p>Büros, Läden, Werkstätten – fachgerechte Räumung, auch kurzfristig möglich.</p></div>
     </div>
+    </details>
   </div>
 </section>
 <section>

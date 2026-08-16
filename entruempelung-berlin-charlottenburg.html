@@ -239,6 +239,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
 .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
 .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Berlin Charlottenburg ✓ ab 100 € – Festpreis" />
@@ -357,12 +368,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Charlottenburg</div>
     <h2>Was wir in Charlottenburg vermitteln</h2>
     <p class="subtitle">Von der Etagenwohnung am Savignyplatz bis zum Villenanwesen am Grunewald – wir finden den richtigen Betrieb für jeden Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Charlottenburg anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Charlottenburg</h3><p>Komplette Räumung von Altbau-Wohnungen mit hohen Decken und großen Beständen – diskret, termingerecht, besenrein. Auch bei werthaltigem Inventar.</p></div>
       <div class="card"><h3>🎨 Nachlassverwertung &amp; Sichtung</h3><p>Gemälde, Grafiken, Möbel, Porzellan, Bibliotheken – unsere Betriebe sichten systematisch und trennen Wertvolles vom Sperrmüll. Werthaltige Stücke werden verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung</h3><p>Tief unter Charlottenburger Altbauten liegen oft die wertvollsten Lagerbestände. Diskrete Räumung, auch wenn der Zugang komplex ist.</p></div>
       <div class="card"><h3>🏢 Büro- &amp; Praxisauflösung</h3><p>Kanzleien, Arztpraxen, Repräsentanzbüros rund um Ku'damm und Kantstraße – fachgerechte Räumung inkl. Datenmittel und Spezialinventar.</p></div>
     </div>
+    </details>
   </div>
 </section>
 
