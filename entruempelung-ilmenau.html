@@ -334,6 +334,17 @@
     .cost-table tr:last-child td{border-bottom:none}
     .cost-table tr:nth-child(even) td{background:#f3f4f6}
     .cost-note{font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:italic}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'-'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Ilmenau ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -483,6 +494,8 @@
     <div class="section-tag">Ilmenau im Detail</div>
     <h2 class="section-h">Was in Ilmenau anders ist</h2>
     <p class="section-sub">Ilmenau ist unser Heimatstandort – wir kennen jeden Ortsteil, jede enge Gasse im Altbau und die typischen Nachlässe der Region.</p>
+    <details class="leistungen-details">
+    <summary>Lokale Besonderheiten in Ilmenau anzeigen</summary>
     <div class="info-cards">
       <div class="info-card">
         <h3>TU Ilmenau & Studentenwohnungen</h3>
@@ -501,6 +514,7 @@
         <p>Gehren und Langewiesen sind eigenständige Ortsteilgemeinden im Stadtgebiet Ilmenau mit eigener Geschichte – Langewiesen etwa durch seine VEB-Licht-Tradition. Wir sind regelmäßig in beiden Ortsteilen im Einsatz, ebenso in Martinroda, Gräfenroda und Geraberg. Fahrtkosten sind immer im Festpreis enthalten.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

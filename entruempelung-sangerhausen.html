@@ -289,6 +289,17 @@
     .cost-table tr:last-child td{border-bottom:none}
     .cost-table tr:nth-child(even) td{background:#f3f4f6}
     .cost-note{font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:italic}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Sangerhausen ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -468,6 +479,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="local-box">
       <p>Sangerhausen als Rosarium-Stadt im Mansfelder Land hat historische Bürgerhäuser rund um den Markt sowie Arbeitersiedlungen und DDR-Wohnblöcke, die mit dem Kupferbergbau der Region verbunden sind. Wohnungsauflösungen nach Erbschaft in Altbauten und Kellerleerungen in Bergarbeiter-Wohnhäusern sind typische Auftragstypen.</p>
     </div>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Sangerhausen anzeigen</summary>
     <div class="info-cards">
       <div class="info-card">
         <h3>📦 Kellerentrümpelung</h3>
@@ -482,6 +495,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
         <p>Häuser und Wohnungen komplett räumen – alle Räume, alle Stockwerke, auf Wunsch mit Wertanrechnung. Festpreis nach Besichtigung.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 
