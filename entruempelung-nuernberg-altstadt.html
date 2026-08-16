@@ -240,6 +240,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .t-desc{font-size:.88rem;color:var(--muted);margin-top:.3rem;line-height:1.5}
 .answer-box{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0}
 .answer-box p{font-size:1rem;color:#14532d;line-height:1.7;margin:0}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Nürnberg Altstadt ✓ ab 200 € – Festpreis, 24h" />
@@ -329,16 +340,16 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Nürnberg Altstadt – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Nürnberg Altstadt – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Nürnberg Altstadt – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Nürnberg Altstadt – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Nürnberg Altstadt – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Nürnberg Altstadt – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Nürnberg Altstadt – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Nürnberg Altstadt – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Nürnberg Altstadt – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Nürnberg Altstadt – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Nürnberg Altstadt – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Nürnberg Altstadt – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Nürnberg Altstadt – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -362,12 +373,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in der Altstadt</div>
     <h2>Was wir in der Nürnberger Altstadt vermitteln</h2>
     <p class="subtitle">Von der historischen Fachwerketage bis zum Kellergewölbe – wir finden den richtigen Betrieb für Ihren Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in der Nürnberger Altstadt anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Altstadt</h3><p>Räumung von Wohnungen in historischen Altstadthäusern – mit dem nötigen Respekt für enge Treppenhäuser, wertvolle Böden und alte Bausubstanz. Besenreine Übergabe.</p></div>
       <div class="card"><h3>🎨 Nachlassverwertung &amp; Sichtung</h3><p>Nürnberger Altstadtnachlässe können Keramik, historisches Spielzeug, alte Stiche und Kunstgegenstände enthalten. Betriebe sichten systematisch vor der Entsorgung.</p></div>
       <div class="card"><h3>🪣 Keller &amp; Gewölbe</h3><p>Historische Keller in der Nürnberger Altstadt sind einzigartig – teilweise bis ins Mittelalter zurückreichend. Fachgerechte Räumung auch bei beengten Verhältnissen.</p></div>
       <div class="card"><h3>🏢 Laden- &amp; Gewerbeauflösung</h3><p>Ladengeschäfte, Ateliers und kleine Gewerbeeinheiten in der Altstadt – fachgerechte Räumung inkl. Schaufensterausstattung, Regale und Inventar.</p></div>
     </div>
+    </details>
   </div>
 </section>
 
@@ -552,6 +566,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-nuernberg-gostenhof" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Gostenhof Nürnberg</a>
+    <a href="/entruempelung-nuernberg-maxfeld" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Maxfeld Nürnberg</a>
+    <a href="/entruempelung-nuernberg-gleisshammer" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Gleißhammer Nürnberg</a>
+    <a href="/entruempelung-nuernberg-schweinau" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Schweinau Nürnberg</a>
   </div>
 </div>
 <footer>

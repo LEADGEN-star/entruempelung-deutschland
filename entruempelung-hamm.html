@@ -289,6 +289,17 @@
     .cost-table tr:last-child td{border-bottom:none}
     .cost-table tr:nth-child(even) td{background:#f3f4f6}
     .cost-note{font-size:.85rem;color:var(--muted);margin-top:.5rem;font-style:italic}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Hamm ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -428,16 +439,16 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Hamm – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Hamm – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Hamm – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Hamm – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Hamm – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Hamm – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Hamm – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Hamm – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Hamm – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Hamm – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Hamm – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Hamm – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Hamm – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -468,6 +479,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="local-box">
       <p>Hamm im östlichen Ruhrgebiet hat viele Bergarbeitersiedlungen aus dem frühen 20. Jahrhundert in Stadtteilen wie Heessen, Pelkum und Herringen sowie gründerzeitliche Miethäuser rund um den Bahnhof. Haushaltsauflösungen in Doppelhaushälften der Zechen-Siedlungen und Kellerleerungen in Wohnblöcken der Nachkriegszeit sind häufige Aufträge.</p>
     </div>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Hamm anzeigen</summary>
     <div class="info-cards">
       <div class="info-card">
         <h3>📦 Kellerentrümpelung</h3>
@@ -482,6 +495,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
         <p>Häuser und Wohnungen komplett räumen – alle Räume, alle Stockwerke, auf Wunsch mit Wertanrechnung. Festpreis nach Besichtigung.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 
@@ -700,6 +714,15 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-dortmund" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Dortmund</a>
+    <a href="/entruempelung-muenster" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Münster</a>
+    <a href="/entruempelung-witten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Witten</a>
+    <a href="/entruempelung-hagen" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Hagen</a>
   </div>
 </div>
 <footer>

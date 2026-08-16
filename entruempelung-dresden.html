@@ -300,6 +300,17 @@
     .info-box{background:#eff6ff;border-left:3px solid #3b82f6;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
     .info-box p{font-size:.95rem;color:#1e3a5f;margin:0;line-height:1.7}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
 <style>
 .direct-answer{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;margin:0}
@@ -368,16 +379,16 @@
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Dresden – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Dresden – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Dresden – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Dresden – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Dresden – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Dresden – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Dresden – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Dresden – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Dresden – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Dresden – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Dresden – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Dresden – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Dresden – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -401,12 +412,15 @@
     <div class="section-label">Leistungen in Dresden</div>
     <h2>Was wir in Dresden vermitteln</h2>
     <p class="subtitle">Von der Gorbitzer WBS-70-Wohnung bis zur Blasewitz-Villa mit Keller und Dachboden – wir finden den richtigen Betrieb für jeden Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Dresden anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Dresden</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Altbauten in Blasewitz und Striesen mit großen Inventaren ebenso wie kompakte Plattenbauten in Gorbitz.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Dresden</h3><p>Gesamte Hausräumungen diskret und professionell – inkl. Bewertung von Wertgegenständen. Praktica-Kameras, Zeiss-Objektive und Meissener Porzellan werden gesichtet und verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Dresden</h3><p>Gründerzeithäuser in Blasewitz, Striesen und Pieschen haben oft weitläufige Kelleranlagen. Schnelle Räumung zum verbindlichen Festpreis nach kostenloser Besichtigung.</p></div>
       <div class="card"><h3>🏢 Gewerbeauflösung Dresden</h3><p>Büros, Werkstätten, Labore – fachgerechte Räumung auch bei technischer Ausstattung. Auch größere Flächen in Dresden-Nord oder Übigau auf Anfrage möglich.</p></div>
     </div>
+    </details>
   </div>
 </section>
 <section class="snippet-wrap" style="max-width:860px;margin:2rem auto;padding:0 1.5rem">
@@ -737,6 +751,15 @@
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-pirna" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Pirna</a>
+    <a href="/entruempelung-meissen" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Meißen</a>
+    <a href="/entruempelung-freiberg" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Freiberg</a>
+    <a href="/entruempelung-riesa" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Riesa</a>
   </div>
 </div>
 <footer>

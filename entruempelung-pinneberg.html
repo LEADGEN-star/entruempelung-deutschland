@@ -279,6 +279,17 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Pinneberg ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -365,16 +376,16 @@
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Pinneberg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Pinneberg – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Pinneberg – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Pinneberg – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Pinneberg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Pinneberg – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Pinneberg – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Pinneberg – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Pinneberg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Pinneberg – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Pinneberg – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Pinneberg – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Pinneberg – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -397,12 +408,15 @@
   <div class="container">
     <div class="section-label">Leistungen in Pinneberg</div>
     <h2>Was wir in Pinneberg vermitteln</h2>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Pinneberg anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Pinneberg</h3><p>Komplette Wohnungsräumungen – bei Umzug, Todesfall oder Sanierung. Einfamilienhäuser aus den Nachkriegsjahrzehnten in Waldenau, Thesdorf und Quellental gehören zu den häufigsten Aufträgen im Kreis Pinneberg.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Pinneberg</h3><p>Diskrete Hausräumungen inkl. Bewertung von Jugendstil-Mobiliar, Holsteiner Silber, Baumschulen-Artefakten und schleswig-holsteinischer Volkskunst. Verwertbares wird direkt verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Pinneberg</h3><p>Ältere Einfamilienhäuser im Kreis Pinneberg haben oft große Keller und Garagen mit jahrzehntelangem Inventar. Nebengebäude und Gartengeräte auf Wunsch in einem Auftrag mitgeräumt.</p></div>
       <div class="card"><h3>🏭 Gewerbe &amp; Baumschulen-Auflösung</h3><p>Gewerbliche Räumungen im Baumschulzentrum Pinneberg: Betriebsauflösungen, Lagerräumungen, Büro- und Praxisauflösungen im Kreis Pinneberg. Historische Baumschulen-Kataloge und -Werkzeug werden gesichtet.</p></div>
     </div>
+    </details>
   </div>
 </section>
 
@@ -697,6 +711,15 @@
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-norderstedt" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Norderstedt</a>
+    <a href="/entruempelung-hamburg" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Hamburg</a>
+    <a href="/entruempelung-stade" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Stade</a>
+    <a href="/entruempelung-ahrensburg" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Ahrensburg</a>
   </div>
 </div>
 <footer>

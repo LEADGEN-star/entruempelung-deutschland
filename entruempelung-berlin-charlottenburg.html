@@ -239,6 +239,17 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
 .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
 .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Berlin Charlottenburg ✓ ab 100 € – Festpreis" />
@@ -324,16 +335,16 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Berlin Charlottenburg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Berlin Charlottenburg – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Berlin Charlottenburg – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Berlin Charlottenburg – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Berlin Charlottenburg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Berlin Charlottenburg – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Berlin Charlottenburg – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Berlin Charlottenburg – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Berlin Charlottenburg – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Berlin Charlottenburg – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Berlin Charlottenburg – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Berlin Charlottenburg – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Berlin Charlottenburg – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -357,12 +368,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <div class="section-label">Leistungen in Charlottenburg</div>
     <h2>Was wir in Charlottenburg vermitteln</h2>
     <p class="subtitle">Von der Etagenwohnung am Savignyplatz bis zum Villenanwesen am Grunewald – wir finden den richtigen Betrieb für jeden Auftrag.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Charlottenburg anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Charlottenburg</h3><p>Komplette Räumung von Altbau-Wohnungen mit hohen Decken und großen Beständen – diskret, termingerecht, besenrein. Auch bei werthaltigem Inventar.</p></div>
       <div class="card"><h3>🎨 Nachlassverwertung &amp; Sichtung</h3><p>Gemälde, Grafiken, Möbel, Porzellan, Bibliotheken – unsere Betriebe sichten systematisch und trennen Wertvolles vom Sperrmüll. Werthaltige Stücke werden verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung</h3><p>Tief unter Charlottenburger Altbauten liegen oft die wertvollsten Lagerbestände. Diskrete Räumung, auch wenn der Zugang komplex ist.</p></div>
       <div class="card"><h3>🏢 Büro- &amp; Praxisauflösung</h3><p>Kanzleien, Arztpraxen, Repräsentanzbüros rund um Ku'damm und Kantstraße – fachgerechte Räumung inkl. Datenmittel und Spezialinventar.</p></div>
     </div>
+    </details>
   </div>
 </section>
 
@@ -565,6 +579,15 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-berlin-steglitz" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Berlin Steglitz-Zehlendorf</a>
+    <a href="/entruempelung-berlin-spandau" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Berlin Spandau</a>
+    <a href="/entruempelung-berlin-prenzlauer-berg" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Berlin Prenzlauer Berg</a>
+    <a href="/entruempelung-berlin-pankow" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Berlin Pankow</a>
   </div>
 </div>
 <footer>

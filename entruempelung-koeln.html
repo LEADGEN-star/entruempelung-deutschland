@@ -302,6 +302,17 @@
     .info-box{background:#eff6ff;border-left:3px solid #3b82f6;padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1.5rem 0}
     .info-box p{font-size:.95rem;color:#1e3a5f;margin:0;line-height:1.7}
     @media(max-width:600px){.hero{padding:3.5rem 1.2rem 3rem}section{padding:3rem 1.2rem}}
+
+    @media(max-width:639px){
+      details.leistungen-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.leistungen-details>summary::-webkit-details-marker{display:none}
+      details.leistungen-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.leistungen-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.leistungen-details>summary{display:none}
+      details.leistungen-details>.grid-2{display:grid!important}
+    }
   </style>
 <style>
 .direct-answer{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;margin:0}
@@ -370,16 +381,16 @@
     <p class="vn-sub">Echte Aufträge unserer Partnerbetriebe – vollständig geräumt und besenrein übergeben.</p>
     <div class="vn-grid">
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Keller entrümpeln Köln – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Keller entrümpeln Köln – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-vorher.jpg" alt="Dachbodenentrümpelung Köln – vollgestellter Dachboden" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-1-nachher.jpg" alt="Wohnungsauflösung Köln – Küche nach Entrümpelung" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Wohnungsauflösung Köln – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Wohnungsauflösung Köln – nachher besenrein" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-vorher.jpg" alt="Kellerentrümpelung Köln – vollgestellter Keller" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-2-nachher.jpg" alt="Haushaltsauflösung Köln – Küche ausgeräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
-        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Dachboden entrümpeln Köln – vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
-        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Dachboden entrümpeln Köln – nachher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-vorher.jpg" alt="Entrümpelung Köln – Lager vollgestellt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
+        <figure class="vn-fig"><img src="/img/job-3-nachher.jpg" alt="Haushaltsauflösung Köln – Küchenmöbel geräumt" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vn">Nachher</div></figure>
       </div>
       <div class="vn-pair">
         <figure class="vn-fig"><img src="/img/job-4-vorher.jpg" alt="Entrümpelung Köln – Stauraum vorher" loading="lazy" onerror="this.closest('.vn-pair').style.display='none'"><div class="vn-cap vb">Vorher</div></figure>
@@ -403,12 +414,15 @@
     <div class="section-label">Leistungen in Köln</div>
     <h2>Was wir in Köln vermitteln</h2>
     <p class="subtitle">Von der einzelnen Kellerkammer in Ehrenfeld bis zur kompletten Nachlassräumung einer Lindenthal-Altbauwohnung – wir finden den richtigen Betrieb für jeden Auftrag in Köln.</p>
+    <details class="leistungen-details">
+    <summary>Alle Leistungen in Köln anzeigen</summary>
     <div class="grid-2">
       <div class="card"><h3>🏠 Wohnungsauflösung Köln</h3><p>Komplette Wohnungsräumung inkl. Entsorgung – bei Umzug, Todesfall oder Sanierung. Gründerzeitaltbauten in Nippes, Ehrenfeld und dem Belgischen Viertel mit hohen Decken und tiefen Kellern ebenso wie Chorweiler-Hochhäuser.</p></div>
       <div class="card"><h3>🏚️ Haushaltsauflösung Köln</h3><p>Vollständige Hausräumungen diskret und professionell. Kunstgegenstände, Designmöbel und historisches Kölner Kulturgut werden vor der Entsorgung gesichtet und mit dem Räumungspreis verrechnet.</p></div>
       <div class="card"><h3>🪣 Kellerentrümpelung Köln</h3><p>Altbauten in Nippes, Mülheim und dem Belgischen Viertel haben mehrstöckige Kelleranlagen mit vielen Einzelkammern. Schnelle Räumung zum verbindlichen Festpreis nach kostenloser Besichtigung.</p></div>
       <div class="card"><h3>🏢 Gewerbeauflösung Köln</h3><p>Büros bei WDR, RTL und den Kölner Medienunternehmen, Ladenlokale in der Innenstadt, Messehallen-Inventar – fachgerechte Räumung auch bei kurzfristigen Betriebsaufgaben. Diskret und termingerecht.</p></div>
     </div>
+    </details>
   </div>
 </section>
 <section class="snippet-wrap" style="max-width:860px;margin:2rem auto;padding:0 1.5rem">
@@ -737,6 +751,15 @@
     <a href="/messie-wohnung" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Messie-Wohnung</a>
     <a href="/kosten" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Kosten & Preise</a>
     <a href="/ratgeber" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none">Ratgeber</a>
+  </div>
+</div>
+<div style="background:#fff;border-top:1px solid #e8e2dc;padding:1.5rem;margin-top:0">
+  <div style="max-width:860px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center">
+    <span style="font-size:.82rem;color:#6b7280;font-weight:600;margin-right:.25rem">Auch in der Region:</span>
+    <a href="/entruempelung-huerth" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Hürth</a>
+    <a href="/entruempelung-leverkusen" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Leverkusen</a>
+    <a href="/entruempelung-pulheim" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Pulheim</a>
+    <a href="/entruempelung-bruehl" style="display:inline-block;padding:.28rem .65rem;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:20px;font-size:.8rem;color:#374151;text-decoration:none;white-space:nowrap">Entrümpelung Brühl</a>
   </div>
 </div>
 <footer>
