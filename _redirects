@@ -1,3 +1,18 @@
+# .html-Endungen → kanonische URLs (verhindert Duplicate Content)
+/entruempelung-:slug.html /entruempelung-:slug 301!
+/staedte.html /staedte 301!
+/kosten.html /kosten 301!
+/ratgeber.html /ratgeber 301!
+/kellerentruempelung.html /kellerentruempelung 301!
+/haushaltsaufloesung-todesfall.html /haushaltsaufloesung-todesfall 301!
+/nachlassraeumung.html /nachlassraeumung 301!
+/messie-wohnung.html /messie-wohnung 301!
+/partner-werden.html /partner-werden 301!
+/ueber-uns.html /ueber-uns 301!
+/impressum.html /impressum 301!
+/datenschutz.html /datenschutz 301!
+/index.html / 301!
+
 # Redirects: alte URLs (ohne .html) → neue URLs (mit .html)
 # entrumpelung- (Tippfehler) → entruempelung- (korrekt)
 
