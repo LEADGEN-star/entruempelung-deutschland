@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Hagen ✓ ab 140 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Hagener Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Hagener Silberschmiede-Kunst</h3><p>Hagen war um 1900 Zentrum des Kunsthandwerks (Folkwang-Idee). Silberobjekte und Metallarbeiten der Hagener Werkstätten sind hochpreisig.</p></div>
       <div class="info-card"><h3>Henry-van-de-Velde-Objekte</h3><p>Möbel und Kunstgewerbe im Stil der Hagener Jugendstilbewegung werden von Auktionshäusern bundesweit nachgefragt.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Historische Emaille-Schilder</h3><p>Alte Werbeschilder lokaler Ruhrgebiets-Firmen aus Hagen und dem Märkischen Sauerland sind bei Emaille-Sammlern gefragt.</p></div>
       <div class="info-card"><h3>Folkwang-Druckgrafik</h3><p>Grafiken und Kataloge aus dem Folkwang-Umfeld Hagens – frühe Museumsdrucke haben auf dem Kunstmarkt Liebhaberwert.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

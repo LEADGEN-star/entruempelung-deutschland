@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Greifswald ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Greifswalder Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Caspar-David-Friedrich-Memorabilia</h3><p>Greifswald ist Geburtsstadt von Caspar David Friedrich. Kunstbücher, Reproduktionen und Drucke des Romantikers finden bei Kunstsammlern Käufer.</p></div>
       <div class="info-card"><h3>Akademische Bücher & Erstausgaben</h3><p>Als eine der ältesten deutschen Universitätsstädte finden sich in Greifswalder Haushalten bibliophile Erstausgaben des 15.–18. Jahrhunderts.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Maritime Objekte Ostsee</h3><p>Als Universitäts- und Hafenstadt finden sich in Greifswalder Haushalten maritime Objekte – Navigationsgeräte, Schiffsmodelle und Seemanns-Memorabilia.</p></div>
       <div class="info-card"><h3>Historische Stadtansichten Greifswald</h3><p>Kupferstiche und Postkarten der historischen Greifswalder Stadtsilhouette finden bei Stadtgeschichts-Sammlern Käufer.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

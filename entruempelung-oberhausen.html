@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Oberhausen ✓ ab 140 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Oberhausener Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Gutehoffnungshütte-Memorabilia</h3><p>Die GHH war Oberhausens größter Arbeitgeber. Betriebsdokumente, Jubiläumsausgaben und Werkzeug der GHH finden Industriesammler.</p></div>
       <div class="info-card"><h3>Bergbau & Stahl-Relikte</h3><p>Grubenlampen, Schlackeproben und Bergwerkswerkzeug aus dem Oberhausener Revier sind bei Ruhrgebiet-Sammlern gefragt.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Emaille-Werbeschilde</h3><p>Alte Werbeschilde von Ruhrgebiets-Firmen und Einzelhändlern aus Oberhausen sind bei Emaille-Sammlern beliebt.</p></div>
       <div class="info-card"><h3>Niederrheinisches Töpferhandwerk</h3><p>Historische Keramik und Steingut aus dem Niederrhein finden auf regionalen Auktionen solide Käufer.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

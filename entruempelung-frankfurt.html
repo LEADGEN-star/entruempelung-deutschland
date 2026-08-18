@@ -341,6 +341,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.grid-2{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Frankfurt ✓ ab 160 € – Festpreis, 24h Antwort" />
@@ -562,6 +574,8 @@
     <div class="section-label">Sammlerwert</div>
     <h2>Was in Frankfurter Haushalten Wert hat</h2>
     <p class="subtitle">Frankfurt war Handelsmetropole, Messestadt und Zentrum des deutschen Finanzwesens. Was in alten Schränken und Kellern liegt, ist oft mehr wert als gedacht.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>🍶 Bembel &amp; Frankfurter Töpferware</h4>
@@ -588,6 +602,7 @@
         <p>In Unternehmenshaushalten und Messebesucher-Nachlässen finden sich Musterstücke, Kataloge und Werbeexponate aus Jahrzehnten der Frankfurter Messen (IAA, Ambiente, Musikmesse). Besonders frühe Stücke mit Firmenlogo haben Sammlerwert.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

@@ -291,6 +291,18 @@
       details.faq-item>summary::-webkit-details-marker{display:none}
       details.faq-item>p{display:block!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Offenbach ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -534,6 +546,8 @@
     <div class="section-label">Sammlerwert</div>
     <h2>Was in Offenbacher Haushalten Wert hat</h2>
     <p class="subtitle">150 Jahre Lederwaren-Metropole und eine der internationalsten Städte Deutschlands hinterlassen besondere Inventare.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>Historische Lederwaren &amp; Muster</h4>
@@ -560,6 +574,7 @@
         <p>Bürgerliche Offenbacher Haushalte (Bieber, Rumpenheim) haben häufig Designermöbel der 1950er–70er: Teak-Sideboard, Nierentisch-Cocktailsessel, frühe Verner Panton- oder Arne Jacobsen-Stücke. Original-Nirentisch: 80–300 €, Designsessel: 150–600 €.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

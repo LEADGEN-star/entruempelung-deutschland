@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Bad Langensalza ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Bad Langensalzaer Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Kurstadt-Inventar & Solenkeramik</h3><p>Bad Langensalza war ein bedeutendes Solebad. Historisches Kurbad-Inventar, Solenflaschen und Kurpostkarten haben Sammlerwert.</p></div>
       <div class="info-card"><h3>Thüringisches Volkskunsthandwerk</h3><p>Historische Töpferwaren und bemalte Möbel aus dem thüringischen Raum finden auf Regionalauktionen Käufer.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Vertriebenen-Nachlässe</h3><p>Durch Heimatvertriebene aus Schlesien und dem Sudetenland finden sich in Haushalten böhmisches Glas und Erzgebirge-Kunsthandwerk.</p></div>
       <div class="info-card"><h3>Hufeland-Medizin-Memorabilia</h3><p>Christoph Wilhelm Hufeland (Arzt/Diätetiker) wirkte in der Region. Medizinhistorische Bücher und Instrumente finden Nischensammler.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

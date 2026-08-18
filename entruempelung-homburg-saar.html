@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Homburg ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -582,6 +594,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Homburg (Saar)er Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Zweibrücker Porzellanumfeld</h3><p>Die Manufaktur Zweibrücken (nahe Homburg) produzierte feines Porzellan. Historisches Zweibrücker Porzellan finden auf Spezialauktionen Käufer.</p></div>
       <div class="info-card"><h3>Saarländischer Bergbau-Memorabilia</h3><p>Grubenlampen, Bergmanns-Uniformen und Zechen-Abzeichen aus dem Homburger Revier finden Sammlern.</p></div>
@@ -590,6 +604,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Pirmasenser Schuhindustrie-Bezug</h3><p>Die nahe Schuhstadt Pirmasens prägte die Region. Historische Schuh-Musterbücher und -Werbung finden Nischensammler.</p></div>
       <div class="info-card"><h3>Saarländische Volkskunst</h3><p>Historische Keramik und bemalte Möbel aus dem Saarland haben auf Regionalauktionen Liebhaberwert.</p></div>
     </div>
+    </details>
   </div>
 </section>
 
