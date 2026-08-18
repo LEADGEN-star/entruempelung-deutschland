@@ -13,6 +13,14 @@
 /datenschutz.html /datenschutz 301!
 /index.html / 301!
 
+# Umbenannte Seiten (alte URLs → neue URLs)
+/haushaltsaufloesung /haushaltsaufloesung-todesfall 301
+/haushaltsaufloesung.html /haushaltsaufloesung-todesfall 301
+
+# Nicht vorhandene Städte → nächstgelegene Seite
+/entrumpelung-geraberg /entruempelung-ilmenau 301
+/entruempelung-geraberg /entruempelung-ilmenau 301
+
 # Redirects: alte URLs (ohne .html) → neue URLs (mit .html)
 # entrumpelung- (Tippfehler) → entruempelung- (korrekt)
 
