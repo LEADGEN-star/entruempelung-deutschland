@@ -298,6 +298,18 @@
       .nav-links{display:none}
       .footer-inner{flex-direction:column;text-align:center}
     }
+
+    @media(max-width:639px){
+      details.faq-item>summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;color:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:.5rem 0}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0;color:var(--orange)}
+      details.faq-item[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.faq-item>summary{pointer-events:none;cursor:default;display:block}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>.faq-a{display:block!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Potsdam ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -552,30 +564,30 @@
     <div class="section-label">FAQ</div>
     <h2>Häufig gestellte Fragen</h2>
     <div class="faq">
-      <div class="faq-item">
-        <div class="faq-q">Was kostet eine Entrümpelung in Potsdam?</div>
+      <details class="faq-item">
+        <summary>Was kostet eine Entrümpelung in Potsdam?</summary>
         <div class="faq-a">Kellerentrümpelungen in Potsdam kosten 130–350 €, Wohnungsräumungen 250–900 €. Gründerzeit-Villen in der Brandenburger Vorstadt liegen am oberen Ende; DDR-Plattenbauten in Waldstadt am unteren. Verbindlicher Festpreis nach kostenloser Vor-Ort-Besichtigung.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Haben DEFA-Sammlungen aus Babelsberg Sammlerwert?</div>
+      </details>
+      <details class="faq-item">
+        <summary>Haben DEFA-Sammlungen aus Babelsberg Sammlerwert?</summary>
         <div class="faq-a">Ja – Potsdam-Babelsberg war Standort der DEFA. Originalplakate, Drehbücher und Filmtechnik aus den Studios erzielen bei Sammlern 50–400 € pro Stück. Unsere Betriebe sichten das Inventar vor der Entsorgung und rechnen Verwertbares an.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Entrümpelt ihr auch im Umland (Teltow, Werder, Nuthetal)?</div>
+      </details>
+      <details class="faq-item">
+        <summary>Entrümpelt ihr auch im Umland (Teltow, Werder, Nuthetal)?</summary>
         <div class="faq-a">Ja – unsere geprüften Betriebe sind im gesamten Landkreis Potsdam-Mittelmark tätig. Auch Havelland und Fläming auf Anfrage möglich.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Wie läuft eine Entrümpelung in Potsdam ab?</div>
+      </details>
+      <details class="faq-item">
+        <summary>Wie läuft eine Entrümpelung in Potsdam ab?</summary>
         <div class="faq-a">1. Kostenlose Anfrage (Formular oder Telefon) → 2. Besichtigung vor Ort → 3. Verbindliches Festpreisangebot → 4. Räumungstermin → 5. Besenreine Übergabe. Keine Vorleistung, kein Risiko.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Wie schnell bekommen wir einen Termin in Potsdam?</div>
+      </details>
+      <details class="faq-item">
+        <summary>Wie schnell bekommen wir einen Termin in Potsdam?</summary>
         <div class="faq-a">Termine in Potsdam sind in der Regel innerhalb von 3–7 Werktagen möglich. Bei Dringlichkeit (Wohnungsübergabe, Erbfall) sprechen Sie uns direkt an: +49 157 30064205.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Wie lange dauert eine Entrümpelung in Potsdam?</div>
+      </details>
+      <details class="faq-item">
+        <summary>Wie lange dauert eine Entrümpelung in Potsdam?</summary>
         <div class="faq-a">Das hängt vom Umfang ab. Eine Kellerräumung in Potsdam dauert meist 2–4 Stunden, eine Zwei-Zimmer-Wohnung rund einen halben Tag. Größere Objekte können 1–2 Tage in Anspruch nehmen. Ihr Betrieb nennt vorab eine realistische Schätzung.</div>
-      </div>
+      </details>
     </div>
   </div>
 </section>
