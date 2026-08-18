@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Hamm ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Hammer Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Bergbau-Memorabilia West-Westfalen</h3><p>Grubenlampen, Zechendokumente und Bergarbeiter-Abzeichen aus dem Hammer Bergbaurevier finden bundesweit Sammler.</p></div>
       <div class="info-card"><h3>Westfälische Bauernmöbel</h3><p>Gediegene Eichenmöbel, bemalte Truhen und Bauernsilber aus dem Lipperaum werden von Auktionshäusern nachgefragt.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>DDR-Zuzug-Alltagsdesign</h3><p>Durch Arbeitsmigration aus der DDR finden sich in Hammer Haushalten ostdeutsche Design-Objekte mit Vintage-Wert.</p></div>
       <div class="info-card"><h3>Westfälisches Töpferhandwerk</h3><p>Historische Töpferwaren und Keramik aus dem Münsterland und Lippe finden auf Regionalauktionen solide Preise.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

@@ -291,6 +291,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.grid-2{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Brühl ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -491,6 +503,8 @@
   <div class="container">
     <div class="section-label">Sammlerwert</div>
     <h2>Was in Brühler Haushalten Wert hat</h2>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>🏺 Pingsdorfer Keramik</h4>
@@ -517,6 +531,7 @@
         <p>Vochem war historisch mit dem Motorenwerk Deutz (Klöckner-Humboldt-Deutz AG) verbunden. In Haushalten ehemaliger KHD-Beschäftigter: frühe Dieselmotor-Werbematerialien, Werkschroniken, Betriebsjubiläumsschriften aus den 1960er–80er Jahren und technische Handbücher. Deutz-Emailschilder aus der Vor-KHD-Zeit (vor 1938) sind selten und sammelwürdig.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

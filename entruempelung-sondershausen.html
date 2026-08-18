@@ -300,6 +300,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.info-cards{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Sondershausen ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -581,6 +593,8 @@ details[open] .faq-q::after { transform: rotate(45deg); }
     <div class="section-tag">Sammlerwert &amp; Wertanrechnung</div>
     <h2 class="section-h">Wertgegenstände in Sondershausener Haushalten</h2>
     <p class="section-sub">Vor der Entsorgung bewerten wir verwertbare Objekte – der Erlös wird vom Preis abgezogen.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="info-cards">
       <div class="info-card"><h3>Schwarzburger Hofsilber & Residenz</h3><p>Sondershausen war Residenz der Fürsten von Schwarzburg-Sondershausen. Historisches Hofsilber, Porzellan und Stiche finden Sammler.</p></div>
       <div class="info-card"><h3>Kalibergbau-Memorabilia</h3><p>Sondershausen liegt im Kalibergbau-Revier. Historische Bergbaudokumente und Mineralien finden Sammler.</p></div>
@@ -589,6 +603,7 @@ details[open] .faq-q::after { transform: rotate(45deg); }
       <div class="info-card"><h3>Historische Stadtansichten Sondershausen</h3><p>Postkarten und Stiche des historischen Sondershausens finden bei Stadtgeschichts-Sammlern Käufer.</p></div>
       <div class="info-card"><h3>Loh-Orchester-Memorabilia</h3><p>Das Loh-Orchester Sondershausen ist eines der ältesten deutschen Orchester. Historische Konzertprogramme finden Nischensammler.</p></div>
     </div>
+    </details>
   </div>
 </section>
 

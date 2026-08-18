@@ -311,6 +311,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.grid-2{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
 <style>
 .direct-answer{background:#f0fdf4;border-left:4px solid #16a34a;padding:1.2rem 1.5rem;margin:0}
@@ -485,6 +497,8 @@
     <div class="section-label">Sammlerwert</div>
     <h2>Was aus Bonner Haushalten Wert haben kann</h2>
     <p class="subtitle">Bonn war 50 Jahre lang Bundeshauptstadt und UN-Stadt. Die Dichte an internationalen Haushalten, Botschaftern und gut bürgerlichen Familien ist in Deutschland einzigartig.</p>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>🌍 Diplomatisches Kunsthandwerk</h4>
@@ -511,6 +525,7 @@
         <p>Bonn ist Beethovens Geburtsstadt. In Musiker- und Musikliebhaber-Haushalten finden sich mitunter historische Instrumente, Noten-Handschriften und Beethoven-Memorabilia. Auch ältere Grammophone und Plattensammlungen haben Liebhaber.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

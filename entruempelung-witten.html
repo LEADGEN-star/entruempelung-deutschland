@@ -291,6 +291,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.grid-2{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Witten ✓ ab 120 € – Festpreis, 24h Antwort" />
@@ -491,6 +503,8 @@
   <div class="container">
     <div class="section-label">Sammlerwert</div>
     <h2>Was in Wittener Haushalten Wert hat</h2>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>⛏️ Grubenlampen &amp; Bergbau-Inventar</h4>
@@ -517,6 +531,7 @@
         <p>In Wittens Bürgerhäusern aus der Bergbau-Hochzeit (1880er–1920er): Gründerzeit-Kommoden, Sekretäre, Wanduhren mit Messing-Pendeln und Bernstein-Broschen. Gut erhaltene Gründerzeit-Möbel erzielen bei Antiquitätenhändlern 200–1.500 € je nach Erhaltungszustand.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 

@@ -290,6 +290,18 @@
       details.leistungen-details>summary{display:none}
       details.leistungen-details>.grid-2{display:grid!important}
     }
+
+    @media(max-width:639px){
+      details.sammler-details>summary{cursor:pointer;list-style:none;padding:.75rem 0;font-weight:700;font-size:1rem;color:var(--orange);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e7eb;margin-bottom:1.2rem}
+      details.sammler-details>summary::-webkit-details-marker{display:none}
+      details.sammler-details>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0}
+      details.sammler-details[open]>summary::after{content:'−'}
+    }
+    @media(min-width:640px){
+      details.sammler-details>summary{display:none}
+      details.sammler-details>.sammler-grid{display:grid!important}
+      details.sammler-details>.info-cards{display:grid!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Germering ✓ ab 150 € – Festpreis, 24h Antwort" />
@@ -490,6 +502,8 @@
   <div class="container">
     <div class="section-label">Sammlerwert</div>
     <h2>Was in Germeringer Haushalten Wert hat</h2>
+    <details class="sammler-details">
+    <summary>Alle Sammlerwerte anzeigen</summary>
     <div class="sammler-grid">
       <div class="sammler-card">
         <h4>✈️ Luftfahrt-Memorabilia &amp; Dornier-Artefakte</h4>
@@ -516,6 +530,7 @@
         <p>Germering hat eine starke Vertriebenen-Geschichte – viele Familien aus dem Sudetenland siedelten sich hier nach 1945 an. In alten Haushalten: böhmisches Bleikristallglas (Moser, Harrachov 50–400€), Sudetendeutsche Keramik, handgefertigte Textilien und handwerkliche Artefakte, die selten auf normalen Flohmärkten erscheinen.</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 
