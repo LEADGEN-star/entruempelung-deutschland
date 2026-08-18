@@ -240,6 +240,20 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
 .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
 .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
 .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.faq-item{background:var(--white);border-radius:6px;padding:1rem 1.2rem;border-left:3px solid var(--orange);box-shadow:0 1px 6px rgba(0,0,0,.05);margin-bottom:1rem}
+      details.faq-item>summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;color:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0;color:var(--orange)}
+      details.faq-item[open]>summary::after{content:'−'}
+      details.faq-item>p{margin-top:.6rem;color:var(--muted);font-size:.95rem;line-height:1.6}
+    }
+    @media(min-width:640px){
+      details.faq-item>summary{pointer-events:none;cursor:default;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:.5rem;display:block}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>p{display:block!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Berlin Prenzlauer Berg ✓ ab 200 € – Festpreis" />
@@ -399,11 +413,29 @@ footer a{color:rgba(255,255,255,.55);text-decoration:none}
   <div class="container">
     <div class="section-label">Häufige Fragen</div>
     <h2>Fragen zur Entrümpelung im Prenzlauer Berg</h2>
-    <div class="faq-item"><h3>Was kostet eine Entrümpelung in Berlin Prenzlauer Berg?</h3><p>Wohnungsräumungen liegen bei 2–3-Zimmer-Wohnungen zwischen 500 und 1.000 €. Aufgrund des oft hochwertigen Inventars lässt sich der Preis häufig durch Verwertung senken. Festpreis nach kostenloser Besichtigung.</p></div>
-    <div class="faq-item"><h3>Wie bewertet ihr hochwertige Möbel und Kunst?</h3><p>Unsere Partnerbetriebe sichten vor der Entsorgung. Bei größeren Sammlungen oder unklaren Werten empfehlen wir eine Schätzung durch einen Auktionator – das kann den Räumungspreis erheblich senken oder zu einer Auszahlung führen.</p></div>
-    <div class="faq-item"><h3>Wie ist die Situation mit engen Altbau-Treppenhäusern?</h3><p>Altbauten im Prenzlauer Berg haben oft enge Treppenhäuser ohne Aufzug. Für große Möbel setzen unsere Betriebe Außenlifte ein. Das wird bei der Besichtigung einkalkuliert.</p></div>
-    <div class="faq-item"><h3>Macht ihr auch diskrete Nachlass-Räumungen?</h3><p>Ja. Diskrete Haushaltsauflösungen nach einem Todesfall sind ein häufiger Auftrag im Prenzlauer Berg. Die Betriebe arbeiten respektvoll und sprechen mit den Angehörigen bevor etwas mitgenommen wird.</p></div>
-<div class="faq-item"><h3>Können Nachlassräumungen in Prenzlauer Berg diskret durchgeführt werden?</h3><p>Ja. Diskrete Nachlassräumungen in Prenzlauer Berger Jugendstilaltbauten führen wir regelmäßig durch – auch wenn Kunstwerke oder Sammlungen involviert sind. Wir empfehlen eine Vorsortierung durch Erben, damit nichts versehentlich entsorgt wird.</p></div><div class="faq-item"><h3>Wie lange dauert eine Entrümpelung in Berlin Prenzlauer Berg?</h3><p>Das hängt vom Umfang ab. Eine Kellerräumung in Berlin Prenzlauer Berg dauert meist 2–4 Stunden, eine Zwei-Zimmer-Wohnung rund einen halben Tag. Größere Objekte können 1–2 Tage in Anspruch nehmen. Ihr Betrieb nennt vorab eine realistische Schätzung.</p></div>
+    <details class="faq-item">
+      <summary>Was kostet eine Entrümpelung in Berlin Prenzlauer Berg?</summary>
+      <p>Wohnungsräumungen liegen bei 2–3-Zimmer-Wohnungen zwischen 500 und 1.000 €. Aufgrund des oft hochwertigen Inventars lässt sich der Preis häufig durch Verwertung senken. Festpreis nach kostenloser Besichtigung.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Wie bewertet ihr hochwertige Möbel und Kunst?</summary>
+      <p>Unsere Partnerbetriebe sichten vor der Entsorgung. Bei größeren Sammlungen oder unklaren Werten empfehlen wir eine Schätzung durch einen Auktionator – das kann den Räumungspreis erheblich senken oder zu einer Auszahlung führen.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Wie ist die Situation mit engen Altbau-Treppenhäusern?</summary>
+      <p>Altbauten im Prenzlauer Berg haben oft enge Treppenhäuser ohne Aufzug. Für große Möbel setzen unsere Betriebe Außenlifte ein. Das wird bei der Besichtigung einkalkuliert.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Macht ihr auch diskrete Nachlass-Räumungen?</summary>
+      <p>Ja. Diskrete Haushaltsauflösungen nach einem Todesfall sind ein häufiger Auftrag im Prenzlauer Berg. Die Betriebe arbeiten respektvoll und sprechen mit den Angehörigen bevor etwas mitgenommen wird.</p>
+    </details>
+<details class="faq-item">
+      <summary>Können Nachlassräumungen in Prenzlauer Berg diskret durchgeführt werden?</summary>
+      <p>Ja. Diskrete Nachlassräumungen in Prenzlauer Berger Jugendstilaltbauten führen wir regelmäßig durch – auch wenn Kunstwerke oder Sammlungen involviert sind. Wir empfehlen eine Vorsortierung durch Erben, damit nichts versehentlich entsorgt wird.</p>
+    </details><details class="faq-item">
+      <summary>Wie lange dauert eine Entrümpelung in Berlin Prenzlauer Berg?</summary>
+      <p>Das hängt vom Umfang ab. Eine Kellerräumung in Berlin Prenzlauer Berg dauert meist 2–4 Stunden, eine Zwei-Zimmer-Wohnung rund einen halben Tag. Größere Objekte können 1–2 Tage in Anspruch nehmen. Ihr Betrieb nennt vorab eine realistische Schätzung.</p>
+    </details>
   </div>
 </section>
 

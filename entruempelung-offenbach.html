@@ -277,6 +277,20 @@
     .testimonial-text{font-size:.93rem;color:var(--text);line-height:1.65;margin-bottom:1rem;padding-top:.8rem}
     .testimonial-author{font-size:.8rem;font-weight:700;color:var(--dark);letter-spacing:.02em}
     .testimonial-meta{font-size:.78rem;color:var(--muted);margin-top:.15rem}
+
+    @media(max-width:639px){
+      details.faq-item{background:var(--white);border-radius:6px;padding:1rem 1.2rem;border-left:3px solid var(--orange);box-shadow:0 1px 6px rgba(0,0,0,.05);margin-bottom:1rem}
+      details.faq-item>summary{cursor:pointer;list-style:none;font-weight:700;font-size:1rem;color:var(--dark);display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>summary::after{content:'+';font-size:1.2rem;line-height:1;flex-shrink:0;color:var(--orange)}
+      details.faq-item[open]>summary::after{content:'−'}
+      details.faq-item>p{margin-top:.6rem;color:var(--muted);font-size:.95rem;line-height:1.6}
+    }
+    @media(min-width:640px){
+      details.faq-item>summary{pointer-events:none;cursor:default;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:.5rem;display:block}
+      details.faq-item>summary::-webkit-details-marker{display:none}
+      details.faq-item>p{display:block!important}
+    }
   </style>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Entrümpelung Offenbach ✓ ab 130 € – Festpreis, 24h Antwort" />
@@ -422,6 +436,8 @@
     <div class="section-label">Stadtteile</div>
     <h2>Offenbach Stadtteil für Stadtteil</h2>
     <p class="subtitle">Jeder Offenbacher Stadtteil hat eine eigene Baugeschichte und eigene Haushaltscharakteristika.</p>
+    <details class="stadtteil-details">
+    <summary>Alle Stadtteile anzeigen</summary>
     <div class="stadtteil-grid">
       <div class="stadtteil-card">
         <div class="stadtteil-type">Gründerzeit · Handel · Lederindustrie</div>
@@ -454,6 +470,7 @@
         <p>Frankfurts verlängerter Büronearm an der Stadtgrenze. Hochhäuser aus den 1970er–90ern, heute stark gemischt: Büros, Wohnnutzung, internationale Haushalte. Kleine Wohnungen, volle Keller – klassische Stadtteilentrümpelung mit logistischen Herausforderungen (Parkplatz, Aufzug, Zufahrt).</p>
       </div>
     </div>
+    </details>
   </div>
 </section>
 
@@ -575,30 +592,30 @@
   <div class="container">
     <div class="section-label">FAQ</div>
     <h2>Häufige Fragen zur Entrümpelung Offenbach</h2>
-    <div class="faq-item">
-      <h3>Was kostet eine Entrümpelung in Offenbach?</h3>
+    <details class="faq-item">
+      <summary>Was kostet eine Entrümpelung in Offenbach?</summary>
       <p>Offenbach liegt ca. 10–20 % unter Frankfurter Preisen. Kellerentrümpelungen 130–320 €, Wohnungen 350–900 €, Einfamilienhäuser 900–2.200 €. Hochwertige Lederwaren oder Designerstücke werden gegengerechnet – der Nettobetrag kann deutlich sinken.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Gibt es in Offenbacher Haushalten besondere Sammlerstücke?</h3>
+    </details>
+    <details class="faq-item">
+      <summary>Gibt es in Offenbacher Haushalten besondere Sammlerstücke?</summary>
       <p>Sehr häufig. 150 Jahre Lederwarenindustrie hinterlassen Musterkollektionen, Handwerkzeuge und historische Handelsdokumente. Internationale Haushalte haben Kupfergeschirr, Ikonen und Volkskunst. Bieber und Rumpenheim haben oft Designermöbel aus der Wirtschaftswunderzeit.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Deckt ihr auch Mühlheim, Dreieich und den Kreis Offenbach ab?</h3>
+    </details>
+    <details class="faq-item">
+      <summary>Deckt ihr auch Mühlheim, Dreieich und den Kreis Offenbach ab?</summary>
       <p>Ja. Mühlheim am Main, Dreieich, Neu-Isenburg, Langen, Dietzenbach, Rodgau und der gesamte Kreis Offenbach werden abgedeckt. Ort bei der Anfrage angeben.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Was ist bei internationalen Haushalten zu beachten?</h3>
+    </details>
+    <details class="faq-item">
+      <summary>Was ist bei internationalen Haushalten zu beachten?</summary>
       <p>Unsere Betriebe kennen internationale Nachlass-Situationen – türkische, griechische, italienische und osteuropäische Haushalte. Landestypische Gegenstände (Kupfergeschirr, Teppiche, religiöse Artefakte) werden gesondert bewertet. Mehrsprachige Kommunikation möglich.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Wie unterscheidet sich Offenbach von Frankfurt bei der Entrümpelung?</h3>
+    </details>
+    <details class="faq-item">
+      <summary>Wie unterscheidet sich Offenbach von Frankfurt bei der Entrümpelung?</summary>
       <p>Offenbach hat weniger Gründerzeit-Prachtbauten als Frankfurt, aber mehr industriegeprägte Haushalte aus der Lederwarenwirtschaft. Die Keller sind oft kleiner als in Frankfurter Altbauten, aber der Kellerinhalt ist häufig interessanter – Betriebsnachlässe und Musterlager tauchen auf.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Was passiert mit dem Deutschen Ledermuseum und Schenkungen?</h3>
+    </details>
+    <details class="faq-item">
+      <summary>Was passiert mit dem Deutschen Ledermuseum und Schenkungen?</summary>
       <p>Das Deutsche Ledermuseum in Offenbach (weltgrößtes Ledermuseum) nimmt historisch bedeutsame Stücke aus der Offenbacher Lederwarenindustrie gelegentlich als Schenkung an. Unsere Betriebe können bei der Identifikation geeigneter Stücke helfen – vor der Entsorgung immer dokumentieren lassen.</p>
-    </div>
+    </details>
   </div>
 </section>
 
