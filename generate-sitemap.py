@@ -21,8 +21,8 @@ for f in files:
     if f in EXCLUDE:
         continue
     slug = f.replace(".html", "")
-    loc = f"{DOMAIN}/{f}" if f != "index.html" else DOMAIN + "/"
-    pri, freq = PRIORITY.get(f, DEFAULT_CITY if f.startswith("entrumpelung-") else DEFAULT_PAGE)
+    loc = f"{DOMAIN}/{slug}" if f != "index.html" else DOMAIN + "/"
+    pri, freq = PRIORITY.get(f, DEFAULT_CITY if f.startswith("entruempelung-") else DEFAULT_PAGE)    
     urls.append((loc, freq, pri))
 
 xml = ['<?xml version="1.0" encoding="UTF-8"?>']
